@@ -1,0 +1,44 @@
+[ 2015-08-31T08:26:26+08:00 ] 192.168.199.113 /SmartOrder/Pad/CheckVersion?callback=itemsListGet&version=1440822025&_=1440822528677
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000052s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.125008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.145625s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.034824s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.035075s ]
+SQL: SHOW COLUMNS FROM `so_config` [ RunTime:0.1266s ]
+SQL: SELECT * FROM `so_config` WHERE `conf` = 'SynVersion' LIMIT 1   [ RunTime:0.0218s ]
+
+[ 2015-08-31T08:26:27+08:00 ] 192.168.199.113 /SmartOrder/Pad/DealTable?callback=itemsListGet&uuId=19326bf52f5dee18&tableId=8&action=check&_=1440822528678
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.004223s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005325s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001387s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001592s ]
+SQL: SHOW COLUMNS FROM `so_table` [ RunTime:0.0807s ]
+SQL: SELECT * FROM `so_table` WHERE `id` = 8 AND `uuid` = '19326bf52f5dee18' LIMIT 1   [ RunTime:0.0011s ]
+
+[ 2015-08-31T14:11:37+08:00 ] 192.168.199.113 /SmartOrder/Pad/CheckVersion?callback=itemsListGet&version=1440822025&_=1440822528679
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000085s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.081367s ]
+INFO: [ app_init ] --END-- [ RunTime:0.096932s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.020478s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.020800s ]
+SQL: SHOW COLUMNS FROM `so_config` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `so_config` WHERE `conf` = 'SynVersion' LIMIT 1   [ RunTime:0.0015s ]
+
+[ 2015-08-31T14:11:37+08:00 ] 192.168.199.113 /SmartOrder/Pad/DealTable?callback=itemsListGet&uuId=19326bf52f5dee18&tableId=8&action=check&_=1440822528680
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000089s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.010303s ]
+INFO: [ app_init ] --END-- [ RunTime:0.012788s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003199s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003572s ]
+SQL: SHOW COLUMNS FROM `so_table` [ RunTime:0.0102s ]
+SQL: SELECT * FROM `so_table` WHERE `id` = 8 AND `uuid` = '19326bf52f5dee18' LIMIT 1   [ RunTime:0.0011s ]
+

@@ -1,0 +1,1620 @@
+[ 2015-08-29T10:10:43+08:00 ] ::1 /SmartOrder/admin.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+SQL: SHOW COLUMNS FROM `so_hooks` [ RunTime:0.0095s ]
+SQL: SELECT `name`,`addons` FROM `so_hooks`  [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `so_addons` [ RunTime:0.0107s ]
+SQL: SELECT `id`,`name` FROM `so_addons` WHERE `status` = 1 AND `name` IN ('ReturnTop')  [ RunTime:0.0010s ]
+SQL: SELECT `id`,`name` FROM `so_addons` WHERE `status` = 1 AND `name` IN ('Attachment')  [ RunTime:0.0062s ]
+SQL: SELECT `id`,`name` FROM `so_addons` WHERE `status` = 1 AND `name` IN ('Attachment','SocialComment')  [ RunTime:0.0010s ]
+SQL: SELECT `id`,`name` FROM `so_addons` WHERE `status` = 1 AND `name` IN ('Attachment')  [ RunTime:0.0009s ]
+SQL: SELECT `id`,`name` FROM `so_addons` WHERE `status` = 1 AND `name` IN ('Editor')  [ RunTime:0.0009s ]
+SQL: SELECT `id`,`name` FROM `so_addons` WHERE `status` = 1 AND `name` IN ('EditorForAdmin')  [ RunTime:0.0013s ]
+SQL: SELECT `id`,`name` FROM `so_addons` WHERE `status` = 1 AND `name` IN ('SiteStat','SystemInfo','DevTeam')  [ RunTime:0.0009s ]
+SQL: SELECT `id`,`name` FROM `so_addons` WHERE `status` = 1 AND `name` IN ('Editor')  [ RunTime:0.0008s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.092321s ]
+INFO: [ app_init ] --END-- [ RunTime:0.093961s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003706s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003969s ]
+SQL: SHOW COLUMNS FROM `so_config` [ RunTime:0.0089s ]
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'type' in 'field list'
+
+[ 2015-08-29T10:10:55+08:00 ] ::1 /SmartOrder/admin.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002905s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003532s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000791s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000880s ]
+SQL: SHOW COLUMNS FROM `so_config` [ RunTime:0.0027s ]
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'type' in 'field list'
+
+[ 2015-08-29T10:10:56+08:00 ] ::1 /SmartOrder/admin.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000115s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.014845s ]
+INFO: [ app_init ] --END-- [ RunTime:0.016627s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002591s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003036s ]
+SQL: SHOW COLUMNS FROM `so_config` [ RunTime:0.0066s ]
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'type' in 'field list'
+
+[ 2015-08-29T10:13:40+08:00 ] ::1 /SmartOrder/admin.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002852s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003481s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000780s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000873s ]
+SQL: SHOW COLUMNS FROM `so_config` [ RunTime:0.0041s ]
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'type' in 'field list'
+
+[ 2015-08-29T10:13:43+08:00 ] ::1 /SmartOrder/admin.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000071s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.008031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.009677s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003154s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003469s ]
+SQL: SHOW COLUMNS FROM `so_config` [ RunTime:0.0102s ]
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'type' in 'field list'
+
+[ 2015-08-29T10:15:12+08:00 ] ::1 /SmartOrder/admin.php/Public/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000052s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.008563s ]
+INFO: [ app_init ] --END-- [ RunTime:0.010254s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002603s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002913s ]
+
+[ 2015-08-29T10:15:12+08:00 ] ::1 /SmartOrder/admin.php/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000071s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.014893s ]
+INFO: [ app_init ] --END-- [ RunTime:0.016992s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002281s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002552s ]
+SQL: SHOW COLUMNS FROM `so_config` [ RunTime:0.0123s ]
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'type' in 'field list'
+
+[ 2015-08-29T10:16:18+08:00 ] ::1 /SmartOrder/admin.php/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000069s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.012525s ]
+INFO: [ app_init ] --END-- [ RunTime:0.014707s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003152s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003518s ]
+SQL: SHOW COLUMNS FROM `so_config` [ RunTime:0.0085s ]
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'type' in 'field list'
+
+[ 2015-08-29T10:16:21+08:00 ] ::1 /SmartOrder/admin.php/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000051s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.029064s ]
+INFO: [ app_init ] --END-- [ RunTime:0.030990s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002585s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002937s ]
+SQL: SHOW COLUMNS FROM `so_config` [ RunTime:0.0108s ]
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'type' in 'field list'
+
+[ 2015-08-29T10:17:01+08:00 ] ::1 /SmartOrder/admin.php/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002900s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003568s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000961s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001070s ]
+
+[ 2015-08-29T10:18:34+08:00 ] ::1 /SmartOrder/admin.php/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.003853s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004986s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001101s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001240s ]
+SQL: SHOW COLUMNS FROM `so_menu` [ RunTime:0.0031s ]
+SQL: SELECT `id`,`title`,`url` FROM `so_menu` WHERE `pid` = 0 AND `hide` = 0 AND `is_dev` = 0 ORDER BY sort asc  [ RunTime:0.0488s ]
+NOTIC: [8] Use of undefined constant IS_ROOT - assumed 'IS_ROOT' E:\xampp\htdocs\SmartOrder\Application\Admin\Controller\AdminController.class.php 第 216 行.
+NOTIC: [8] Use of undefined constant IS_ROOT - assumed 'IS_ROOT' E:\xampp\htdocs\SmartOrder\Application\Admin\Controller\AdminController.class.php 第 216 行.
+NOTIC: [8] Use of undefined constant IS_ROOT - assumed 'IS_ROOT' E:\xampp\htdocs\SmartOrder\Application\Admin\Controller\AdminController.class.php 第 216 行.
+NOTIC: [8] Use of undefined constant IS_ROOT - assumed 'IS_ROOT' E:\xampp\htdocs\SmartOrder\Application\Admin\Controller\AdminController.class.php 第 216 行.
+NOTIC: [8] Use of undefined constant IS_ROOT - assumed 'IS_ROOT' E:\xampp\htdocs\SmartOrder\Application\Admin\Controller\AdminController.class.php 第 216 行.
+SQL: SELECT `pid` FROM `so_menu` WHERE ( pid !=0 AND url like '%Index/index%' ) LIMIT 1   [ RunTime:0.0007s ]
+
+[ 2015-08-29T10:18:41+08:00 ] ::1 /SmartOrder/admin.php/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.003090s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004441s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000799s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000902s ]
+SQL: SHOW COLUMNS FROM `so_menu` [ RunTime:0.0036s ]
+SQL: SELECT `id`,`title`,`url` FROM `so_menu` WHERE `pid` = 0 AND `hide` = 0 AND `is_dev` = 0 ORDER BY sort asc  [ RunTime:0.0006s ]
+NOTIC: [8] Use of undefined constant IS_ROOT - assumed 'IS_ROOT' E:\xampp\htdocs\SmartOrder\Application\Admin\Controller\AdminController.class.php 第 216 行.
+NOTIC: [8] Use of undefined constant IS_ROOT - assumed 'IS_ROOT' E:\xampp\htdocs\SmartOrder\Application\Admin\Controller\AdminController.class.php 第 216 行.
+NOTIC: [8] Use of undefined constant IS_ROOT - assumed 'IS_ROOT' E:\xampp\htdocs\SmartOrder\Application\Admin\Controller\AdminController.class.php 第 216 行.
+NOTIC: [8] Use of undefined constant IS_ROOT - assumed 'IS_ROOT' E:\xampp\htdocs\SmartOrder\Application\Admin\Controller\AdminController.class.php 第 216 行.
+NOTIC: [8] Use of undefined constant IS_ROOT - assumed 'IS_ROOT' E:\xampp\htdocs\SmartOrder\Application\Admin\Controller\AdminController.class.php 第 216 行.
+SQL: SELECT `pid` FROM `so_menu` WHERE ( pid !=0 AND url like '%Index/index%' ) LIMIT 1   [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000334s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000476s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.076221s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.076322s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000488s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000551s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000838s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000953s ]
+
+[ 2015-08-29T10:19:35+08:00 ] ::1 /SmartOrder/admin.php/MenuManage/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000143s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.011831s ]
+INFO: [ app_init ] --END-- [ RunTime:0.014479s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003998s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004356s ]
+SQL: SHOW COLUMNS FROM `so_menu` [ RunTime:0.0129s ]
+SQL: SELECT `id`,`title`,`url` FROM `so_menu` WHERE `pid` = 0 AND `hide` = 0 AND `is_dev` = 0 ORDER BY sort asc  [ RunTime:0.0013s ]
+NOTIC: [8] Use of undefined constant IS_ROOT - assumed 'IS_ROOT' E:\xampp\htdocs\SmartOrder\Application\Admin\Controller\AdminController.class.php 第 250 行.
+NOTIC: [8] Use of undefined constant IS_ROOT - assumed 'IS_ROOT' E:\xampp\htdocs\SmartOrder\Application\Admin\Controller\AdminController.class.php 第 250 行.
+NOTIC: [8] Use of undefined constant IS_ROOT - assumed 'IS_ROOT' E:\xampp\htdocs\SmartOrder\Application\Admin\Controller\AdminController.class.php 第 250 行.
+NOTIC: [8] Use of undefined constant IS_ROOT - assumed 'IS_ROOT' E:\xampp\htdocs\SmartOrder\Application\Admin\Controller\AdminController.class.php 第 250 行.
+NOTIC: [8] Use of undefined constant IS_ROOT - assumed 'IS_ROOT' E:\xampp\htdocs\SmartOrder\Application\Admin\Controller\AdminController.class.php 第 250 行.
+SQL: SELECT `pid` FROM `so_menu` WHERE ( pid !=0 AND url like '%MenuManage/index%' ) LIMIT 1   [ RunTime:0.0009s ]
+SQL: SELECT * FROM `so_menu` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0011s ]
+SQL: SELECT DISTINCT  `group` FROM `so_menu` WHERE `group` <> '' AND `pid` = 2  [ RunTime:0.0014s ]
+SQL: SELECT `id`,`url` FROM `so_menu` WHERE `pid` = 2 AND `hide` = 0 AND `is_dev` = 0  [ RunTime:0.0013s ]
+NOTIC: [8] Use of undefined constant IS_ROOT - assumed 'IS_ROOT' E:\xampp\htdocs\SmartOrder\Application\Admin\Controller\AdminController.class.php 第 282 行.
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `so_menu` WHERE `group` = '菜系管理' AND `pid` = 2 AND `hide` = 0 AND `is_dev` = 0 ORDER BY sort asc  [ RunTime:0.0015s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `so_menu` WHERE `group` = '菜品管理' AND `pid` = 2 AND `hide` = 0 AND `is_dev` = 0 ORDER BY sort asc  [ RunTime:0.0019s ]
+SQL: SHOW COLUMNS FROM `so_cookstyle` [ RunTime:0.0083s ]
+SQL: SELECT * FROM `so_cookstyle`  [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000730s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001038s ]
+SQL: SHOW COLUMNS FROM `so_cookmenu` [ RunTime:0.0094s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `so_cookmenu` WHERE `styleid` = 1 LIMIT 1   [ RunTime:0.0011s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `so_cookmenu` WHERE `styleid` = 2 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `so_cookmenu` WHERE `styleid` = 3 LIMIT 1   [ RunTime:0.0016s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `so_cookmenu` WHERE `styleid` = 4 LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `so_cookmenu` WHERE `styleid` = 5 LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `so_cookmenu` WHERE `styleid` = 7 LIMIT 1   [ RunTime:0.0011s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `so_cookmenu` WHERE `styleid` = 8 LIMIT 1   [ RunTime:0.0027s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.108110s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.108318s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001560s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001729s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003301s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003601s ]
+
+[ 2015-08-29T10:24:55+08:00 ] ::1 /SmartOrder/admin.php/MenuManage/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000089s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.014547s ]
+INFO: [ app_init ] --END-- [ RunTime:0.016696s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003795s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004082s ]
+SQL: SHOW COLUMNS FROM `so_menu` [ RunTime:0.0127s ]
+SQL: SELECT `id`,`title`,`url` FROM `so_menu` WHERE `pid` = 0 AND `hide` = 0 AND `is_dev` = 0 ORDER BY sort asc  [ RunTime:0.0010s ]
+NOTIC: [8] Use of undefined constant IS_ROOT - assumed 'IS_ROOT' E:\xampp\htdocs\SmartOrder\Application\Admin\Controller\AdminController.class.php 第 250 行.
+NOTIC: [8] Use of undefined constant IS_ROOT - assumed 'IS_ROOT' E:\xampp\htdocs\SmartOrder\Application\Admin\Controller\AdminController.class.php 第 250 行.
+NOTIC: [8] Use of undefined constant IS_ROOT - assumed 'IS_ROOT' E:\xampp\htdocs\SmartOrder\Application\Admin\Controller\AdminController.class.php 第 250 行.
+NOTIC: [8] Use of undefined constant IS_ROOT - assumed 'IS_ROOT' E:\xampp\htdocs\SmartOrder\Application\Admin\Controller\AdminController.class.php 第 250 行.
+NOTIC: [8] Use of undefined constant IS_ROOT - assumed 'IS_ROOT' E:\xampp\htdocs\SmartOrder\Application\Admin\Controller\AdminController.class.php 第 250 行.
+SQL: SELECT `pid` FROM `so_menu` WHERE ( pid !=0 AND url like '%MenuManage/index%' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `so_menu` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0013s ]
+SQL: SELECT DISTINCT  `group` FROM `so_menu` WHERE `group` <> '' AND `pid` = 2  [ RunTime:0.0015s ]
+SQL: SELECT `id`,`url` FROM `so_menu` WHERE `pid` = 2 AND `hide` = 0 AND `is_dev` = 0  [ RunTime:0.0011s ]
+NOTIC: [8] Use of undefined constant IS_ROOT - assumed 'IS_ROOT' E:\xampp\htdocs\SmartOrder\Application\Admin\Controller\AdminController.class.php 第 282 行.
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `so_menu` WHERE `group` = '菜系管理' AND `pid` = 2 AND `hide` = 0 AND `is_dev` = 0 ORDER BY sort asc  [ RunTime:0.0012s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `so_menu` WHERE `group` = '菜品管理' AND `pid` = 2 AND `hide` = 0 AND `is_dev` = 0 ORDER BY sort asc  [ RunTime:0.0016s ]
+SQL: SHOW COLUMNS FROM `so_cookstyle` [ RunTime:0.0099s ]
+SQL: SELECT * FROM `so_cookstyle`  [ RunTime:0.0011s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000504s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000706s ]
+SQL: SHOW COLUMNS FROM `so_cookmenu` [ RunTime:0.0106s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `so_cookmenu` WHERE `styleid` = 1 LIMIT 1   [ RunTime:0.0011s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `so_cookmenu` WHERE `styleid` = 2 LIMIT 1   [ RunTime:0.0009s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `so_cookmenu` WHERE `styleid` = 3 LIMIT 1   [ RunTime:0.0009s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `so_cookmenu` WHERE `styleid` = 4 LIMIT 1   [ RunTime:0.0009s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `so_cookmenu` WHERE `styleid` = 5 LIMIT 1   [ RunTime:0.0009s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `so_cookmenu` WHERE `styleid` = 7 LIMIT 1   [ RunTime:0.0017s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `so_cookmenu` WHERE `styleid` = 8 LIMIT 1   [ RunTime:0.0019s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.114127s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.114515s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.004372s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004735s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004417s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005048s ]
+
+[ 2015-08-29T10:24:59+08:00 ] ::1 /SmartOrder/admin.php/Menu/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000054s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.062557s ]
+INFO: [ app_init ] --END-- [ RunTime:0.065575s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006998s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007375s ]
+SQL: SHOW COLUMNS FROM `so_menu` [ RunTime:0.0109s ]
+SQL: SELECT `id`,`title`,`url` FROM `so_menu` WHERE `pid` = 0 AND `hide` = 0 AND `is_dev` = 0 ORDER BY sort asc  [ RunTime:0.0030s ]
+NOTIC: [8] Use of undefined constant IS_ROOT - assumed 'IS_ROOT' E:\xampp\htdocs\SmartOrder\Application\Admin\Controller\AdminController.class.php 第 250 行.
+NOTIC: [8] Use of undefined constant IS_ROOT - assumed 'IS_ROOT' E:\xampp\htdocs\SmartOrder\Application\Admin\Controller\AdminController.class.php 第 250 行.
+NOTIC: [8] Use of undefined constant IS_ROOT - assumed 'IS_ROOT' E:\xampp\htdocs\SmartOrder\Application\Admin\Controller\AdminController.class.php 第 250 行.
+NOTIC: [8] Use of undefined constant IS_ROOT - assumed 'IS_ROOT' E:\xampp\htdocs\SmartOrder\Application\Admin\Controller\AdminController.class.php 第 250 行.
+NOTIC: [8] Use of undefined constant IS_ROOT - assumed 'IS_ROOT' E:\xampp\htdocs\SmartOrder\Application\Admin\Controller\AdminController.class.php 第 250 行.
+SQL: SELECT `pid` FROM `so_menu` WHERE ( pid !=0 AND url like '%Menu/index%' ) LIMIT 1   [ RunTime:0.0016s ]
+SQL: SELECT * FROM `so_menu` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0011s ]
+SQL: SELECT DISTINCT  `group` FROM `so_menu` WHERE `group` <> '' AND `pid` = 4  [ RunTime:0.0010s ]
+SQL: SELECT `id`,`url` FROM `so_menu` WHERE `pid` = 4 AND `hide` = 0 AND `is_dev` = 0  [ RunTime:0.0008s ]
+NOTIC: [8] Use of undefined constant IS_ROOT - assumed 'IS_ROOT' E:\xampp\htdocs\SmartOrder\Application\Admin\Controller\AdminController.class.php 第 282 行.
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `so_menu` WHERE `group` = '菜单设置' AND `pid` = 4 AND `hide` = 0 AND `is_dev` = 0 ORDER BY sort asc  [ RunTime:0.0010s ]
+SQL: SELECT `id`,`title` FROM `so_menu`  [ RunTime:0.0017s ]
+SQL: SELECT `id`,`title`,`pid`,`sort`,`url`,`hide`,`tip`,`group`,`is_dev`,`status` FROM `so_menu` WHERE `pid` = 0 ORDER BY sort asc,id asc  [ RunTime:0.0023s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000948s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001270s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.116482s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.116847s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002943s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003207s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003567s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003870s ]
+
+[ 2015-08-29T10:25:03+08:00 ] ::1 /SmartOrder/admin.php/MenuManage/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000057s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.008825s ]
+INFO: [ app_init ] --END-- [ RunTime:0.013827s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004107s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004518s ]
+SQL: SHOW COLUMNS FROM `so_menu` [ RunTime:0.0090s ]
+SQL: SELECT `id`,`title`,`url` FROM `so_menu` WHERE `pid` = 0 AND `hide` = 0 AND `is_dev` = 0 ORDER BY sort asc  [ RunTime:0.0013s ]
+NOTIC: [8] Use of undefined constant IS_ROOT - assumed 'IS_ROOT' E:\xampp\htdocs\SmartOrder\Application\Admin\Controller\AdminController.class.php 第 250 行.
+NOTIC: [8] Use of undefined constant IS_ROOT - assumed 'IS_ROOT' E:\xampp\htdocs\SmartOrder\Application\Admin\Controller\AdminController.class.php 第 250 行.
+NOTIC: [8] Use of undefined constant IS_ROOT - assumed 'IS_ROOT' E:\xampp\htdocs\SmartOrder\Application\Admin\Controller\AdminController.class.php 第 250 行.
+NOTIC: [8] Use of undefined constant IS_ROOT - assumed 'IS_ROOT' E:\xampp\htdocs\SmartOrder\Application\Admin\Controller\AdminController.class.php 第 250 行.
+NOTIC: [8] Use of undefined constant IS_ROOT - assumed 'IS_ROOT' E:\xampp\htdocs\SmartOrder\Application\Admin\Controller\AdminController.class.php 第 250 行.
+SQL: SELECT `pid` FROM `so_menu` WHERE ( pid !=0 AND url like '%MenuManage/index%' ) LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT * FROM `so_menu` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0009s ]
+SQL: SELECT DISTINCT  `group` FROM `so_menu` WHERE `group` <> '' AND `pid` = 2  [ RunTime:0.0015s ]
+SQL: SELECT `id`,`url` FROM `so_menu` WHERE `pid` = 2 AND `hide` = 0 AND `is_dev` = 0  [ RunTime:0.0011s ]
+NOTIC: [8] Use of undefined constant IS_ROOT - assumed 'IS_ROOT' E:\xampp\htdocs\SmartOrder\Application\Admin\Controller\AdminController.class.php 第 282 行.
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `so_menu` WHERE `group` = '菜系管理' AND `pid` = 2 AND `hide` = 0 AND `is_dev` = 0 ORDER BY sort asc  [ RunTime:0.0014s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `so_menu` WHERE `group` = '菜品管理' AND `pid` = 2 AND `hide` = 0 AND `is_dev` = 0 ORDER BY sort asc  [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `so_cookstyle` [ RunTime:0.0082s ]
+SQL: SELECT * FROM `so_cookstyle`  [ RunTime:0.0011s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000518s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000723s ]
+SQL: SHOW COLUMNS FROM `so_cookmenu` [ RunTime:0.0080s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `so_cookmenu` WHERE `styleid` = 1 LIMIT 1   [ RunTime:0.0014s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `so_cookmenu` WHERE `styleid` = 2 LIMIT 1   [ RunTime:0.0011s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `so_cookmenu` WHERE `styleid` = 3 LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `so_cookmenu` WHERE `styleid` = 4 LIMIT 1   [ RunTime:0.0011s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `so_cookmenu` WHERE `styleid` = 5 LIMIT 1   [ RunTime:0.0009s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `so_cookmenu` WHERE `styleid` = 7 LIMIT 1   [ RunTime:0.0009s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `so_cookmenu` WHERE `styleid` = 8 LIMIT 1   [ RunTime:0.0044s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.095099s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.095387s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002790s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003058s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003754s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004180s ]
+
+[ 2015-08-29T10:25:07+08:00 ] ::1 /SmartOrder/admin.php/MenuManage/cookmenu.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000051s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.009150s ]
+INFO: [ app_init ] --END-- [ RunTime:0.010974s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005598s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005872s ]
+SQL: SHOW COLUMNS FROM `so_menu` [ RunTime:0.0108s ]
+SQL: SELECT `id`,`title`,`url` FROM `so_menu` WHERE `pid` = 0 AND `hide` = 0 AND `is_dev` = 0 ORDER BY sort asc  [ RunTime:0.0012s ]
+NOTIC: [8] Use of undefined constant IS_ROOT - assumed 'IS_ROOT' E:\xampp\htdocs\SmartOrder\Application\Admin\Controller\AdminController.class.php 第 250 行.
+NOTIC: [8] Use of undefined constant IS_ROOT - assumed 'IS_ROOT' E:\xampp\htdocs\SmartOrder\Application\Admin\Controller\AdminController.class.php 第 250 行.
+NOTIC: [8] Use of undefined constant IS_ROOT - assumed 'IS_ROOT' E:\xampp\htdocs\SmartOrder\Application\Admin\Controller\AdminController.class.php 第 250 行.
+NOTIC: [8] Use of undefined constant IS_ROOT - assumed 'IS_ROOT' E:\xampp\htdocs\SmartOrder\Application\Admin\Controller\AdminController.class.php 第 250 行.
+NOTIC: [8] Use of undefined constant IS_ROOT - assumed 'IS_ROOT' E:\xampp\htdocs\SmartOrder\Application\Admin\Controller\AdminController.class.php 第 250 行.
+SQL: SELECT `pid` FROM `so_menu` WHERE ( pid !=0 AND url like '%MenuManage/cookmenu%' ) LIMIT 1   [ RunTime:0.0019s ]
+SQL: SELECT * FROM `so_menu` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0009s ]
+SQL: SELECT DISTINCT  `group` FROM `so_menu` WHERE `group` <> '' AND `pid` = 2  [ RunTime:0.0083s ]
+SQL: SELECT `id`,`url` FROM `so_menu` WHERE `pid` = 2 AND `hide` = 0 AND `is_dev` = 0  [ RunTime:0.0033s ]
+NOTIC: [8] Use of undefined constant IS_ROOT - assumed 'IS_ROOT' E:\xampp\htdocs\SmartOrder\Application\Admin\Controller\AdminController.class.php 第 282 行.
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `so_menu` WHERE `group` = '菜系管理' AND `pid` = 2 AND `hide` = 0 AND `is_dev` = 0 ORDER BY sort asc  [ RunTime:0.0013s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `so_menu` WHERE `group` = '菜品管理' AND `pid` = 2 AND `hide` = 0 AND `is_dev` = 0 ORDER BY sort asc  [ RunTime:0.0021s ]
+SQL: SHOW COLUMNS FROM `so_cookmenu` [ RunTime:0.0105s ]
+SQL: SELECT `cookname`,`stylename`,so_cookmenu.id,`price`,`standard`,`recommend` FROM `so_cookmenu` INNER JOIN so_cookstyle on so_cookmenu.styleid=so_cookstyle.id  WHERE `is_delete` <> 1  [ RunTime:0.0014s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000606s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000878s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.108423s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.108668s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001478s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001639s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004329s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004657s ]
+
+[ 2015-08-29T10:25:18+08:00 ] ::1 /SmartOrder/admin.php/MenuManage/ModifyCookMenu/MenuId/3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000075s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.012101s ]
+INFO: [ app_init ] --END-- [ RunTime:0.014508s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.018435s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.032829s ]
+SQL: SHOW COLUMNS FROM `so_menu` [ RunTime:0.0084s ]
+SQL: SELECT `id`,`title`,`url` FROM `so_menu` WHERE `pid` = 0 AND `hide` = 0 AND `is_dev` = 0 ORDER BY sort asc  [ RunTime:0.0015s ]
+NOTIC: [8] Use of undefined constant IS_ROOT - assumed 'IS_ROOT' E:\xampp\htdocs\SmartOrder\Application\Admin\Controller\AdminController.class.php 第 250 行.
+NOTIC: [8] Use of undefined constant IS_ROOT - assumed 'IS_ROOT' E:\xampp\htdocs\SmartOrder\Application\Admin\Controller\AdminController.class.php 第 250 行.
+NOTIC: [8] Use of undefined constant IS_ROOT - assumed 'IS_ROOT' E:\xampp\htdocs\SmartOrder\Application\Admin\Controller\AdminController.class.php 第 250 行.
+NOTIC: [8] Use of undefined constant IS_ROOT - assumed 'IS_ROOT' E:\xampp\htdocs\SmartOrder\Application\Admin\Controller\AdminController.class.php 第 250 行.
+NOTIC: [8] Use of undefined constant IS_ROOT - assumed 'IS_ROOT' E:\xampp\htdocs\SmartOrder\Application\Admin\Controller\AdminController.class.php 第 250 行.
+SQL: SELECT `pid` FROM `so_menu` WHERE ( pid !=0 AND url like '%MenuManage/ModifyCookMenu%' ) LIMIT 1   [ RunTime:0.0014s ]
+SQL: SELECT * FROM `so_menu` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0012s ]
+SQL: SELECT DISTINCT  `group` FROM `so_menu` WHERE `group` <> '' AND `pid` = 2  [ RunTime:0.0015s ]
+SQL: SELECT `id`,`url` FROM `so_menu` WHERE `pid` = 2 AND `hide` = 0 AND `is_dev` = 0  [ RunTime:0.0014s ]
+NOTIC: [8] Use of undefined constant IS_ROOT - assumed 'IS_ROOT' E:\xampp\htdocs\SmartOrder\Application\Admin\Controller\AdminController.class.php 第 282 行.
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `so_menu` WHERE `group` = '菜系管理' AND `pid` = 2 AND `hide` = 0 AND `is_dev` = 0 ORDER BY sort asc  [ RunTime:0.0014s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `so_menu` WHERE `group` = '菜品管理' AND `pid` = 2 AND `hide` = 0 AND `is_dev` = 0 ORDER BY sort asc  [ RunTime:0.0021s ]
+SQL: SHOW COLUMNS FROM `so_cookstyle` [ RunTime:0.0134s ]
+SQL: SELECT * FROM `so_cookstyle`  [ RunTime:0.0016s ]
+SQL: SHOW COLUMNS FROM `so_cookmenu` [ RunTime:0.0103s ]
+SQL: SELECT * FROM `so_cookmenu` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0024s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001371s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001924s ]
+NOTIC: [8] Undefined variable: meta_title E:\xampp\htdocs\SmartOrder\Runtime\Cache\Admin\dd83d7a340b1308cb38c24e324232c48.php 第 5 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.129172s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.129551s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002382s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002655s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003908s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004149s ]
+
+[ 2015-08-29T10:25:25+08:00 ] ::1 /SmartOrder/admin.php/MenuManage/ModifyCookMenu
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000063s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.009135s ]
+INFO: [ app_init ] --END-- [ RunTime:0.011061s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003448s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003833s ]
+SQL: SHOW COLUMNS FROM `so_menu` [ RunTime:0.0096s ]
+SQL: SELECT `id`,`title`,`url` FROM `so_menu` WHERE `pid` = 0 AND `hide` = 0 AND `is_dev` = 0 ORDER BY sort asc  [ RunTime:0.0013s ]
+NOTIC: [8] Use of undefined constant IS_ROOT - assumed 'IS_ROOT' E:\xampp\htdocs\SmartOrder\Application\Admin\Controller\AdminController.class.php 第 250 行.
+NOTIC: [8] Use of undefined constant IS_ROOT - assumed 'IS_ROOT' E:\xampp\htdocs\SmartOrder\Application\Admin\Controller\AdminController.class.php 第 250 行.
+NOTIC: [8] Use of undefined constant IS_ROOT - assumed 'IS_ROOT' E:\xampp\htdocs\SmartOrder\Application\Admin\Controller\AdminController.class.php 第 250 行.
+NOTIC: [8] Use of undefined constant IS_ROOT - assumed 'IS_ROOT' E:\xampp\htdocs\SmartOrder\Application\Admin\Controller\AdminController.class.php 第 250 行.
+NOTIC: [8] Use of undefined constant IS_ROOT - assumed 'IS_ROOT' E:\xampp\htdocs\SmartOrder\Application\Admin\Controller\AdminController.class.php 第 250 行.
+SQL: SELECT `pid` FROM `so_menu` WHERE ( pid !=0 AND url like '%MenuManage/ModifyCookMenu%' ) LIMIT 1   [ RunTime:0.0013s ]
+SQL: SELECT * FROM `so_menu` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT DISTINCT  `group` FROM `so_menu` WHERE `group` <> '' AND `pid` = 2  [ RunTime:0.0017s ]
+SQL: SELECT `id`,`url` FROM `so_menu` WHERE `pid` = 2 AND `hide` = 0 AND `is_dev` = 0  [ RunTime:0.0010s ]
+NOTIC: [8] Use of undefined constant IS_ROOT - assumed 'IS_ROOT' E:\xampp\htdocs\SmartOrder\Application\Admin\Controller\AdminController.class.php 第 282 行.
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `so_menu` WHERE `group` = '菜系管理' AND `pid` = 2 AND `hide` = 0 AND `is_dev` = 0 ORDER BY sort asc  [ RunTime:0.0016s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `so_menu` WHERE `group` = '菜品管理' AND `pid` = 2 AND `hide` = 0 AND `is_dev` = 0 ORDER BY sort asc  [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `so_cookmenu` [ RunTime:0.0128s ]
+SQL: UPDATE `so_cookmenu` SET `styleid`='2',`cookname`='回锅肉',`introduce`='川菜里的回锅肉，是我比较喜欢的一个菜，去十家菜馆，有十种做法，味道各有特色。据说四川人家家都得会做回锅肉，作为一道传统的川菜，可见它的地位非同一般。今天我也来做一下这道经典的川菜，用的是传统的做法。',`price`='78',`recommend`='普通',`edit_time`='1440815125' WHERE `id` = 3 [ RunTime:0.1029s ]
+SQL: SHOW COLUMNS FROM `so_config` [ RunTime:0.0092s ]
+SQL: UPDATE `so_config` SET `val`='1440815125' WHERE `conf` = 'SynVersion' [ RunTime:0.0785s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000345s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000826s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.050678s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.051136s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003067s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003649s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.010181s ]
+INFO: [ app_end ] --END-- [ RunTime:0.010511s ]
+
+[ 2015-08-29T10:25:27+08:00 ] ::1 /SmartOrder/admin.php/MenuManage/cookmenu.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000066s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.012986s ]
+INFO: [ app_init ] --END-- [ RunTime:0.016816s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006741s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007228s ]
+SQL: SHOW COLUMNS FROM `so_menu` [ RunTime:0.0135s ]
+SQL: SELECT `id`,`title`,`url` FROM `so_menu` WHERE `pid` = 0 AND `hide` = 0 AND `is_dev` = 0 ORDER BY sort asc  [ RunTime:0.0024s ]
+NOTIC: [8] Use of undefined constant IS_ROOT - assumed 'IS_ROOT' E:\xampp\htdocs\SmartOrder\Application\Admin\Controller\AdminController.class.php 第 250 行.
+NOTIC: [8] Use of undefined constant IS_ROOT - assumed 'IS_ROOT' E:\xampp\htdocs\SmartOrder\Application\Admin\Controller\AdminController.class.php 第 250 行.
+NOTIC: [8] Use of undefined constant IS_ROOT - assumed 'IS_ROOT' E:\xampp\htdocs\SmartOrder\Application\Admin\Controller\AdminController.class.php 第 250 行.
+NOTIC: [8] Use of undefined constant IS_ROOT - assumed 'IS_ROOT' E:\xampp\htdocs\SmartOrder\Application\Admin\Controller\AdminController.class.php 第 250 行.
+NOTIC: [8] Use of undefined constant IS_ROOT - assumed 'IS_ROOT' E:\xampp\htdocs\SmartOrder\Application\Admin\Controller\AdminController.class.php 第 250 行.
+SQL: SELECT `pid` FROM `so_menu` WHERE ( pid !=0 AND url like '%MenuManage/cookmenu%' ) LIMIT 1   [ RunTime:0.0019s ]
+SQL: SELECT * FROM `so_menu` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0021s ]
+SQL: SELECT DISTINCT  `group` FROM `so_menu` WHERE `group` <> '' AND `pid` = 2  [ RunTime:0.0015s ]
+SQL: SELECT `id`,`url` FROM `so_menu` WHERE `pid` = 2 AND `hide` = 0 AND `is_dev` = 0  [ RunTime:0.0011s ]
+NOTIC: [8] Use of undefined constant IS_ROOT - assumed 'IS_ROOT' E:\xampp\htdocs\SmartOrder\Application\Admin\Controller\AdminController.class.php 第 282 行.
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `so_menu` WHERE `group` = '菜系管理' AND `pid` = 2 AND `hide` = 0 AND `is_dev` = 0 ORDER BY sort asc  [ RunTime:0.0013s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `so_menu` WHERE `group` = '菜品管理' AND `pid` = 2 AND `hide` = 0 AND `is_dev` = 0 ORDER BY sort asc  [ RunTime:0.0017s ]
+SQL: SHOW COLUMNS FROM `so_cookmenu` [ RunTime:0.0113s ]
+SQL: SELECT `cookname`,`stylename`,so_cookmenu.id,`price`,`standard`,`recommend` FROM `so_cookmenu` INNER JOIN so_cookstyle on so_cookmenu.styleid=so_cookstyle.id  WHERE `is_delete` <> 1  [ RunTime:0.0013s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000562s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000776s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.078657s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.078946s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002538s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002787s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004905s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005561s ]
+
+[ 2015-08-29T10:31:52+08:00 ] ::1 /SmartOrder/admin.php/MenuManage/ModifyCookMenu/MenuId/11
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000070s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.014314s ]
+INFO: [ app_init ] --END-- [ RunTime:0.019297s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003906s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004291s ]
+SQL: SHOW COLUMNS FROM `so_menu` [ RunTime:0.0104s ]
+SQL: SELECT `id`,`title`,`url` FROM `so_menu` WHERE `pid` = 0 AND `hide` = 0 AND `is_dev` = 0 ORDER BY sort asc  [ RunTime:0.0015s ]
+NOTIC: [8] Use of undefined constant IS_ROOT - assumed 'IS_ROOT' E:\xampp\htdocs\SmartOrder\Application\Admin\Controller\AdminController.class.php 第 250 行.
+NOTIC: [8] Use of undefined constant IS_ROOT - assumed 'IS_ROOT' E:\xampp\htdocs\SmartOrder\Application\Admin\Controller\AdminController.class.php 第 250 行.
+NOTIC: [8] Use of undefined constant IS_ROOT - assumed 'IS_ROOT' E:\xampp\htdocs\SmartOrder\Application\Admin\Controller\AdminController.class.php 第 250 行.
+NOTIC: [8] Use of undefined constant IS_ROOT - assumed 'IS_ROOT' E:\xampp\htdocs\SmartOrder\Application\Admin\Controller\AdminController.class.php 第 250 行.
+NOTIC: [8] Use of undefined constant IS_ROOT - assumed 'IS_ROOT' E:\xampp\htdocs\SmartOrder\Application\Admin\Controller\AdminController.class.php 第 250 行.
+SQL: SELECT `pid` FROM `so_menu` WHERE ( pid !=0 AND url like '%MenuManage/ModifyCookMenu%' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `so_menu` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0009s ]
+SQL: SELECT DISTINCT  `group` FROM `so_menu` WHERE `group` <> '' AND `pid` = 2  [ RunTime:0.0013s ]
+SQL: SELECT `id`,`url` FROM `so_menu` WHERE `pid` = 2 AND `hide` = 0 AND `is_dev` = 0  [ RunTime:0.0016s ]
+NOTIC: [8] Use of undefined constant IS_ROOT - assumed 'IS_ROOT' E:\xampp\htdocs\SmartOrder\Application\Admin\Controller\AdminController.class.php 第 282 行.
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `so_menu` WHERE `group` = '菜系管理' AND `pid` = 2 AND `hide` = 0 AND `is_dev` = 0 ORDER BY sort asc  [ RunTime:0.0019s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `so_menu` WHERE `group` = '菜品管理' AND `pid` = 2 AND `hide` = 0 AND `is_dev` = 0 ORDER BY sort asc  [ RunTime:0.0023s ]
+SQL: SHOW COLUMNS FROM `so_cookstyle` [ RunTime:0.0109s ]
+SQL: SELECT * FROM `so_cookstyle`  [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `so_cookmenu` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `so_cookmenu` WHERE `id` = 11 LIMIT 1   [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000606s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000852s ]
+NOTIC: [8] Undefined variable: meta_title E:\xampp\htdocs\SmartOrder\Runtime\Cache\Admin\dd83d7a340b1308cb38c24e324232c48.php 第 5 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.082427s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.082712s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001924s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002152s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003487s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003798s ]
+
+[ 2015-08-29T10:31:59+08:00 ] ::1 /SmartOrder/admin.php/MenuManage/ModifyCookMenu
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000074s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.011840s ]
+INFO: [ app_init ] --END-- [ RunTime:0.013684s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003048s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003494s ]
+SQL: SHOW COLUMNS FROM `so_menu` [ RunTime:0.0105s ]
+SQL: SELECT `id`,`title`,`url` FROM `so_menu` WHERE `pid` = 0 AND `hide` = 0 AND `is_dev` = 0 ORDER BY sort asc  [ RunTime:0.0012s ]
+NOTIC: [8] Use of undefined constant IS_ROOT - assumed 'IS_ROOT' E:\xampp\htdocs\SmartOrder\Application\Admin\Controller\AdminController.class.php 第 250 行.
+NOTIC: [8] Use of undefined constant IS_ROOT - assumed 'IS_ROOT' E:\xampp\htdocs\SmartOrder\Application\Admin\Controller\AdminController.class.php 第 250 行.
+NOTIC: [8] Use of undefined constant IS_ROOT - assumed 'IS_ROOT' E:\xampp\htdocs\SmartOrder\Application\Admin\Controller\AdminController.class.php 第 250 行.
+NOTIC: [8] Use of undefined constant IS_ROOT - assumed 'IS_ROOT' E:\xampp\htdocs\SmartOrder\Application\Admin\Controller\AdminController.class.php 第 250 行.
+NOTIC: [8] Use of undefined constant IS_ROOT - assumed 'IS_ROOT' E:\xampp\htdocs\SmartOrder\Application\Admin\Controller\AdminController.class.php 第 250 行.
+SQL: SELECT `pid` FROM `so_menu` WHERE ( pid !=0 AND url like '%MenuManage/ModifyCookMenu%' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `so_menu` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT DISTINCT  `group` FROM `so_menu` WHERE `group` <> '' AND `pid` = 2  [ RunTime:0.0026s ]
+SQL: SELECT `id`,`url` FROM `so_menu` WHERE `pid` = 2 AND `hide` = 0 AND `is_dev` = 0  [ RunTime:0.0010s ]
+NOTIC: [8] Use of undefined constant IS_ROOT - assumed 'IS_ROOT' E:\xampp\htdocs\SmartOrder\Application\Admin\Controller\AdminController.class.php 第 282 行.
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `so_menu` WHERE `group` = '菜系管理' AND `pid` = 2 AND `hide` = 0 AND `is_dev` = 0 ORDER BY sort asc  [ RunTime:0.0012s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `so_menu` WHERE `group` = '菜品管理' AND `pid` = 2 AND `hide` = 0 AND `is_dev` = 0 ORDER BY sort asc  [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `so_cookmenu` [ RunTime:0.0107s ]
+SQL: UPDATE `so_cookmenu` SET `styleid`='4',`cookname`='金针菇凉拌',`introduce`='金针菇，英文名：\"See You Tommrow!\".',`price`='29',`recommend`='推荐',`edit_time`='1440815519' WHERE `id` = 11 [ RunTime:0.1078s ]
+SQL: SHOW COLUMNS FROM `so_config` [ RunTime:0.0096s ]
+SQL: UPDATE `so_config` SET `val`='1440815519' WHERE `conf` = 'SynVersion' [ RunTime:0.0784s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000330s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000757s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032969s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033337s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001558s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001765s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002104s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002306s ]
+
+[ 2015-08-29T10:32:01+08:00 ] ::1 /SmartOrder/admin.php/MenuManage/cookmenu.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.018927s ]
+INFO: [ app_init ] --END-- [ RunTime:0.020560s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004136s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004564s ]
+SQL: SHOW COLUMNS FROM `so_menu` [ RunTime:0.0108s ]
+SQL: SELECT `id`,`title`,`url` FROM `so_menu` WHERE `pid` = 0 AND `hide` = 0 AND `is_dev` = 0 ORDER BY sort asc  [ RunTime:0.0014s ]
+NOTIC: [8] Use of undefined constant IS_ROOT - assumed 'IS_ROOT' E:\xampp\htdocs\SmartOrder\Application\Admin\Controller\AdminController.class.php 第 250 行.
+NOTIC: [8] Use of undefined constant IS_ROOT - assumed 'IS_ROOT' E:\xampp\htdocs\SmartOrder\Application\Admin\Controller\AdminController.class.php 第 250 行.
+NOTIC: [8] Use of undefined constant IS_ROOT - assumed 'IS_ROOT' E:\xampp\htdocs\SmartOrder\Application\Admin\Controller\AdminController.class.php 第 250 行.
+NOTIC: [8] Use of undefined constant IS_ROOT - assumed 'IS_ROOT' E:\xampp\htdocs\SmartOrder\Application\Admin\Controller\AdminController.class.php 第 250 行.
+NOTIC: [8] Use of undefined constant IS_ROOT - assumed 'IS_ROOT' E:\xampp\htdocs\SmartOrder\Application\Admin\Controller\AdminController.class.php 第 250 行.
+SQL: SELECT `pid` FROM `so_menu` WHERE ( pid !=0 AND url like '%MenuManage/cookmenu%' ) LIMIT 1   [ RunTime:0.0013s ]
+SQL: SELECT * FROM `so_menu` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0014s ]
+SQL: SELECT DISTINCT  `group` FROM `so_menu` WHERE `group` <> '' AND `pid` = 2  [ RunTime:0.0016s ]
+SQL: SELECT `id`,`url` FROM `so_menu` WHERE `pid` = 2 AND `hide` = 0 AND `is_dev` = 0  [ RunTime:0.0071s ]
+NOTIC: [8] Use of undefined constant IS_ROOT - assumed 'IS_ROOT' E:\xampp\htdocs\SmartOrder\Application\Admin\Controller\AdminController.class.php 第 282 行.
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `so_menu` WHERE `group` = '菜系管理' AND `pid` = 2 AND `hide` = 0 AND `is_dev` = 0 ORDER BY sort asc  [ RunTime:0.0013s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `so_menu` WHERE `group` = '菜品管理' AND `pid` = 2 AND `hide` = 0 AND `is_dev` = 0 ORDER BY sort asc  [ RunTime:0.0014s ]
+SQL: SHOW COLUMNS FROM `so_cookmenu` [ RunTime:0.0156s ]
+SQL: SELECT `cookname`,`stylename`,so_cookmenu.id,`price`,`standard`,`recommend` FROM `so_cookmenu` INNER JOIN so_cookstyle on so_cookmenu.styleid=so_cookstyle.id  WHERE `is_delete` <> 1  [ RunTime:0.0019s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000783s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001128s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.103817s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.104246s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002031s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002306s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003874s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004207s ]
+
+[ 2015-08-29T10:34:00+08:00 ] ::1 /SmartOrder/admin.php/MenuManage/ModifyCookMenu/MenuId/7
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.010725s ]
+INFO: [ app_init ] --END-- [ RunTime:0.012342s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002476s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002859s ]
+SQL: SHOW COLUMNS FROM `so_menu` [ RunTime:0.0113s ]
+SQL: SELECT `id`,`title`,`url` FROM `so_menu` WHERE `pid` = 0 AND `hide` = 0 AND `is_dev` = 0 ORDER BY sort asc  [ RunTime:0.0015s ]
+NOTIC: [8] Use of undefined constant IS_ROOT - assumed 'IS_ROOT' E:\xampp\htdocs\SmartOrder\Application\Admin\Controller\AdminController.class.php 第 250 行.
+NOTIC: [8] Use of undefined constant IS_ROOT - assumed 'IS_ROOT' E:\xampp\htdocs\SmartOrder\Application\Admin\Controller\AdminController.class.php 第 250 行.
+NOTIC: [8] Use of undefined constant IS_ROOT - assumed 'IS_ROOT' E:\xampp\htdocs\SmartOrder\Application\Admin\Controller\AdminController.class.php 第 250 行.
+NOTIC: [8] Use of undefined constant IS_ROOT - assumed 'IS_ROOT' E:\xampp\htdocs\SmartOrder\Application\Admin\Controller\AdminController.class.php 第 250 行.
+NOTIC: [8] Use of undefined constant IS_ROOT - assumed 'IS_ROOT' E:\xampp\htdocs\SmartOrder\Application\Admin\Controller\AdminController.class.php 第 250 行.
+SQL: SELECT `pid` FROM `so_menu` WHERE ( pid !=0 AND url like '%MenuManage/ModifyCookMenu%' ) LIMIT 1   [ RunTime:0.0015s ]
+SQL: SELECT * FROM `so_menu` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0017s ]
+SQL: SELECT DISTINCT  `group` FROM `so_menu` WHERE `group` <> '' AND `pid` = 2  [ RunTime:0.0015s ]
+SQL: SELECT `id`,`url` FROM `so_menu` WHERE `pid` = 2 AND `hide` = 0 AND `is_dev` = 0  [ RunTime:0.0014s ]
+NOTIC: [8] Use of undefined constant IS_ROOT - assumed 'IS_ROOT' E:\xampp\htdocs\SmartOrder\Application\Admin\Controller\AdminController.class.php 第 282 行.
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `so_menu` WHERE `group` = '菜系管理' AND `pid` = 2 AND `hide` = 0 AND `is_dev` = 0 ORDER BY sort asc  [ RunTime:0.0016s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `so_menu` WHERE `group` = '菜品管理' AND `pid` = 2 AND `hide` = 0 AND `is_dev` = 0 ORDER BY sort asc  [ RunTime:0.0015s ]
+SQL: SHOW COLUMNS FROM `so_cookstyle` [ RunTime:0.0102s ]
+SQL: SELECT * FROM `so_cookstyle`  [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `so_cookmenu` [ RunTime:0.0117s ]
+SQL: SELECT * FROM `so_cookmenu` WHERE `id` = 7 LIMIT 1   [ RunTime:0.0015s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000967s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001302s ]
+NOTIC: [8] Undefined variable: meta_title E:\xampp\htdocs\SmartOrder\Runtime\Cache\Admin\dd83d7a340b1308cb38c24e324232c48.php 第 5 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.092649s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.092988s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003101s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003453s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003793s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004150s ]
+
+[ 2015-08-29T10:34:10+08:00 ] ::1 /SmartOrder/admin.php/MenuManage/ModifyCookMenu
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000072s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.009417s ]
+INFO: [ app_init ] --END-- [ RunTime:0.012071s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002132s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002384s ]
+SQL: SHOW COLUMNS FROM `so_menu` [ RunTime:0.0091s ]
+SQL: SELECT `id`,`title`,`url` FROM `so_menu` WHERE `pid` = 0 AND `hide` = 0 AND `is_dev` = 0 ORDER BY sort asc  [ RunTime:0.0074s ]
+NOTIC: [8] Use of undefined constant IS_ROOT - assumed 'IS_ROOT' E:\xampp\htdocs\SmartOrder\Application\Admin\Controller\AdminController.class.php 第 250 行.
+NOTIC: [8] Use of undefined constant IS_ROOT - assumed 'IS_ROOT' E:\xampp\htdocs\SmartOrder\Application\Admin\Controller\AdminController.class.php 第 250 行.
+NOTIC: [8] Use of undefined constant IS_ROOT - assumed 'IS_ROOT' E:\xampp\htdocs\SmartOrder\Application\Admin\Controller\AdminController.class.php 第 250 行.
+NOTIC: [8] Use of undefined constant IS_ROOT - assumed 'IS_ROOT' E:\xampp\htdocs\SmartOrder\Application\Admin\Controller\AdminController.class.php 第 250 行.
+NOTIC: [8] Use of undefined constant IS_ROOT - assumed 'IS_ROOT' E:\xampp\htdocs\SmartOrder\Application\Admin\Controller\AdminController.class.php 第 250 行.
+SQL: SELECT `pid` FROM `so_menu` WHERE ( pid !=0 AND url like '%MenuManage/ModifyCookMenu%' ) LIMIT 1   [ RunTime:0.0011s ]
+SQL: SELECT * FROM `so_menu` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT DISTINCT  `group` FROM `so_menu` WHERE `group` <> '' AND `pid` = 2  [ RunTime:0.0013s ]
+SQL: SELECT `id`,`url` FROM `so_menu` WHERE `pid` = 2 AND `hide` = 0 AND `is_dev` = 0  [ RunTime:0.0015s ]
+NOTIC: [8] Use of undefined constant IS_ROOT - assumed 'IS_ROOT' E:\xampp\htdocs\SmartOrder\Application\Admin\Controller\AdminController.class.php 第 282 行.
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `so_menu` WHERE `group` = '菜系管理' AND `pid` = 2 AND `hide` = 0 AND `is_dev` = 0 ORDER BY sort asc  [ RunTime:0.0015s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `so_menu` WHERE `group` = '菜品管理' AND `pid` = 2 AND `hide` = 0 AND `is_dev` = 0 ORDER BY sort asc  [ RunTime:0.0014s ]
+SQL: SHOW COLUMNS FROM `so_cookmenu` [ RunTime:0.0088s ]
+SQL: UPDATE `so_cookmenu` SET `styleid`='3',`cookname`='重庆辣子鸡',`introduce`='重庆辣子鸡是一道色香味俱全的汉族名肴，属于川菜系或重庆菜。将鸡块炸至外焦内酥，与花椒、干辣椒和指天椒一同拌炒而成，成菜色泽红润，麻辣鲜香，酥香爽脆。 为了原汁原味的体现这道菜的特色， 做好的成品最好是辣椒能全部把鸡盖住， 而不是鸡块中零零星星出现几个辣椒和花椒。',`price`='78',`recommend`='普通',`edit_time`='1440815650' WHERE `id` = 7 [ RunTime:0.0960s ]
+SQL: SHOW COLUMNS FROM `so_config` [ RunTime:0.0079s ]
+SQL: UPDATE `so_config` SET `val`='1440815650' WHERE `conf` = 'SynVersion' [ RunTime:0.1237s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000290s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000653s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031130s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031504s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001655s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001928s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003466s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003781s ]
+
+[ 2015-08-29T10:34:12+08:00 ] ::1 /SmartOrder/admin.php/MenuManage/cookmenu.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002592s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003173s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000842s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000941s ]
+SQL: SHOW COLUMNS FROM `so_menu` [ RunTime:0.0047s ]
+SQL: SELECT `id`,`title`,`url` FROM `so_menu` WHERE `pid` = 0 AND `hide` = 0 AND `is_dev` = 0 ORDER BY sort asc  [ RunTime:0.0005s ]
+NOTIC: [8] Use of undefined constant IS_ROOT - assumed 'IS_ROOT' E:\xampp\htdocs\SmartOrder\Application\Admin\Controller\AdminController.class.php 第 250 行.
+NOTIC: [8] Use of undefined constant IS_ROOT - assumed 'IS_ROOT' E:\xampp\htdocs\SmartOrder\Application\Admin\Controller\AdminController.class.php 第 250 行.
+NOTIC: [8] Use of undefined constant IS_ROOT - assumed 'IS_ROOT' E:\xampp\htdocs\SmartOrder\Application\Admin\Controller\AdminController.class.php 第 250 行.
+NOTIC: [8] Use of undefined constant IS_ROOT - assumed 'IS_ROOT' E:\xampp\htdocs\SmartOrder\Application\Admin\Controller\AdminController.class.php 第 250 行.
+NOTIC: [8] Use of undefined constant IS_ROOT - assumed 'IS_ROOT' E:\xampp\htdocs\SmartOrder\Application\Admin\Controller\AdminController.class.php 第 250 行.
+SQL: SELECT `pid` FROM `so_menu` WHERE ( pid !=0 AND url like '%MenuManage/cookmenu%' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `so_menu` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT DISTINCT  `group` FROM `so_menu` WHERE `group` <> '' AND `pid` = 2  [ RunTime:0.0005s ]
+SQL: SELECT `id`,`url` FROM `so_menu` WHERE `pid` = 2 AND `hide` = 0 AND `is_dev` = 0  [ RunTime:0.0004s ]
+NOTIC: [8] Use of undefined constant IS_ROOT - assumed 'IS_ROOT' E:\xampp\htdocs\SmartOrder\Application\Admin\Controller\AdminController.class.php 第 282 行.
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `so_menu` WHERE `group` = '菜系管理' AND `pid` = 2 AND `hide` = 0 AND `is_dev` = 0 ORDER BY sort asc  [ RunTime:0.0005s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `so_menu` WHERE `group` = '菜品管理' AND `pid` = 2 AND `hide` = 0 AND `is_dev` = 0 ORDER BY sort asc  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `so_cookmenu` [ RunTime:0.0035s ]
+SQL: SELECT `cookname`,`stylename`,so_cookmenu.id,`price`,`standard`,`recommend` FROM `so_cookmenu` INNER JOIN so_cookstyle on so_cookmenu.styleid=so_cookstyle.id  WHERE `is_delete` <> 1  [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000204s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000290s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028905s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000517s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000580s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000913s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001003s ]
+
+[ 2015-08-29T10:38:35+08:00 ] ::1 /SmartOrder/admin.php/MenuManage/addCookMenu.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000061s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.018186s ]
+INFO: [ app_init ] --END-- [ RunTime:0.020003s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002768s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003102s ]
+SQL: SHOW COLUMNS FROM `so_menu` [ RunTime:0.0098s ]
+SQL: SELECT `id`,`title`,`url` FROM `so_menu` WHERE `pid` = 0 AND `hide` = 0 AND `is_dev` = 0 ORDER BY sort asc  [ RunTime:0.0018s ]
+NOTIC: [8] Use of undefined constant IS_ROOT - assumed 'IS_ROOT' E:\xampp\htdocs\SmartOrder\Application\Admin\Controller\AdminController.class.php 第 250 行.
+NOTIC: [8] Use of undefined constant IS_ROOT - assumed 'IS_ROOT' E:\xampp\htdocs\SmartOrder\Application\Admin\Controller\AdminController.class.php 第 250 行.
+NOTIC: [8] Use of undefined constant IS_ROOT - assumed 'IS_ROOT' E:\xampp\htdocs\SmartOrder\Application\Admin\Controller\AdminController.class.php 第 250 行.
+NOTIC: [8] Use of undefined constant IS_ROOT - assumed 'IS_ROOT' E:\xampp\htdocs\SmartOrder\Application\Admin\Controller\AdminController.class.php 第 250 行.
+NOTIC: [8] Use of undefined constant IS_ROOT - assumed 'IS_ROOT' E:\xampp\htdocs\SmartOrder\Application\Admin\Controller\AdminController.class.php 第 250 行.
+SQL: SELECT `pid` FROM `so_menu` WHERE ( pid !=0 AND url like '%MenuManage/addCookMenu%' ) LIMIT 1   [ RunTime:0.0011s ]
+SQL: SELECT * FROM `so_menu` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0009s ]
+SQL: SELECT DISTINCT  `group` FROM `so_menu` WHERE `group` <> '' AND `pid` = 2  [ RunTime:0.0084s ]
+SQL: SELECT `id`,`url` FROM `so_menu` WHERE `pid` = 2 AND `hide` = 0 AND `is_dev` = 0  [ RunTime:0.0032s ]
+NOTIC: [8] Use of undefined constant IS_ROOT - assumed 'IS_ROOT' E:\xampp\htdocs\SmartOrder\Application\Admin\Controller\AdminController.class.php 第 282 行.
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `so_menu` WHERE `group` = '菜系管理' AND `pid` = 2 AND `hide` = 0 AND `is_dev` = 0 ORDER BY sort asc  [ RunTime:0.0023s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `so_menu` WHERE `group` = '菜品管理' AND `pid` = 2 AND `hide` = 0 AND `is_dev` = 0 ORDER BY sort asc  [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `so_cookstyle` [ RunTime:0.0132s ]
+SQL: SELECT * FROM `so_cookstyle`  [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.007334s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.007683s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.105871s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.106202s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002088s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002376s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003117s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003369s ]
+
+[ 2015-08-29T10:39:36+08:00 ] ::1 /SmartOrder/admin.php/MenuManage/addCookMenu
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.008087s ]
+INFO: [ app_init ] --END-- [ RunTime:0.009561s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003529s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003802s ]
+SQL: SHOW COLUMNS FROM `so_menu` [ RunTime:0.0093s ]
+SQL: SELECT `id`,`title`,`url` FROM `so_menu` WHERE `pid` = 0 AND `hide` = 0 AND `is_dev` = 0 ORDER BY sort asc  [ RunTime:0.0023s ]
+NOTIC: [8] Use of undefined constant IS_ROOT - assumed 'IS_ROOT' E:\xampp\htdocs\SmartOrder\Application\Admin\Controller\AdminController.class.php 第 250 行.
+NOTIC: [8] Use of undefined constant IS_ROOT - assumed 'IS_ROOT' E:\xampp\htdocs\SmartOrder\Application\Admin\Controller\AdminController.class.php 第 250 行.
+NOTIC: [8] Use of undefined constant IS_ROOT - assumed 'IS_ROOT' E:\xampp\htdocs\SmartOrder\Application\Admin\Controller\AdminController.class.php 第 250 行.
+NOTIC: [8] Use of undefined constant IS_ROOT - assumed 'IS_ROOT' E:\xampp\htdocs\SmartOrder\Application\Admin\Controller\AdminController.class.php 第 250 行.
+NOTIC: [8] Use of undefined constant IS_ROOT - assumed 'IS_ROOT' E:\xampp\htdocs\SmartOrder\Application\Admin\Controller\AdminController.class.php 第 250 行.
+SQL: SELECT `pid` FROM `so_menu` WHERE ( pid !=0 AND url like '%MenuManage/addCookMenu%' ) LIMIT 1   [ RunTime:0.0015s ]
+SQL: SELECT * FROM `so_menu` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT DISTINCT  `group` FROM `so_menu` WHERE `group` <> '' AND `pid` = 2  [ RunTime:0.0014s ]
+SQL: SELECT `id`,`url` FROM `so_menu` WHERE `pid` = 2 AND `hide` = 0 AND `is_dev` = 0  [ RunTime:0.0016s ]
+NOTIC: [8] Use of undefined constant IS_ROOT - assumed 'IS_ROOT' E:\xampp\htdocs\SmartOrder\Application\Admin\Controller\AdminController.class.php 第 282 行.
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `so_menu` WHERE `group` = '菜系管理' AND `pid` = 2 AND `hide` = 0 AND `is_dev` = 0 ORDER BY sort asc  [ RunTime:0.0015s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `so_menu` WHERE `group` = '菜品管理' AND `pid` = 2 AND `hide` = 0 AND `is_dev` = 0 ORDER BY sort asc  [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `so_cookmenu` [ RunTime:0.0076s ]
+SQL: INSERT INTO `so_cookmenu` (`styleid`,`cookname`,`price`,`standard`,`recommend`,`introduce`,`is_delete`,`edit_time`) VALUES ('8','糖醋小排','76','盘','普通','糖醋小排，超级好吃，我最喜欢的一道菜~~~','0','1440815976') [ RunTime:0.1126s ]
+SQL: SHOW COLUMNS FROM `so_config` [ RunTime:0.0116s ]
+SQL: UPDATE `so_config` SET `val`='1440815976' WHERE `conf` = 'SynVersion' [ RunTime:0.0643s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000183s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000406s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028288s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028634s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001902s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002182s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002966s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003228s ]
+
+[ 2015-08-29T10:39:38+08:00 ] ::1 /SmartOrder/admin.php/MenuManage/CookMenu.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.004961s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005803s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.008738s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008898s ]
+SQL: SHOW COLUMNS FROM `so_menu` [ RunTime:0.0045s ]
+SQL: SELECT `id`,`title`,`url` FROM `so_menu` WHERE `pid` = 0 AND `hide` = 0 AND `is_dev` = 0 ORDER BY sort asc  [ RunTime:0.0007s ]
+NOTIC: [8] Use of undefined constant IS_ROOT - assumed 'IS_ROOT' E:\xampp\htdocs\SmartOrder\Application\Admin\Controller\AdminController.class.php 第 250 行.
+NOTIC: [8] Use of undefined constant IS_ROOT - assumed 'IS_ROOT' E:\xampp\htdocs\SmartOrder\Application\Admin\Controller\AdminController.class.php 第 250 行.
+NOTIC: [8] Use of undefined constant IS_ROOT - assumed 'IS_ROOT' E:\xampp\htdocs\SmartOrder\Application\Admin\Controller\AdminController.class.php 第 250 行.
+NOTIC: [8] Use of undefined constant IS_ROOT - assumed 'IS_ROOT' E:\xampp\htdocs\SmartOrder\Application\Admin\Controller\AdminController.class.php 第 250 行.
+NOTIC: [8] Use of undefined constant IS_ROOT - assumed 'IS_ROOT' E:\xampp\htdocs\SmartOrder\Application\Admin\Controller\AdminController.class.php 第 250 行.
+SQL: SELECT `pid` FROM `so_menu` WHERE ( pid !=0 AND url like '%MenuManage/CookMenu%' ) LIMIT 1   [ RunTime:0.0012s ]
+SQL: SELECT * FROM `so_menu` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT DISTINCT  `group` FROM `so_menu` WHERE `group` <> '' AND `pid` = 2  [ RunTime:0.0006s ]
+SQL: SELECT `id`,`url` FROM `so_menu` WHERE `pid` = 2 AND `hide` = 0 AND `is_dev` = 0  [ RunTime:0.0005s ]
+NOTIC: [8] Use of undefined constant IS_ROOT - assumed 'IS_ROOT' E:\xampp\htdocs\SmartOrder\Application\Admin\Controller\AdminController.class.php 第 282 行.
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `so_menu` WHERE `group` = '菜系管理' AND `pid` = 2 AND `hide` = 0 AND `is_dev` = 0 ORDER BY sort asc  [ RunTime:0.0024s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `so_menu` WHERE `group` = '菜品管理' AND `pid` = 2 AND `hide` = 0 AND `is_dev` = 0 ORDER BY sort asc  [ RunTime:0.0123s ]
+SQL: SHOW COLUMNS FROM `so_cookmenu` [ RunTime:0.0032s ]
+SQL: SELECT `cookname`,`stylename`,so_cookmenu.id,`price`,`standard`,`recommend` FROM `so_cookmenu` INNER JOIN so_cookstyle on so_cookmenu.styleid=so_cookstyle.id  WHERE `is_delete` <> 1  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000184s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000263s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.040205s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.040317s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000867s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000931s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.020544s ]
+INFO: [ app_end ] --END-- [ RunTime:0.020637s ]
+
+[ 2015-08-29T10:55:09+08:00 ] ::1 /SmartOrder/admin.php/MenuManage/ModifyCookMenu/MenuId/12
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.012797s ]
+INFO: [ app_init ] --END-- [ RunTime:0.014554s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.008200s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008623s ]
+SQL: SHOW COLUMNS FROM `so_menu` [ RunTime:0.0098s ]
+SQL: SELECT `id`,`title`,`url` FROM `so_menu` WHERE `pid` = 0 AND `hide` = 0 AND `is_dev` = 0 ORDER BY sort asc  [ RunTime:0.0015s ]
+NOTIC: [8] Use of undefined constant IS_ROOT - assumed 'IS_ROOT' E:\xampp\htdocs\SmartOrder\Application\Admin\Controller\AdminController.class.php 第 250 行.
+NOTIC: [8] Use of undefined constant IS_ROOT - assumed 'IS_ROOT' E:\xampp\htdocs\SmartOrder\Application\Admin\Controller\AdminController.class.php 第 250 行.
+NOTIC: [8] Use of undefined constant IS_ROOT - assumed 'IS_ROOT' E:\xampp\htdocs\SmartOrder\Application\Admin\Controller\AdminController.class.php 第 250 行.
+NOTIC: [8] Use of undefined constant IS_ROOT - assumed 'IS_ROOT' E:\xampp\htdocs\SmartOrder\Application\Admin\Controller\AdminController.class.php 第 250 行.
+NOTIC: [8] Use of undefined constant IS_ROOT - assumed 'IS_ROOT' E:\xampp\htdocs\SmartOrder\Application\Admin\Controller\AdminController.class.php 第 250 行.
+SQL: SELECT `pid` FROM `so_menu` WHERE ( pid !=0 AND url like '%MenuManage/ModifyCookMenu%' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `so_menu` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT DISTINCT  `group` FROM `so_menu` WHERE `group` <> '' AND `pid` = 2  [ RunTime:0.0011s ]
+SQL: SELECT `id`,`url` FROM `so_menu` WHERE `pid` = 2 AND `hide` = 0 AND `is_dev` = 0  [ RunTime:0.0016s ]
+NOTIC: [8] Use of undefined constant IS_ROOT - assumed 'IS_ROOT' E:\xampp\htdocs\SmartOrder\Application\Admin\Controller\AdminController.class.php 第 282 行.
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `so_menu` WHERE `group` = '菜系管理' AND `pid` = 2 AND `hide` = 0 AND `is_dev` = 0 ORDER BY sort asc  [ RunTime:0.0016s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `so_menu` WHERE `group` = '菜品管理' AND `pid` = 2 AND `hide` = 0 AND `is_dev` = 0 ORDER BY sort asc  [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `so_cookstyle` [ RunTime:0.0071s ]
+SQL: SELECT * FROM `so_cookstyle`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `so_cookmenu` [ RunTime:0.0105s ]
+SQL: SELECT * FROM `so_cookmenu` WHERE `id` = 12 LIMIT 1   [ RunTime:0.0016s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000681s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000980s ]
+NOTIC: [8] Undefined variable: meta_title E:\xampp\htdocs\SmartOrder\Runtime\Cache\Admin\dd83d7a340b1308cb38c24e324232c48.php 第 5 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.089006s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.089341s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.011717s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.012019s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004155s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004460s ]
+
+[ 2015-08-29T10:55:16+08:00 ] ::1 /SmartOrder/admin.php/MenuManage/ModifyCookMenu
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000069s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.023731s ]
+INFO: [ app_init ] --END-- [ RunTime:0.045352s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.045343s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.045802s ]
+SQL: SHOW COLUMNS FROM `so_menu` [ RunTime:0.0116s ]
+SQL: SELECT `id`,`title`,`url` FROM `so_menu` WHERE `pid` = 0 AND `hide` = 0 AND `is_dev` = 0 ORDER BY sort asc  [ RunTime:0.0010s ]
+NOTIC: [8] Use of undefined constant IS_ROOT - assumed 'IS_ROOT' E:\xampp\htdocs\SmartOrder\Application\Admin\Controller\AdminController.class.php 第 250 行.
+NOTIC: [8] Use of undefined constant IS_ROOT - assumed 'IS_ROOT' E:\xampp\htdocs\SmartOrder\Application\Admin\Controller\AdminController.class.php 第 250 行.
+NOTIC: [8] Use of undefined constant IS_ROOT - assumed 'IS_ROOT' E:\xampp\htdocs\SmartOrder\Application\Admin\Controller\AdminController.class.php 第 250 行.
+NOTIC: [8] Use of undefined constant IS_ROOT - assumed 'IS_ROOT' E:\xampp\htdocs\SmartOrder\Application\Admin\Controller\AdminController.class.php 第 250 行.
+NOTIC: [8] Use of undefined constant IS_ROOT - assumed 'IS_ROOT' E:\xampp\htdocs\SmartOrder\Application\Admin\Controller\AdminController.class.php 第 250 行.
+SQL: SELECT `pid` FROM `so_menu` WHERE ( pid !=0 AND url like '%MenuManage/ModifyCookMenu%' ) LIMIT 1   [ RunTime:0.0009s ]
+SQL: SELECT * FROM `so_menu` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT DISTINCT  `group` FROM `so_menu` WHERE `group` <> '' AND `pid` = 2  [ RunTime:0.0009s ]
+SQL: SELECT `id`,`url` FROM `so_menu` WHERE `pid` = 2 AND `hide` = 0 AND `is_dev` = 0  [ RunTime:0.0016s ]
+NOTIC: [8] Use of undefined constant IS_ROOT - assumed 'IS_ROOT' E:\xampp\htdocs\SmartOrder\Application\Admin\Controller\AdminController.class.php 第 282 行.
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `so_menu` WHERE `group` = '菜系管理' AND `pid` = 2 AND `hide` = 0 AND `is_dev` = 0 ORDER BY sort asc  [ RunTime:0.0014s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `so_menu` WHERE `group` = '菜品管理' AND `pid` = 2 AND `hide` = 0 AND `is_dev` = 0 ORDER BY sort asc  [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `so_cookmenu` [ RunTime:0.0095s ]
+SQL: UPDATE `so_cookmenu` SET `styleid`='2',`cookname`='糖醋小排',`introduce`='糖醋小排，超级好吃，我最喜欢的一道菜~~~',`price`='76',`recommend`='普通',`edit_time`='1440816916' WHERE `id` = 12 [ RunTime:0.0655s ]
+SQL: SHOW COLUMNS FROM `so_config` [ RunTime:0.0071s ]
+SQL: UPDATE `so_config` SET `val`='1440816916' WHERE `conf` = 'SynVersion' [ RunTime:0.0692s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000268s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000608s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.034083s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034472s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002374s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002842s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003295s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003569s ]
+
+[ 2015-08-29T10:55:18+08:00 ] ::1 /SmartOrder/admin.php/MenuManage/cookmenu.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000086s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.009564s ]
+INFO: [ app_init ] --END-- [ RunTime:0.012188s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003983s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004341s ]
+SQL: SHOW COLUMNS FROM `so_menu` [ RunTime:0.0206s ]
+SQL: SELECT `id`,`title`,`url` FROM `so_menu` WHERE `pid` = 0 AND `hide` = 0 AND `is_dev` = 0 ORDER BY sort asc  [ RunTime:0.0014s ]
+NOTIC: [8] Use of undefined constant IS_ROOT - assumed 'IS_ROOT' E:\xampp\htdocs\SmartOrder\Application\Admin\Controller\AdminController.class.php 第 250 行.
+NOTIC: [8] Use of undefined constant IS_ROOT - assumed 'IS_ROOT' E:\xampp\htdocs\SmartOrder\Application\Admin\Controller\AdminController.class.php 第 250 行.
+NOTIC: [8] Use of undefined constant IS_ROOT - assumed 'IS_ROOT' E:\xampp\htdocs\SmartOrder\Application\Admin\Controller\AdminController.class.php 第 250 行.
+NOTIC: [8] Use of undefined constant IS_ROOT - assumed 'IS_ROOT' E:\xampp\htdocs\SmartOrder\Application\Admin\Controller\AdminController.class.php 第 250 行.
+NOTIC: [8] Use of undefined constant IS_ROOT - assumed 'IS_ROOT' E:\xampp\htdocs\SmartOrder\Application\Admin\Controller\AdminController.class.php 第 250 行.
+SQL: SELECT `pid` FROM `so_menu` WHERE ( pid !=0 AND url like '%MenuManage/cookmenu%' ) LIMIT 1   [ RunTime:0.0012s ]
+SQL: SELECT * FROM `so_menu` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0012s ]
+SQL: SELECT DISTINCT  `group` FROM `so_menu` WHERE `group` <> '' AND `pid` = 2  [ RunTime:0.0017s ]
+SQL: SELECT `id`,`url` FROM `so_menu` WHERE `pid` = 2 AND `hide` = 0 AND `is_dev` = 0  [ RunTime:0.0016s ]
+NOTIC: [8] Use of undefined constant IS_ROOT - assumed 'IS_ROOT' E:\xampp\htdocs\SmartOrder\Application\Admin\Controller\AdminController.class.php 第 282 行.
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `so_menu` WHERE `group` = '菜系管理' AND `pid` = 2 AND `hide` = 0 AND `is_dev` = 0 ORDER BY sort asc  [ RunTime:0.0017s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `so_menu` WHERE `group` = '菜品管理' AND `pid` = 2 AND `hide` = 0 AND `is_dev` = 0 ORDER BY sort asc  [ RunTime:0.0014s ]
+SQL: SHOW COLUMNS FROM `so_cookmenu` [ RunTime:0.0100s ]
+SQL: SELECT `cookname`,`stylename`,so_cookmenu.id,`price`,`standard`,`recommend` FROM `so_cookmenu` INNER JOIN so_cookstyle on so_cookmenu.styleid=so_cookstyle.id  WHERE `is_delete` <> 1  [ RunTime:0.0015s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000696s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000994s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.156121s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.156471s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002864s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003153s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004068s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004533s ]
+
+[ 2015-08-29T11:12:29+08:00 ] ::1 /SmartOrder/admin.php/MenuManage/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.010189s ]
+INFO: [ app_init ] --END-- [ RunTime:0.011862s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004390s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004947s ]
+SQL: SHOW COLUMNS FROM `so_menu` [ RunTime:0.0107s ]
+SQL: SELECT `id`,`title`,`url` FROM `so_menu` WHERE `pid` = 0 AND `hide` = 0 AND `is_dev` = 0 ORDER BY sort asc  [ RunTime:0.0068s ]
+NOTIC: [8] Use of undefined constant IS_ROOT - assumed 'IS_ROOT' E:\xampp\htdocs\SmartOrder\Application\Admin\Controller\AdminController.class.php 第 250 行.
+NOTIC: [8] Use of undefined constant IS_ROOT - assumed 'IS_ROOT' E:\xampp\htdocs\SmartOrder\Application\Admin\Controller\AdminController.class.php 第 250 行.
+NOTIC: [8] Use of undefined constant IS_ROOT - assumed 'IS_ROOT' E:\xampp\htdocs\SmartOrder\Application\Admin\Controller\AdminController.class.php 第 250 行.
+NOTIC: [8] Use of undefined constant IS_ROOT - assumed 'IS_ROOT' E:\xampp\htdocs\SmartOrder\Application\Admin\Controller\AdminController.class.php 第 250 行.
+NOTIC: [8] Use of undefined constant IS_ROOT - assumed 'IS_ROOT' E:\xampp\htdocs\SmartOrder\Application\Admin\Controller\AdminController.class.php 第 250 行.
+SQL: SELECT `pid` FROM `so_menu` WHERE ( pid !=0 AND url like '%MenuManage/index%' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `so_menu` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0009s ]
+SQL: SELECT DISTINCT  `group` FROM `so_menu` WHERE `group` <> '' AND `pid` = 2  [ RunTime:0.0011s ]
+SQL: SELECT `id`,`url` FROM `so_menu` WHERE `pid` = 2 AND `hide` = 0 AND `is_dev` = 0  [ RunTime:0.0011s ]
+NOTIC: [8] Use of undefined constant IS_ROOT - assumed 'IS_ROOT' E:\xampp\htdocs\SmartOrder\Application\Admin\Controller\AdminController.class.php 第 282 行.
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `so_menu` WHERE `group` = '菜系管理' AND `pid` = 2 AND `hide` = 0 AND `is_dev` = 0 ORDER BY sort asc  [ RunTime:0.0060s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `so_menu` WHERE `group` = '菜品管理' AND `pid` = 2 AND `hide` = 0 AND `is_dev` = 0 ORDER BY sort asc  [ RunTime:0.0016s ]
+SQL: SHOW COLUMNS FROM `so_cookstyle` [ RunTime:0.0109s ]
+SQL: SELECT * FROM `so_cookstyle`  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000677s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001084s ]
+SQL: SHOW COLUMNS FROM `so_cookmenu` [ RunTime:0.0109s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `so_cookmenu` WHERE `styleid` = 1 LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `so_cookmenu` WHERE `styleid` = 2 LIMIT 1   [ RunTime:0.0012s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `so_cookmenu` WHERE `styleid` = 3 LIMIT 1   [ RunTime:0.0009s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `so_cookmenu` WHERE `styleid` = 4 LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `so_cookmenu` WHERE `styleid` = 5 LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `so_cookmenu` WHERE `styleid` = 7 LIMIT 1   [ RunTime:0.0013s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `so_cookmenu` WHERE `styleid` = 8 LIMIT 1   [ RunTime:0.0008s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.103975s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.104285s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002624s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002924s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003839s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004149s ]
+
+[ 2015-08-29T11:12:36+08:00 ] ::1 /SmartOrder/admin.php/MenuManage/ModifyCookStyle/styleid/8
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000076s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.015321s ]
+INFO: [ app_init ] --END-- [ RunTime:0.017506s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003820s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004241s ]
+SQL: SHOW COLUMNS FROM `so_menu` [ RunTime:0.0105s ]
+SQL: SELECT `id`,`title`,`url` FROM `so_menu` WHERE `pid` = 0 AND `hide` = 0 AND `is_dev` = 0 ORDER BY sort asc  [ RunTime:0.0013s ]
+NOTIC: [8] Use of undefined constant IS_ROOT - assumed 'IS_ROOT' E:\xampp\htdocs\SmartOrder\Application\Admin\Controller\AdminController.class.php 第 250 行.
+NOTIC: [8] Use of undefined constant IS_ROOT - assumed 'IS_ROOT' E:\xampp\htdocs\SmartOrder\Application\Admin\Controller\AdminController.class.php 第 250 行.
+NOTIC: [8] Use of undefined constant IS_ROOT - assumed 'IS_ROOT' E:\xampp\htdocs\SmartOrder\Application\Admin\Controller\AdminController.class.php 第 250 行.
+NOTIC: [8] Use of undefined constant IS_ROOT - assumed 'IS_ROOT' E:\xampp\htdocs\SmartOrder\Application\Admin\Controller\AdminController.class.php 第 250 行.
+NOTIC: [8] Use of undefined constant IS_ROOT - assumed 'IS_ROOT' E:\xampp\htdocs\SmartOrder\Application\Admin\Controller\AdminController.class.php 第 250 行.
+SQL: SELECT `pid` FROM `so_menu` WHERE ( pid !=0 AND url like '%MenuManage/ModifyCookStyle%' ) LIMIT 1   [ RunTime:0.0009s ]
+SQL: SELECT * FROM `so_menu` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0013s ]
+SQL: SELECT DISTINCT  `group` FROM `so_menu` WHERE `group` <> '' AND `pid` = 2  [ RunTime:0.0016s ]
+SQL: SELECT `id`,`url` FROM `so_menu` WHERE `pid` = 2 AND `hide` = 0 AND `is_dev` = 0  [ RunTime:0.0010s ]
+NOTIC: [8] Use of undefined constant IS_ROOT - assumed 'IS_ROOT' E:\xampp\htdocs\SmartOrder\Application\Admin\Controller\AdminController.class.php 第 282 行.
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `so_menu` WHERE `group` = '菜系管理' AND `pid` = 2 AND `hide` = 0 AND `is_dev` = 0 ORDER BY sort asc  [ RunTime:0.0011s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `so_menu` WHERE `group` = '菜品管理' AND `pid` = 2 AND `hide` = 0 AND `is_dev` = 0 ORDER BY sort asc  [ RunTime:0.0021s ]
+SQL: SHOW COLUMNS FROM `so_cookstyle` [ RunTime:0.0115s ]
+SQL: SELECT * FROM `so_cookstyle` WHERE `id` = 8 LIMIT 1   [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001029s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001416s ]
+NOTIC: [8] Undefined variable: meta_title E:\xampp\htdocs\SmartOrder\Runtime\Cache\Admin\659b80e975ec06ebb0d2e935411989d1.php 第 5 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.117527s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.118012s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002982s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003264s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004166s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004518s ]
+
+[ 2015-08-29T11:12:44+08:00 ] ::1 /SmartOrder/admin.php/MenuManage/ModifyCookStyle
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.010304s ]
+INFO: [ app_init ] --END-- [ RunTime:0.011824s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003303s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003672s ]
+SQL: SHOW COLUMNS FROM `so_menu` [ RunTime:0.0142s ]
+SQL: SELECT `id`,`title`,`url` FROM `so_menu` WHERE `pid` = 0 AND `hide` = 0 AND `is_dev` = 0 ORDER BY sort asc  [ RunTime:0.0011s ]
+NOTIC: [8] Use of undefined constant IS_ROOT - assumed 'IS_ROOT' E:\xampp\htdocs\SmartOrder\Application\Admin\Controller\AdminController.class.php 第 250 行.
+NOTIC: [8] Use of undefined constant IS_ROOT - assumed 'IS_ROOT' E:\xampp\htdocs\SmartOrder\Application\Admin\Controller\AdminController.class.php 第 250 行.
+NOTIC: [8] Use of undefined constant IS_ROOT - assumed 'IS_ROOT' E:\xampp\htdocs\SmartOrder\Application\Admin\Controller\AdminController.class.php 第 250 行.
+NOTIC: [8] Use of undefined constant IS_ROOT - assumed 'IS_ROOT' E:\xampp\htdocs\SmartOrder\Application\Admin\Controller\AdminController.class.php 第 250 行.
+NOTIC: [8] Use of undefined constant IS_ROOT - assumed 'IS_ROOT' E:\xampp\htdocs\SmartOrder\Application\Admin\Controller\AdminController.class.php 第 250 行.
+SQL: SELECT `pid` FROM `so_menu` WHERE ( pid !=0 AND url like '%MenuManage/ModifyCookStyle%' ) LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT * FROM `so_menu` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT DISTINCT  `group` FROM `so_menu` WHERE `group` <> '' AND `pid` = 2  [ RunTime:0.0020s ]
+SQL: SELECT `id`,`url` FROM `so_menu` WHERE `pid` = 2 AND `hide` = 0 AND `is_dev` = 0  [ RunTime:0.0074s ]
+NOTIC: [8] Use of undefined constant IS_ROOT - assumed 'IS_ROOT' E:\xampp\htdocs\SmartOrder\Application\Admin\Controller\AdminController.class.php 第 282 行.
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `so_menu` WHERE `group` = '菜系管理' AND `pid` = 2 AND `hide` = 0 AND `is_dev` = 0 ORDER BY sort asc  [ RunTime:0.0018s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `so_menu` WHERE `group` = '菜品管理' AND `pid` = 2 AND `hide` = 0 AND `is_dev` = 0 ORDER BY sort asc  [ RunTime:0.0017s ]
+SQL: SHOW COLUMNS FROM `so_cookstyle` [ RunTime:0.0084s ]
+SQL: UPDATE `so_cookstyle` SET `stylename`='川菜' WHERE `id` = 8 [ RunTime:0.0868s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000253s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000589s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032118s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032874s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002359s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002782s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002955s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003227s ]
+
+[ 2015-08-29T11:12:46+08:00 ] ::1 /SmartOrder/admin.php/MenuManage.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000108s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.014757s ]
+INFO: [ app_init ] --END-- [ RunTime:0.017433s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.009335s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009652s ]
+SQL: SHOW COLUMNS FROM `so_menu` [ RunTime:0.0089s ]
+SQL: SELECT `id`,`title`,`url` FROM `so_menu` WHERE `pid` = 0 AND `hide` = 0 AND `is_dev` = 0 ORDER BY sort asc  [ RunTime:0.0013s ]
+NOTIC: [8] Use of undefined constant IS_ROOT - assumed 'IS_ROOT' E:\xampp\htdocs\SmartOrder\Application\Admin\Controller\AdminController.class.php 第 250 行.
+NOTIC: [8] Use of undefined constant IS_ROOT - assumed 'IS_ROOT' E:\xampp\htdocs\SmartOrder\Application\Admin\Controller\AdminController.class.php 第 250 行.
+NOTIC: [8] Use of undefined constant IS_ROOT - assumed 'IS_ROOT' E:\xampp\htdocs\SmartOrder\Application\Admin\Controller\AdminController.class.php 第 250 行.
+NOTIC: [8] Use of undefined constant IS_ROOT - assumed 'IS_ROOT' E:\xampp\htdocs\SmartOrder\Application\Admin\Controller\AdminController.class.php 第 250 行.
+NOTIC: [8] Use of undefined constant IS_ROOT - assumed 'IS_ROOT' E:\xampp\htdocs\SmartOrder\Application\Admin\Controller\AdminController.class.php 第 250 行.
+SQL: SELECT `pid` FROM `so_menu` WHERE ( pid !=0 AND url like '%MenuManage/index%' ) LIMIT 1   [ RunTime:0.0012s ]
+SQL: SELECT * FROM `so_menu` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT DISTINCT  `group` FROM `so_menu` WHERE `group` <> '' AND `pid` = 2  [ RunTime:0.0004s ]
+SQL: SELECT `id`,`url` FROM `so_menu` WHERE `pid` = 2 AND `hide` = 0 AND `is_dev` = 0  [ RunTime:0.0025s ]
+NOTIC: [8] Use of undefined constant IS_ROOT - assumed 'IS_ROOT' E:\xampp\htdocs\SmartOrder\Application\Admin\Controller\AdminController.class.php 第 282 行.
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `so_menu` WHERE `group` = '菜系管理' AND `pid` = 2 AND `hide` = 0 AND `is_dev` = 0 ORDER BY sort asc  [ RunTime:0.0007s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `so_menu` WHERE `group` = '菜品管理' AND `pid` = 2 AND `hide` = 0 AND `is_dev` = 0 ORDER BY sort asc  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `so_cookstyle` [ RunTime:0.0038s ]
+SQL: SELECT * FROM `so_cookstyle`  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000600s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000880s ]
+SQL: SHOW COLUMNS FROM `so_cookmenu` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `so_cookmenu` WHERE `styleid` = 1 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `so_cookmenu` WHERE `styleid` = 2 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `so_cookmenu` WHERE `styleid` = 3 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `so_cookmenu` WHERE `styleid` = 4 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `so_cookmenu` WHERE `styleid` = 5 LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `so_cookmenu` WHERE `styleid` = 7 LIMIT 1   [ RunTime:0.0025s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `so_cookmenu` WHERE `styleid` = 8 LIMIT 1   [ RunTime:0.0005s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.045601s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.045729s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000880s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000989s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001546s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001698s ]
+
+[ 2015-08-29T11:13:41+08:00 ] ::1 /SmartOrder/admin.php/MenuManage/cookmenu.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000082s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.026702s ]
+INFO: [ app_init ] --END-- [ RunTime:0.131561s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.018377s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.018794s ]
+SQL: SHOW COLUMNS FROM `so_menu` [ RunTime:0.0111s ]
+SQL: SELECT `id`,`title`,`url` FROM `so_menu` WHERE `pid` = 0 AND `hide` = 0 AND `is_dev` = 0 ORDER BY sort asc  [ RunTime:0.0015s ]
+NOTIC: [8] Use of undefined constant IS_ROOT - assumed 'IS_ROOT' E:\xampp\htdocs\SmartOrder\Application\Admin\Controller\AdminController.class.php 第 250 行.
+NOTIC: [8] Use of undefined constant IS_ROOT - assumed 'IS_ROOT' E:\xampp\htdocs\SmartOrder\Application\Admin\Controller\AdminController.class.php 第 250 行.
+NOTIC: [8] Use of undefined constant IS_ROOT - assumed 'IS_ROOT' E:\xampp\htdocs\SmartOrder\Application\Admin\Controller\AdminController.class.php 第 250 行.
+NOTIC: [8] Use of undefined constant IS_ROOT - assumed 'IS_ROOT' E:\xampp\htdocs\SmartOrder\Application\Admin\Controller\AdminController.class.php 第 250 行.
+NOTIC: [8] Use of undefined constant IS_ROOT - assumed 'IS_ROOT' E:\xampp\htdocs\SmartOrder\Application\Admin\Controller\AdminController.class.php 第 250 行.
+SQL: SELECT `pid` FROM `so_menu` WHERE ( pid !=0 AND url like '%MenuManage/cookmenu%' ) LIMIT 1   [ RunTime:0.0012s ]
+SQL: SELECT * FROM `so_menu` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0012s ]
+SQL: SELECT DISTINCT  `group` FROM `so_menu` WHERE `group` <> '' AND `pid` = 2  [ RunTime:0.0015s ]
+SQL: SELECT `id`,`url` FROM `so_menu` WHERE `pid` = 2 AND `hide` = 0 AND `is_dev` = 0  [ RunTime:0.0015s ]
+NOTIC: [8] Use of undefined constant IS_ROOT - assumed 'IS_ROOT' E:\xampp\htdocs\SmartOrder\Application\Admin\Controller\AdminController.class.php 第 282 行.
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `so_menu` WHERE `group` = '菜系管理' AND `pid` = 2 AND `hide` = 0 AND `is_dev` = 0 ORDER BY sort asc  [ RunTime:0.0028s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `so_menu` WHERE `group` = '菜品管理' AND `pid` = 2 AND `hide` = 0 AND `is_dev` = 0 ORDER BY sort asc  [ RunTime:0.0019s ]
+SQL: SHOW COLUMNS FROM `so_cookmenu` [ RunTime:0.0112s ]
+SQL: SELECT `cookname`,`stylename`,so_cookmenu.id,`price`,`standard`,`recommend` FROM `so_cookmenu` INNER JOIN so_cookstyle on so_cookmenu.styleid=so_cookstyle.id  WHERE `is_delete` <> 1  [ RunTime:0.0019s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000866s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001218s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.109623s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.110027s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002844s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003497s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004974s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005414s ]
+
+[ 2015-08-29T11:13:48+08:00 ] ::1 /SmartOrder/admin.php/MenuManage/ModifyCookMenu/MenuId/11
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000052s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.018228s ]
+INFO: [ app_init ] --END-- [ RunTime:0.021948s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006828s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007290s ]
+SQL: SHOW COLUMNS FROM `so_menu` [ RunTime:0.0111s ]
+SQL: SELECT `id`,`title`,`url` FROM `so_menu` WHERE `pid` = 0 AND `hide` = 0 AND `is_dev` = 0 ORDER BY sort asc  [ RunTime:0.0014s ]
+NOTIC: [8] Use of undefined constant IS_ROOT - assumed 'IS_ROOT' E:\xampp\htdocs\SmartOrder\Application\Admin\Controller\AdminController.class.php 第 250 行.
+NOTIC: [8] Use of undefined constant IS_ROOT - assumed 'IS_ROOT' E:\xampp\htdocs\SmartOrder\Application\Admin\Controller\AdminController.class.php 第 250 行.
+NOTIC: [8] Use of undefined constant IS_ROOT - assumed 'IS_ROOT' E:\xampp\htdocs\SmartOrder\Application\Admin\Controller\AdminController.class.php 第 250 行.
+NOTIC: [8] Use of undefined constant IS_ROOT - assumed 'IS_ROOT' E:\xampp\htdocs\SmartOrder\Application\Admin\Controller\AdminController.class.php 第 250 行.
+NOTIC: [8] Use of undefined constant IS_ROOT - assumed 'IS_ROOT' E:\xampp\htdocs\SmartOrder\Application\Admin\Controller\AdminController.class.php 第 250 行.
+SQL: SELECT `pid` FROM `so_menu` WHERE ( pid !=0 AND url like '%MenuManage/ModifyCookMenu%' ) LIMIT 1   [ RunTime:0.0019s ]
+SQL: SELECT * FROM `so_menu` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0019s ]
+SQL: SELECT DISTINCT  `group` FROM `so_menu` WHERE `group` <> '' AND `pid` = 2  [ RunTime:0.0027s ]
+SQL: SELECT `id`,`url` FROM `so_menu` WHERE `pid` = 2 AND `hide` = 0 AND `is_dev` = 0  [ RunTime:0.0024s ]
+NOTIC: [8] Use of undefined constant IS_ROOT - assumed 'IS_ROOT' E:\xampp\htdocs\SmartOrder\Application\Admin\Controller\AdminController.class.php 第 282 行.
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `so_menu` WHERE `group` = '菜系管理' AND `pid` = 2 AND `hide` = 0 AND `is_dev` = 0 ORDER BY sort asc  [ RunTime:0.0023s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `so_menu` WHERE `group` = '菜品管理' AND `pid` = 2 AND `hide` = 0 AND `is_dev` = 0 ORDER BY sort asc  [ RunTime:0.0069s ]
+SQL: SHOW COLUMNS FROM `so_cookstyle` [ RunTime:0.0108s ]
+SQL: SELECT * FROM `so_cookstyle`  [ RunTime:0.0017s ]
+SQL: SHOW COLUMNS FROM `so_cookmenu` [ RunTime:0.0166s ]
+SQL: SELECT * FROM `so_cookmenu` WHERE `id` = 11 LIMIT 1   [ RunTime:0.0014s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000542s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000741s ]
+NOTIC: [8] Undefined variable: meta_title E:\xampp\htdocs\SmartOrder\Runtime\Cache\Admin\dd83d7a340b1308cb38c24e324232c48.php 第 5 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.076255s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.076694s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002204s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002514s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003589s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003907s ]
+
+[ 2015-08-29T11:13:56+08:00 ] ::1 /SmartOrder/admin.php/MenuManage/ModifyCookMenu
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.021866s ]
+INFO: [ app_init ] --END-- [ RunTime:0.022464s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000859s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000949s ]
+SQL: SHOW COLUMNS FROM `so_menu` [ RunTime:0.0136s ]
+SQL: SELECT `id`,`title`,`url` FROM `so_menu` WHERE `pid` = 0 AND `hide` = 0 AND `is_dev` = 0 ORDER BY sort asc  [ RunTime:0.0012s ]
+NOTIC: [8] Use of undefined constant IS_ROOT - assumed 'IS_ROOT' E:\xampp\htdocs\SmartOrder\Application\Admin\Controller\AdminController.class.php 第 250 行.
+NOTIC: [8] Use of undefined constant IS_ROOT - assumed 'IS_ROOT' E:\xampp\htdocs\SmartOrder\Application\Admin\Controller\AdminController.class.php 第 250 行.
+NOTIC: [8] Use of undefined constant IS_ROOT - assumed 'IS_ROOT' E:\xampp\htdocs\SmartOrder\Application\Admin\Controller\AdminController.class.php 第 250 行.
+NOTIC: [8] Use of undefined constant IS_ROOT - assumed 'IS_ROOT' E:\xampp\htdocs\SmartOrder\Application\Admin\Controller\AdminController.class.php 第 250 行.
+NOTIC: [8] Use of undefined constant IS_ROOT - assumed 'IS_ROOT' E:\xampp\htdocs\SmartOrder\Application\Admin\Controller\AdminController.class.php 第 250 行.
+SQL: SELECT `pid` FROM `so_menu` WHERE ( pid !=0 AND url like '%MenuManage/ModifyCookMenu%' ) LIMIT 1   [ RunTime:0.0042s ]
+SQL: SELECT * FROM `so_menu` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT DISTINCT  `group` FROM `so_menu` WHERE `group` <> '' AND `pid` = 2  [ RunTime:0.0007s ]
+SQL: SELECT `id`,`url` FROM `so_menu` WHERE `pid` = 2 AND `hide` = 0 AND `is_dev` = 0  [ RunTime:0.0006s ]
+NOTIC: [8] Use of undefined constant IS_ROOT - assumed 'IS_ROOT' E:\xampp\htdocs\SmartOrder\Application\Admin\Controller\AdminController.class.php 第 282 行.
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `so_menu` WHERE `group` = '菜系管理' AND `pid` = 2 AND `hide` = 0 AND `is_dev` = 0 ORDER BY sort asc  [ RunTime:0.0007s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `so_menu` WHERE `group` = '菜品管理' AND `pid` = 2 AND `hide` = 0 AND `is_dev` = 0 ORDER BY sort asc  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `so_cookmenu` [ RunTime:0.0051s ]
+SQL: UPDATE `so_cookmenu` SET `styleid`='4',`cookname`='金针菇凉拌',`introduce`='金针菇，英文名：\"See You Tommrow!\".',`price`='45',`recommend`='普通',`edit_time`='1440818036' WHERE `id` = 11 [ RunTime:0.1653s ]
+SQL: SHOW COLUMNS FROM `so_config` [ RunTime:0.0042s ]
+SQL: UPDATE `so_config` SET `val`='1440818036' WHERE `conf` = 'SynVersion' [ RunTime:0.0691s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000071s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000159s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008389s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008504s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000576s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000638s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000884s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000958s ]
+
+[ 2015-08-29T11:13:58+08:00 ] ::1 /SmartOrder/admin.php/MenuManage/cookmenu.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000054s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.017362s ]
+INFO: [ app_init ] --END-- [ RunTime:0.020217s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.007076s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007776s ]
+SQL: SHOW COLUMNS FROM `so_menu` [ RunTime:0.0101s ]
+SQL: SELECT `id`,`title`,`url` FROM `so_menu` WHERE `pid` = 0 AND `hide` = 0 AND `is_dev` = 0 ORDER BY sort asc  [ RunTime:0.0023s ]
+NOTIC: [8] Use of undefined constant IS_ROOT - assumed 'IS_ROOT' E:\xampp\htdocs\SmartOrder\Application\Admin\Controller\AdminController.class.php 第 250 行.
+NOTIC: [8] Use of undefined constant IS_ROOT - assumed 'IS_ROOT' E:\xampp\htdocs\SmartOrder\Application\Admin\Controller\AdminController.class.php 第 250 行.
+NOTIC: [8] Use of undefined constant IS_ROOT - assumed 'IS_ROOT' E:\xampp\htdocs\SmartOrder\Application\Admin\Controller\AdminController.class.php 第 250 行.
+NOTIC: [8] Use of undefined constant IS_ROOT - assumed 'IS_ROOT' E:\xampp\htdocs\SmartOrder\Application\Admin\Controller\AdminController.class.php 第 250 行.
+NOTIC: [8] Use of undefined constant IS_ROOT - assumed 'IS_ROOT' E:\xampp\htdocs\SmartOrder\Application\Admin\Controller\AdminController.class.php 第 250 行.
+SQL: SELECT `pid` FROM `so_menu` WHERE ( pid !=0 AND url like '%MenuManage/cookmenu%' ) LIMIT 1   [ RunTime:0.0012s ]
+SQL: SELECT * FROM `so_menu` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0015s ]
+SQL: SELECT DISTINCT  `group` FROM `so_menu` WHERE `group` <> '' AND `pid` = 2  [ RunTime:0.0018s ]
+SQL: SELECT `id`,`url` FROM `so_menu` WHERE `pid` = 2 AND `hide` = 0 AND `is_dev` = 0  [ RunTime:0.0035s ]
+NOTIC: [8] Use of undefined constant IS_ROOT - assumed 'IS_ROOT' E:\xampp\htdocs\SmartOrder\Application\Admin\Controller\AdminController.class.php 第 282 行.
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `so_menu` WHERE `group` = '菜系管理' AND `pid` = 2 AND `hide` = 0 AND `is_dev` = 0 ORDER BY sort asc  [ RunTime:0.0039s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `so_menu` WHERE `group` = '菜品管理' AND `pid` = 2 AND `hide` = 0 AND `is_dev` = 0 ORDER BY sort asc  [ RunTime:0.0022s ]
+SQL: SHOW COLUMNS FROM `so_cookmenu` [ RunTime:0.0137s ]
+SQL: SELECT `cookname`,`stylename`,so_cookmenu.id,`price`,`standard`,`recommend` FROM `so_cookmenu` INNER JOIN so_cookstyle on so_cookmenu.styleid=so_cookstyle.id  WHERE `is_delete` <> 1  [ RunTime:0.0017s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000735s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001042s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.090014s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.090346s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003209s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003534s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.006804s ]
+INFO: [ app_end ] --END-- [ RunTime:0.007453s ]
+
+[ 2015-08-29T11:22:00+08:00 ] ::1 /SmartOrder/admin.php/MenuManage/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000064s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.013711s ]
+INFO: [ app_init ] --END-- [ RunTime:0.016076s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003484s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003799s ]
+SQL: SHOW COLUMNS FROM `so_menu` [ RunTime:0.0121s ]
+SQL: SELECT `id`,`title`,`url` FROM `so_menu` WHERE `pid` = 0 AND `hide` = 0 AND `is_dev` = 0 ORDER BY sort asc  [ RunTime:0.0011s ]
+NOTIC: [8] Use of undefined constant IS_ROOT - assumed 'IS_ROOT' E:\xampp\htdocs\SmartOrder\Application\Admin\Controller\AdminController.class.php 第 250 行.
+NOTIC: [8] Use of undefined constant IS_ROOT - assumed 'IS_ROOT' E:\xampp\htdocs\SmartOrder\Application\Admin\Controller\AdminController.class.php 第 250 行.
+NOTIC: [8] Use of undefined constant IS_ROOT - assumed 'IS_ROOT' E:\xampp\htdocs\SmartOrder\Application\Admin\Controller\AdminController.class.php 第 250 行.
+NOTIC: [8] Use of undefined constant IS_ROOT - assumed 'IS_ROOT' E:\xampp\htdocs\SmartOrder\Application\Admin\Controller\AdminController.class.php 第 250 行.
+NOTIC: [8] Use of undefined constant IS_ROOT - assumed 'IS_ROOT' E:\xampp\htdocs\SmartOrder\Application\Admin\Controller\AdminController.class.php 第 250 行.
+SQL: SELECT `pid` FROM `so_menu` WHERE ( pid !=0 AND url like '%MenuManage/index%' ) LIMIT 1   [ RunTime:0.0009s ]
+SQL: SELECT * FROM `so_menu` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT DISTINCT  `group` FROM `so_menu` WHERE `group` <> '' AND `pid` = 2  [ RunTime:0.0011s ]
+SQL: SELECT `id`,`url` FROM `so_menu` WHERE `pid` = 2 AND `hide` = 0 AND `is_dev` = 0  [ RunTime:0.0078s ]
+NOTIC: [8] Use of undefined constant IS_ROOT - assumed 'IS_ROOT' E:\xampp\htdocs\SmartOrder\Application\Admin\Controller\AdminController.class.php 第 282 行.
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `so_menu` WHERE `group` = '菜系管理' AND `pid` = 2 AND `hide` = 0 AND `is_dev` = 0 ORDER BY sort asc  [ RunTime:0.0190s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `so_menu` WHERE `group` = '菜品管理' AND `pid` = 2 AND `hide` = 0 AND `is_dev` = 0 ORDER BY sort asc  [ RunTime:0.0015s ]
+SQL: SHOW COLUMNS FROM `so_cookstyle` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `so_cookstyle`  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000862s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001336s ]
+SQL: SHOW COLUMNS FROM `so_cookmenu` [ RunTime:0.0112s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `so_cookmenu` WHERE `styleid` = 1 LIMIT 1   [ RunTime:0.0014s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `so_cookmenu` WHERE `styleid` = 2 LIMIT 1   [ RunTime:0.0012s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `so_cookmenu` WHERE `styleid` = 3 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `so_cookmenu` WHERE `styleid` = 4 LIMIT 1   [ RunTime:0.0009s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `so_cookmenu` WHERE `styleid` = 5 LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `so_cookmenu` WHERE `styleid` = 7 LIMIT 1   [ RunTime:0.0011s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `so_cookmenu` WHERE `styleid` = 8 LIMIT 1   [ RunTime:0.0009s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.107419s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.107679s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002325s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002620s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003318s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003611s ]
+
+[ 2015-08-29T11:22:04+08:00 ] ::1 /SmartOrder/admin.php/MenuManage/ModifyCookStyle/styleid/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.010446s ]
+INFO: [ app_init ] --END-- [ RunTime:0.011997s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003434s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003816s ]
+SQL: SHOW COLUMNS FROM `so_menu` [ RunTime:0.0093s ]
+SQL: SELECT `id`,`title`,`url` FROM `so_menu` WHERE `pid` = 0 AND `hide` = 0 AND `is_dev` = 0 ORDER BY sort asc  [ RunTime:0.0015s ]
+NOTIC: [8] Use of undefined constant IS_ROOT - assumed 'IS_ROOT' E:\xampp\htdocs\SmartOrder\Application\Admin\Controller\AdminController.class.php 第 250 行.
+NOTIC: [8] Use of undefined constant IS_ROOT - assumed 'IS_ROOT' E:\xampp\htdocs\SmartOrder\Application\Admin\Controller\AdminController.class.php 第 250 行.
+NOTIC: [8] Use of undefined constant IS_ROOT - assumed 'IS_ROOT' E:\xampp\htdocs\SmartOrder\Application\Admin\Controller\AdminController.class.php 第 250 行.
+NOTIC: [8] Use of undefined constant IS_ROOT - assumed 'IS_ROOT' E:\xampp\htdocs\SmartOrder\Application\Admin\Controller\AdminController.class.php 第 250 行.
+NOTIC: [8] Use of undefined constant IS_ROOT - assumed 'IS_ROOT' E:\xampp\htdocs\SmartOrder\Application\Admin\Controller\AdminController.class.php 第 250 行.
+SQL: SELECT `pid` FROM `so_menu` WHERE ( pid !=0 AND url like '%MenuManage/ModifyCookStyle%' ) LIMIT 1   [ RunTime:0.0016s ]
+SQL: SELECT * FROM `so_menu` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0011s ]
+SQL: SELECT DISTINCT  `group` FROM `so_menu` WHERE `group` <> '' AND `pid` = 2  [ RunTime:0.0016s ]
+SQL: SELECT `id`,`url` FROM `so_menu` WHERE `pid` = 2 AND `hide` = 0 AND `is_dev` = 0  [ RunTime:0.0037s ]
+NOTIC: [8] Use of undefined constant IS_ROOT - assumed 'IS_ROOT' E:\xampp\htdocs\SmartOrder\Application\Admin\Controller\AdminController.class.php 第 282 行.
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `so_menu` WHERE `group` = '菜系管理' AND `pid` = 2 AND `hide` = 0 AND `is_dev` = 0 ORDER BY sort asc  [ RunTime:0.0012s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `so_menu` WHERE `group` = '菜品管理' AND `pid` = 2 AND `hide` = 0 AND `is_dev` = 0 ORDER BY sort asc  [ RunTime:0.0026s ]
+SQL: SHOW COLUMNS FROM `so_cookstyle` [ RunTime:0.0101s ]
+SQL: SELECT * FROM `so_cookstyle` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000205s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000295s ]
+NOTIC: [8] Undefined variable: meta_title E:\xampp\htdocs\SmartOrder\Runtime\Cache\Admin\659b80e975ec06ebb0d2e935411989d1.php 第 5 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.035980s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036228s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000784s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000869s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001083s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001205s ]
+
+[ 2015-08-29T11:22:09+08:00 ] ::1 /SmartOrder/admin.php/MenuManage/ModifyCookStyle
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.009854s ]
+INFO: [ app_init ] --END-- [ RunTime:0.011397s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.008556s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009324s ]
+SQL: SHOW COLUMNS FROM `so_menu` [ RunTime:0.0195s ]
+SQL: SELECT `id`,`title`,`url` FROM `so_menu` WHERE `pid` = 0 AND `hide` = 0 AND `is_dev` = 0 ORDER BY sort asc  [ RunTime:0.0013s ]
+NOTIC: [8] Use of undefined constant IS_ROOT - assumed 'IS_ROOT' E:\xampp\htdocs\SmartOrder\Application\Admin\Controller\AdminController.class.php 第 250 行.
+NOTIC: [8] Use of undefined constant IS_ROOT - assumed 'IS_ROOT' E:\xampp\htdocs\SmartOrder\Application\Admin\Controller\AdminController.class.php 第 250 行.
+NOTIC: [8] Use of undefined constant IS_ROOT - assumed 'IS_ROOT' E:\xampp\htdocs\SmartOrder\Application\Admin\Controller\AdminController.class.php 第 250 行.
+NOTIC: [8] Use of undefined constant IS_ROOT - assumed 'IS_ROOT' E:\xampp\htdocs\SmartOrder\Application\Admin\Controller\AdminController.class.php 第 250 行.
+NOTIC: [8] Use of undefined constant IS_ROOT - assumed 'IS_ROOT' E:\xampp\htdocs\SmartOrder\Application\Admin\Controller\AdminController.class.php 第 250 行.
+SQL: SELECT `pid` FROM `so_menu` WHERE ( pid !=0 AND url like '%MenuManage/ModifyCookStyle%' ) LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT * FROM `so_menu` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0009s ]
+SQL: SELECT DISTINCT  `group` FROM `so_menu` WHERE `group` <> '' AND `pid` = 2  [ RunTime:0.0070s ]
+SQL: SELECT `id`,`url` FROM `so_menu` WHERE `pid` = 2 AND `hide` = 0 AND `is_dev` = 0  [ RunTime:0.0018s ]
+NOTIC: [8] Use of undefined constant IS_ROOT - assumed 'IS_ROOT' E:\xampp\htdocs\SmartOrder\Application\Admin\Controller\AdminController.class.php 第 282 行.
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `so_menu` WHERE `group` = '菜系管理' AND `pid` = 2 AND `hide` = 0 AND `is_dev` = 0 ORDER BY sort asc  [ RunTime:0.0017s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `so_menu` WHERE `group` = '菜品管理' AND `pid` = 2 AND `hide` = 0 AND `is_dev` = 0 ORDER BY sort asc  [ RunTime:0.0044s ]
+SQL: SHOW COLUMNS FROM `so_cookstyle` [ RunTime:0.0084s ]
+SQL: UPDATE `so_cookstyle` SET `stylename`='招牌菜' WHERE `id` = 1 [ RunTime:0.0992s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000071s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000162s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009728s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009843s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000515s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000575s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000817s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000889s ]
+
+[ 2015-08-29T11:22:10+08:00 ] ::1 /SmartOrder/admin.php/MenuManage.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.003938s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004682s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000923s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001025s ]
+SQL: SHOW COLUMNS FROM `so_menu` [ RunTime:0.0027s ]
+SQL: SELECT `id`,`title`,`url` FROM `so_menu` WHERE `pid` = 0 AND `hide` = 0 AND `is_dev` = 0 ORDER BY sort asc  [ RunTime:0.0014s ]
+NOTIC: [8] Use of undefined constant IS_ROOT - assumed 'IS_ROOT' E:\xampp\htdocs\SmartOrder\Application\Admin\Controller\AdminController.class.php 第 250 行.
+NOTIC: [8] Use of undefined constant IS_ROOT - assumed 'IS_ROOT' E:\xampp\htdocs\SmartOrder\Application\Admin\Controller\AdminController.class.php 第 250 行.
+NOTIC: [8] Use of undefined constant IS_ROOT - assumed 'IS_ROOT' E:\xampp\htdocs\SmartOrder\Application\Admin\Controller\AdminController.class.php 第 250 行.
+NOTIC: [8] Use of undefined constant IS_ROOT - assumed 'IS_ROOT' E:\xampp\htdocs\SmartOrder\Application\Admin\Controller\AdminController.class.php 第 250 行.
+NOTIC: [8] Use of undefined constant IS_ROOT - assumed 'IS_ROOT' E:\xampp\htdocs\SmartOrder\Application\Admin\Controller\AdminController.class.php 第 250 行.
+SQL: SELECT `pid` FROM `so_menu` WHERE ( pid !=0 AND url like '%MenuManage/index%' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `so_menu` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT DISTINCT  `group` FROM `so_menu` WHERE `group` <> '' AND `pid` = 2  [ RunTime:0.0003s ]
+SQL: SELECT `id`,`url` FROM `so_menu` WHERE `pid` = 2 AND `hide` = 0 AND `is_dev` = 0  [ RunTime:0.0003s ]
+NOTIC: [8] Use of undefined constant IS_ROOT - assumed 'IS_ROOT' E:\xampp\htdocs\SmartOrder\Application\Admin\Controller\AdminController.class.php 第 282 行.
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `so_menu` WHERE `group` = '菜系管理' AND `pid` = 2 AND `hide` = 0 AND `is_dev` = 0 ORDER BY sort asc  [ RunTime:0.0004s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `so_menu` WHERE `group` = '菜品管理' AND `pid` = 2 AND `hide` = 0 AND `is_dev` = 0 ORDER BY sort asc  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `so_cookstyle` [ RunTime:0.0024s ]
+SQL: SELECT * FROM `so_cookstyle`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000205s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000289s ]
+SQL: SHOW COLUMNS FROM `so_cookmenu` [ RunTime:0.0031s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `so_cookmenu` WHERE `styleid` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `so_cookmenu` WHERE `styleid` = 2 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `so_cookmenu` WHERE `styleid` = 3 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `so_cookmenu` WHERE `styleid` = 4 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `so_cookmenu` WHERE `styleid` = 5 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `so_cookmenu` WHERE `styleid` = 7 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `so_cookmenu` WHERE `styleid` = 8 LIMIT 1   [ RunTime:0.0002s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.036285s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036377s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000745s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000809s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.015541s ]
+INFO: [ app_end ] --END-- [ RunTime:0.015656s ]
+
+[ 2015-08-29T12:20:14+08:00 ] ::1 /SmartOrder/admin.php/MenuManage/cookmenu.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000075s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.021843s ]
+INFO: [ app_init ] --END-- [ RunTime:0.024597s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003957s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004389s ]
+SQL: SHOW COLUMNS FROM `so_menu` [ RunTime:0.0159s ]
+SQL: SELECT `id`,`title`,`url` FROM `so_menu` WHERE `pid` = 0 AND `hide` = 0 AND `is_dev` = 0 ORDER BY sort asc  [ RunTime:0.0018s ]
+NOTIC: [8] Use of undefined constant IS_ROOT - assumed 'IS_ROOT' E:\xampp\htdocs\SmartOrder\Application\Admin\Controller\AdminController.class.php 第 250 行.
+NOTIC: [8] Use of undefined constant IS_ROOT - assumed 'IS_ROOT' E:\xampp\htdocs\SmartOrder\Application\Admin\Controller\AdminController.class.php 第 250 行.
+NOTIC: [8] Use of undefined constant IS_ROOT - assumed 'IS_ROOT' E:\xampp\htdocs\SmartOrder\Application\Admin\Controller\AdminController.class.php 第 250 行.
+NOTIC: [8] Use of undefined constant IS_ROOT - assumed 'IS_ROOT' E:\xampp\htdocs\SmartOrder\Application\Admin\Controller\AdminController.class.php 第 250 行.
+NOTIC: [8] Use of undefined constant IS_ROOT - assumed 'IS_ROOT' E:\xampp\htdocs\SmartOrder\Application\Admin\Controller\AdminController.class.php 第 250 行.
+SQL: SELECT `pid` FROM `so_menu` WHERE ( pid !=0 AND url like '%MenuManage/cookmenu%' ) LIMIT 1   [ RunTime:0.0013s ]
+SQL: SELECT * FROM `so_menu` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0011s ]
+SQL: SELECT DISTINCT  `group` FROM `so_menu` WHERE `group` <> '' AND `pid` = 2  [ RunTime:0.0014s ]
+SQL: SELECT `id`,`url` FROM `so_menu` WHERE `pid` = 2 AND `hide` = 0 AND `is_dev` = 0  [ RunTime:0.0015s ]
+NOTIC: [8] Use of undefined constant IS_ROOT - assumed 'IS_ROOT' E:\xampp\htdocs\SmartOrder\Application\Admin\Controller\AdminController.class.php 第 282 行.
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `so_menu` WHERE `group` = '菜系管理' AND `pid` = 2 AND `hide` = 0 AND `is_dev` = 0 ORDER BY sort asc  [ RunTime:0.0023s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `so_menu` WHERE `group` = '菜品管理' AND `pid` = 2 AND `hide` = 0 AND `is_dev` = 0 ORDER BY sort asc  [ RunTime:0.0019s ]
+SQL: SHOW COLUMNS FROM `so_cookmenu` [ RunTime:0.0138s ]
+SQL: SELECT `cookname`,`stylename`,so_cookmenu.id,`price`,`standard`,`recommend` FROM `so_cookmenu` INNER JOIN so_cookstyle on so_cookmenu.styleid=so_cookstyle.id  WHERE `is_delete` <> 1  [ RunTime:0.0016s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001328s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001853s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.159259s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.159620s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002665s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002974s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004173s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004509s ]
+
+[ 2015-08-29T12:20:18+08:00 ] ::1 /SmartOrder/admin.php/MenuManage/ModifyCookMenu/MenuId/2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000071s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.011548s ]
+INFO: [ app_init ] --END-- [ RunTime:0.014263s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006593s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007027s ]
+SQL: SHOW COLUMNS FROM `so_menu` [ RunTime:0.0134s ]
+SQL: SELECT `id`,`title`,`url` FROM `so_menu` WHERE `pid` = 0 AND `hide` = 0 AND `is_dev` = 0 ORDER BY sort asc  [ RunTime:0.0018s ]
+NOTIC: [8] Use of undefined constant IS_ROOT - assumed 'IS_ROOT' E:\xampp\htdocs\SmartOrder\Application\Admin\Controller\AdminController.class.php 第 250 行.
+NOTIC: [8] Use of undefined constant IS_ROOT - assumed 'IS_ROOT' E:\xampp\htdocs\SmartOrder\Application\Admin\Controller\AdminController.class.php 第 250 行.
+NOTIC: [8] Use of undefined constant IS_ROOT - assumed 'IS_ROOT' E:\xampp\htdocs\SmartOrder\Application\Admin\Controller\AdminController.class.php 第 250 行.
+NOTIC: [8] Use of undefined constant IS_ROOT - assumed 'IS_ROOT' E:\xampp\htdocs\SmartOrder\Application\Admin\Controller\AdminController.class.php 第 250 行.
+NOTIC: [8] Use of undefined constant IS_ROOT - assumed 'IS_ROOT' E:\xampp\htdocs\SmartOrder\Application\Admin\Controller\AdminController.class.php 第 250 行.
+SQL: SELECT `pid` FROM `so_menu` WHERE ( pid !=0 AND url like '%MenuManage/ModifyCookMenu%' ) LIMIT 1   [ RunTime:0.0018s ]
+SQL: SELECT * FROM `so_menu` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0011s ]
+SQL: SELECT DISTINCT  `group` FROM `so_menu` WHERE `group` <> '' AND `pid` = 2  [ RunTime:0.0018s ]
+SQL: SELECT `id`,`url` FROM `so_menu` WHERE `pid` = 2 AND `hide` = 0 AND `is_dev` = 0  [ RunTime:0.0014s ]
+NOTIC: [8] Use of undefined constant IS_ROOT - assumed 'IS_ROOT' E:\xampp\htdocs\SmartOrder\Application\Admin\Controller\AdminController.class.php 第 282 行.
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `so_menu` WHERE `group` = '菜系管理' AND `pid` = 2 AND `hide` = 0 AND `is_dev` = 0 ORDER BY sort asc  [ RunTime:0.0017s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `so_menu` WHERE `group` = '菜品管理' AND `pid` = 2 AND `hide` = 0 AND `is_dev` = 0 ORDER BY sort asc  [ RunTime:0.0022s ]
+SQL: SHOW COLUMNS FROM `so_cookstyle` [ RunTime:0.0109s ]
+SQL: SELECT * FROM `so_cookstyle`  [ RunTime:0.0019s ]
+SQL: SHOW COLUMNS FROM `so_cookmenu` [ RunTime:0.0147s ]
+SQL: SELECT * FROM `so_cookmenu` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0017s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000239s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000341s ]
+NOTIC: [8] Undefined variable: meta_title E:\xampp\htdocs\SmartOrder\Runtime\Cache\Admin\dd83d7a340b1308cb38c24e324232c48.php 第 5 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.055102s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.055328s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001214s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001330s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002319s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002467s ]
+
+[ 2015-08-29T12:20:25+08:00 ] ::1 /SmartOrder/admin.php/MenuManage/ModifyCookMenu
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.003510s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004329s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000846s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000943s ]
+SQL: SHOW COLUMNS FROM `so_menu` [ RunTime:0.0038s ]
+SQL: SELECT `id`,`title`,`url` FROM `so_menu` WHERE `pid` = 0 AND `hide` = 0 AND `is_dev` = 0 ORDER BY sort asc  [ RunTime:0.0007s ]
+NOTIC: [8] Use of undefined constant IS_ROOT - assumed 'IS_ROOT' E:\xampp\htdocs\SmartOrder\Application\Admin\Controller\AdminController.class.php 第 250 行.
+NOTIC: [8] Use of undefined constant IS_ROOT - assumed 'IS_ROOT' E:\xampp\htdocs\SmartOrder\Application\Admin\Controller\AdminController.class.php 第 250 行.
+NOTIC: [8] Use of undefined constant IS_ROOT - assumed 'IS_ROOT' E:\xampp\htdocs\SmartOrder\Application\Admin\Controller\AdminController.class.php 第 250 行.
+NOTIC: [8] Use of undefined constant IS_ROOT - assumed 'IS_ROOT' E:\xampp\htdocs\SmartOrder\Application\Admin\Controller\AdminController.class.php 第 250 行.
+NOTIC: [8] Use of undefined constant IS_ROOT - assumed 'IS_ROOT' E:\xampp\htdocs\SmartOrder\Application\Admin\Controller\AdminController.class.php 第 250 行.
+SQL: SELECT `pid` FROM `so_menu` WHERE ( pid !=0 AND url like '%MenuManage/ModifyCookMenu%' ) LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `so_menu` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT DISTINCT  `group` FROM `so_menu` WHERE `group` <> '' AND `pid` = 2  [ RunTime:0.0006s ]
+SQL: SELECT `id`,`url` FROM `so_menu` WHERE `pid` = 2 AND `hide` = 0 AND `is_dev` = 0  [ RunTime:0.0005s ]
+NOTIC: [8] Use of undefined constant IS_ROOT - assumed 'IS_ROOT' E:\xampp\htdocs\SmartOrder\Application\Admin\Controller\AdminController.class.php 第 282 行.
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `so_menu` WHERE `group` = '菜系管理' AND `pid` = 2 AND `hide` = 0 AND `is_dev` = 0 ORDER BY sort asc  [ RunTime:0.0006s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `so_menu` WHERE `group` = '菜品管理' AND `pid` = 2 AND `hide` = 0 AND `is_dev` = 0 ORDER BY sort asc  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `so_cookmenu` [ RunTime:0.0056s ]
+SQL: UPDATE `so_cookmenu` SET `styleid`='3',`cookname`='水煮鱼123',`introduce`='水煮鱼又称江水煮江鱼，是一道重庆市的汉族创新名菜，属于重庆渝北风味。最早流行于重庆、四川等地。看似原始的做法，实际做工考究--选新鲜生猛活鱼，又充分发挥辣椒御寒、益气养血功效，烹调出来的肉质一点也不会变韧，口感滑嫩，油而不腻。既去除了鱼的腥味，又保持了鱼的鲜嫩。满目的辣椒红亮养眼，辣而不燥，麻而不苦。“麻上头，辣过瘾”，让水煮鱼在全国流 行。',`price`='91',`recommend`='普通',`edit_time`='1440822025' WHERE `id` = 2 [ RunTime:0.0676s ]
+SQL: SHOW COLUMNS FROM `so_config` [ RunTime:0.0042s ]
+SQL: UPDATE `so_config` SET `val`='1440822025' WHERE `conf` = 'SynVersion' [ RunTime:0.0592s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000123s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000271s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015529s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015702s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001757s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001885s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001495s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001645s ]
+
+[ 2015-08-29T12:20:27+08:00 ] ::1 /SmartOrder/admin.php/MenuManage/cookmenu.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000081s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.028095s ]
+INFO: [ app_init ] --END-- [ RunTime:0.035482s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005100s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005486s ]
+SQL: SHOW COLUMNS FROM `so_menu` [ RunTime:0.0120s ]
+SQL: SELECT `id`,`title`,`url` FROM `so_menu` WHERE `pid` = 0 AND `hide` = 0 AND `is_dev` = 0 ORDER BY sort asc  [ RunTime:0.0021s ]
+NOTIC: [8] Use of undefined constant IS_ROOT - assumed 'IS_ROOT' E:\xampp\htdocs\SmartOrder\Application\Admin\Controller\AdminController.class.php 第 250 行.
+NOTIC: [8] Use of undefined constant IS_ROOT - assumed 'IS_ROOT' E:\xampp\htdocs\SmartOrder\Application\Admin\Controller\AdminController.class.php 第 250 行.
+NOTIC: [8] Use of undefined constant IS_ROOT - assumed 'IS_ROOT' E:\xampp\htdocs\SmartOrder\Application\Admin\Controller\AdminController.class.php 第 250 行.
+NOTIC: [8] Use of undefined constant IS_ROOT - assumed 'IS_ROOT' E:\xampp\htdocs\SmartOrder\Application\Admin\Controller\AdminController.class.php 第 250 行.
+NOTIC: [8] Use of undefined constant IS_ROOT - assumed 'IS_ROOT' E:\xampp\htdocs\SmartOrder\Application\Admin\Controller\AdminController.class.php 第 250 行.
+SQL: SELECT `pid` FROM `so_menu` WHERE ( pid !=0 AND url like '%MenuManage/cookmenu%' ) LIMIT 1   [ RunTime:0.0016s ]
+SQL: SELECT * FROM `so_menu` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0014s ]
+SQL: SELECT DISTINCT  `group` FROM `so_menu` WHERE `group` <> '' AND `pid` = 2  [ RunTime:0.0017s ]
+SQL: SELECT `id`,`url` FROM `so_menu` WHERE `pid` = 2 AND `hide` = 0 AND `is_dev` = 0  [ RunTime:0.0012s ]
+NOTIC: [8] Use of undefined constant IS_ROOT - assumed 'IS_ROOT' E:\xampp\htdocs\SmartOrder\Application\Admin\Controller\AdminController.class.php 第 282 行.
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `so_menu` WHERE `group` = '菜系管理' AND `pid` = 2 AND `hide` = 0 AND `is_dev` = 0 ORDER BY sort asc  [ RunTime:0.0017s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `so_menu` WHERE `group` = '菜品管理' AND `pid` = 2 AND `hide` = 0 AND `is_dev` = 0 ORDER BY sort asc  [ RunTime:0.0021s ]
+SQL: SHOW COLUMNS FROM `so_cookmenu` [ RunTime:0.0101s ]
+SQL: SELECT `cookname`,`stylename`,so_cookmenu.id,`price`,`standard`,`recommend` FROM `so_cookmenu` INNER JOIN so_cookstyle on so_cookmenu.styleid=so_cookstyle.id  WHERE `is_delete` <> 1  [ RunTime:0.0021s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000732s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001054s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.106101s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.106567s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.005313s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005827s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004511s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005177s ]
+
+[ 2015-08-29T12:25:46+08:00 ] ::1 /SmartOrder/admin.php/Menu/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.004474s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005313s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001447s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001629s ]
+SQL: SHOW COLUMNS FROM `so_menu` [ RunTime:0.0051s ]
+SQL: SELECT `id`,`title`,`url` FROM `so_menu` WHERE `pid` = 0 AND `hide` = 0 AND `is_dev` = 0 ORDER BY sort asc  [ RunTime:0.0007s ]
+NOTIC: [8] Use of undefined constant IS_ROOT - assumed 'IS_ROOT' E:\xampp\htdocs\SmartOrder\Application\Admin\Controller\AdminController.class.php 第 250 行.
+NOTIC: [8] Use of undefined constant IS_ROOT - assumed 'IS_ROOT' E:\xampp\htdocs\SmartOrder\Application\Admin\Controller\AdminController.class.php 第 250 行.
+NOTIC: [8] Use of undefined constant IS_ROOT - assumed 'IS_ROOT' E:\xampp\htdocs\SmartOrder\Application\Admin\Controller\AdminController.class.php 第 250 行.
+NOTIC: [8] Use of undefined constant IS_ROOT - assumed 'IS_ROOT' E:\xampp\htdocs\SmartOrder\Application\Admin\Controller\AdminController.class.php 第 250 行.
+NOTIC: [8] Use of undefined constant IS_ROOT - assumed 'IS_ROOT' E:\xampp\htdocs\SmartOrder\Application\Admin\Controller\AdminController.class.php 第 250 行.
+SQL: SELECT `pid` FROM `so_menu` WHERE ( pid !=0 AND url like '%Menu/index%' ) LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `so_menu` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT DISTINCT  `group` FROM `so_menu` WHERE `group` <> '' AND `pid` = 4  [ RunTime:0.0008s ]
+SQL: SELECT `id`,`url` FROM `so_menu` WHERE `pid` = 4 AND `hide` = 0 AND `is_dev` = 0  [ RunTime:0.0007s ]
+NOTIC: [8] Use of undefined constant IS_ROOT - assumed 'IS_ROOT' E:\xampp\htdocs\SmartOrder\Application\Admin\Controller\AdminController.class.php 第 282 行.
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `so_menu` WHERE `group` = '菜单设置' AND `pid` = 4 AND `hide` = 0 AND `is_dev` = 0 ORDER BY sort asc  [ RunTime:0.0021s ]
+SQL: SELECT `id`,`title` FROM `so_menu`  [ RunTime:0.0008s ]
+SQL: SELECT `id`,`title`,`pid`,`sort`,`url`,`hide`,`tip`,`group`,`is_dev`,`status` FROM `so_menu` WHERE `pid` = 0 ORDER BY sort asc,id asc  [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000367s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000494s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.048613s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.048748s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000974s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001064s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001419s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001545s ]
+

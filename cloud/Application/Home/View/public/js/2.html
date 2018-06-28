@@ -1,0 +1,310 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>OPMD </title>
+    <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
+
+    <link rel="stylesheet" href="/css/all.css">
+    <!-- Ionicons -->
+    <link rel="stylesheet" href="/css/ionicons.min.css">
+    <!--style -->
+    <link rel="stylesheet" href="/css/AdminLTE.min.css">
+    <link rel="stylesheet" href="/css/skin-blue.min.css">
+
+        <link rel="stylesheet" href="/css/style.css">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+        <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+        <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+ 
+  <body class="hold-transition skin-blue sidebar-mini">
+    <div class="wrapper">
+                <!-- Main Header -->
+      <header class="main-header">
+
+        <!-- Logo -->
+        <a href="/home" class="logo">
+          <!-- mini logo for sidebar mini 50x50 pixels -->
+          <span class="logo-mini">OPMD</span>
+          <!-- logo for regular state and mobile devices -->
+          <span class="logo-lg">病例登记</span>
+        </a>
+
+        <!-- Header Navbar -->
+        <nav class="navbar navbar-static-top" role="navigation">
+          <!-- Sidebar toggle button-->
+          <a href="#" class="sidebar-toggle" data-toggle="offcanvas" role="button">
+            <span class="sr-only">折叠导航</span>
+          </a>
+          <!-- Navbar Right Menu -->
+          <div class="navbar-custom-menu">
+            <ul class="nav navbar-nav">
+              <li class="dropdown  notifications-menu">
+                <!-- Menu toggle button -->
+
+                <a href="#" class="dropdown-toggle user-info" data-toggle="dropdown">
+                  <i class="fa fa-user"></i>用户
+                </a>
+                <ul class="dropdown-menu">
+                  <li>
+                                          <div class="text-center">
+                        <h4><b>用户：</b> test1</h4>
+                        <!-- Status -->
+                        <a href="http://172.18.4.11/auth/logout" class="btn btn-primary center-block"><i class="fa fa-sign-out"></i>&nbsp;&nbsp;&nbsp;登出</a>
+                      </div>
+                                      </li>
+                </ul>
+              </li>
+          
+             <!--  search form (Optional)
+             <li class="dropdown  notifications-menu">
+               Menu toggle button
+               <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                 <i class="fa fa-search"></i>
+               </a>
+               <ul class="dropdown-menu">
+                 <li class="header">输入身份证号以查找病历</li>
+                 <li>
+                   <form action="/search" method="get" class="header-form">
+                     <div class="input-group">
+                       <input type="text" name="q" class="form-control" value="">
+                       <span class="input-group-btn">
+                         <button type="submit" name="search" id="search-btn" class="btn btn-flat"><i class="fa fa-search"></i></button>
+                       </span>
+                     </div>
+                   </form>/.search form
+                 </li>
+               </ul>
+             </li> -->            
+              
+            </ul>
+          </div>
+        </nav>
+      </header>
+
+                <!-- Left side column. contains the logo and sidebar -->
+<aside class="main-sidebar">
+
+    <!-- sidebar: style can be found in sidebar.less -->
+    <section class="sidebar">
+
+        <!-- Sidebar Menu -->
+        <ul class="sidebar-menu">
+            <li class="header">功能区</li>
+            <!-- Optionally, you can add icons to the links -->
+            <li>
+                  <form action="/search" method="get" class="header-form">
+                    <div class="input-group">
+                      <input type="text" name="q" class="form-control" placeholder="身份证号查询" value="">
+                      <span class="input-group-btn">
+                        <button type="submit" name="search" id="search-btn" class="btn btn-flat"><i class="fa fa-search"></i></button>
+                      </span>
+                    </div>
+                  </form><!-- /.search form -->
+            </li>
+
+            <li><a href="http://172.18.4.11/home"><i class="fa fa-users fa-md"></i> <span>所有病例</span></a></li>
+            <li><a href="http://172.18.4.11/admin/patient/create"><i class="fa fa-plus-square fa-md"></i></i> <span>新建病例</span></a></li>
+            <li><a href="http://172.18.4.11/file"><i class="fa fa-file-image-o fa-md"></i> <span>图片管理</span></a></li>
+            
+                    </ul><!-- /.sidebar-menu -->
+    </section>
+    <!-- /.sidebar -->
+</aside>
+
+         <!-- 内容 -->
+        <div class="content-wrapper">
+            
+            <!-- Main content -->
+            <section class="content">
+                <!-- 页面内容 -->
+                
+    <div class="container-fluid">
+
+        <div class="box box-info">
+            <h2>&nbsp;&nbsp;&nbsp;<span class="fa fa-user-plus"></span>&nbsp;&nbsp;&nbsp;流行病学</h2>
+            <hr>
+            <form method="POST" action="http://172.18.4.11/admin/patient/1/epibio" accept-charset="UTF-8"><input name="_token" type="hidden" value="MgaBMv9UmVvZpO9S8KCGzM2vh7SEM5K6fVToWCWf">
+                <input type="hidden" name="_token" value="MgaBMv9UmVvZpO9S8KCGzM2vh7SEM5K6fVToWCWf">
+                                <div class="info-details">
+                    <h3>抽烟</h3>
+<div class="row">
+    <div class="col-xs-12 col-md-4">
+        <div class="form-group">
+            <label for="smoke">抽烟：</label>
+            <select class="form-control" id="smoke" name="smoke"><option value="0">不抽烟</option><option value="1">抽咽</option></select>
+        </div>
+    </div>
+    <div class="col-xs-12 col-md-4">
+        <div class="form-group">
+            <label for="smo_years">始吸时间：</label>
+            <input class="form-control" placeholder="/岁" name="smo_years" type="number" value="" id="smo_years">
+        </div>
+    </div>
+    <div class="col-xs-12 col-md-4">
+        <div class="form-group">
+            <label for="smo_num">平均烟量：</label>
+            <input class="form-control" placeholder="支/天" name="smo_num" type="number" value="" id="smo_num">
+        </div>
+    </div>
+</div>
+<div class="row">
+    <div class="col-xs-12 col-md-4">
+        <div class="form-group">
+            <label for="smo_type">抽烟类型：</label>
+            <select class="form-control" id="smo_type" name="smo_type"><option value="1">过滤嘴</option><option value="2" selected="selected">非过滤嘴</option></select>
+        </div>
+    </div>
+    <div class="col-xs-12 col-md-4">
+        <div class="form-group">
+            <label for="quit_smo">是否戒烟：</label>
+            <select class="form-control" id="quit_smo" name="quit_smo"><option value="0">否</option><option value="1">是</option></select>
+        </div>
+    </div>
+    <div class="col-xs-12 col-md-4">
+        <div class="form-group">
+            <label for="quit_s_month">戒烟多久：</label>
+            <input class="form-control" placeholder="/月" name="quit_s_month" type="number" value="" id="quit_s_month">
+        </div>
+    </div>
+</div>
+<h3>饮酒</h3>
+<div class="row">
+    <div class="col-xs-12 col-md-4">
+        <div class="form-group">
+            <label for="drink">饮酒：</label>
+            <select class="form-control" id="drink" name="drink"><option value="0">不喝酒</option><option value="1">喝酒</option></select>
+        </div>
+    </div>
+    <div class="col-xs-12 col-md-4">
+        <div class="form-group">
+            <label for="dri_years">开始时间：</label>
+            <input class="form-control" placeholder="/岁" name="dri_years" type="number" value="" id="dri_years">
+        </div>
+    </div>
+    <div class="col-xs-12 col-md-4">
+        <div class="form-group">
+            <label for="dri_num">平均酒量：</label>
+            <input class="form-control" placeholder="ml（毫升）/天" name="dri_num" type="number" value="" id="dri_num">
+        </div>
+    </div>
+</div>
+<div class="row">
+    <div class="col-xs-12 col-md-4">
+        <div class="form-group">
+            <label for="dri_type">主要饮酒类型：</label>
+            <select class="form-control" id="dri_type" name="dri_type"><option value="1">白酒</option><option value="2">啤酒</option><option value="3">啤酒</option></select>
+        </div>
+    </div>
+    <div class="col-xs-12 col-md-4">
+        <div class="form-group">
+            <label for="quit_dri">是否戒酒：</label>
+            <select class="form-control" id="quit_dri" name="quit_dri"><option value="0">否</option><option value="1">是</option></select>
+        </div>
+    </div>
+    <div class="col-xs-12 col-md-4">
+        <div class="form-group">
+            <label for="quit_d_month">戒酒多久：</label>
+            <input class="form-control" placeholder="/月" name="quit_d_month" type="number" value="" id="quit_d_month">
+        </div>
+    </div>
+</div>
+<h3>其它</h3>
+<div class="row">
+    <div class="col-xs-12 col-md-4">
+        <div class="form-group">
+            <label for="tabacoo">咀嚼槟榔：</label>
+            <select class="form-control" id="tabacoo" name="tabacoo"><option value="0">否</option><option value="1">是</option></select>
+        </div>
+    </div>
+    <div class="col-xs-12 col-md-4">
+        <div class="form-group">
+            <label for="betel">咀嚼烟叶：</label>
+            <select class="form-control" id="betel" name="betel"><option value="0">否</option><option value="1">是</option></select>
+        </div>
+    </div>
+    <div class="col-xs-12 col-md-4">
+        <div class="form-group">
+            <label for="food">饮食：</label>
+            <select class="form-control" id="food" name="food"><option value="1">清淡</option><option value="2">辛辣</option><option value="3">烫食</option></select>
+        </div>
+    </div>
+</div>
+<div class="row">
+    <div class="col-xs-12 col-md-4">
+        <div class="form-inline">
+            <div class="form-group">
+                <label for="sys_d">系统病史：</label>
+                <div class="input-group">
+                    <div class="input-group-addon">
+                        <select id="sys_d" name="sys_d"><option value="0">无</option><option value="1">有</option></select>
+                    </div>
+                    <input class="form-control" placeholder="具体疾病名称" name="sys_d_d" type="text" value="">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-xs-12 col-md-4">
+        <div class="form-inline">
+            <div class="form-group">
+                <label for="fami_d">家族病史：</label>
+                <div class="input-group">
+                    <div class="input-group-addon">
+                        <select id="fami_d" name="fami_d"><option value="0">无</option><option value="1">有</option></select>
+                    </div>
+                    <input class="form-control" placeholder="与患者关系" name="fami_d_d" type="text" value="">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-xs-12 col-md-4">
+        <div class="form-group">
+            <label for="drug">长期服药：</label>
+            <div class="input-group">
+                <div class="input-group-addon">
+                    <select id="drug" name="drug"><option value="0">无</option><option value="1">有</option></select>
+                </div>
+                <input class="form-control" placeholder="主要种类,服用剂量及持续时间" name="drug_d" type="text" value="">
+            </div>
+        </div>
+    </div>
+</div>                    <div class="row">
+                        <div class="col-xs-12 col-md-4 col-md-offset-4 text-center">
+                            <input class="btn btn-success" type="submit" value="确认保存">
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+                
+            </section><!-- /.content -->
+        </div><!-- /.content-wrapper -->
+
+
+                <!-- Main Footer -->
+      <footer class="main-footer">
+        <!-- To the right -->
+        <div class="pull-right hidden-xs">
+          医院页面
+        </div>
+        <!-- Default to the left -->
+        <strong>Copyright &copy; 2015 <a href="#">OPMD</a>.</strong> 保留一切权利。
+      </footer>    </div><!-- ./wrapper -->
+
+        <script src='/js/all.js'></script>
+    <script src='/js/jquery.dataTables.min.js'></script>
+
+
+    <!-- AdminLTE App -->
+    <script src="/js/app.min.js"></script>
+      </body>
+
+</html>

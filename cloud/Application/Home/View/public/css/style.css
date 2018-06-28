@@ -1,0 +1,68 @@
+@charset "utf-8";
+/* 你自己的样式 */
+
+/********menuStyle_list*******/
+.departmentList,.menuList{
+	margin:20px 30px;
+}
+
+.companyList button{
+	margin-top:10px; 
+}
+.myIcon{
+	font-size: 18px;
+	color:  #aaa;
+}
+.ChangeMenuList{
+	position: absolute;
+	right:10px;
+	top:5px;
+}
+.modifyMenuList{
+	margin:36px 0 20px;
+}
+/********!menuStyle_list*******/
+.myModal{
+	display: block;
+	z-index: 1060;
+	margin-top: -110px;
+}
+.menuListImg{
+	width: 80px;
+	height: 50px;
+}
+#myModal1{
+	top:15%;
+}
+#myModal2{
+	top:25%;
+}
+#myModal1 img{
+	width: 100px;
+	height: 60px;
+}
+.mlwidth{
+	width: 18%;
+	float: left;
+}
+.mlwidth1{
+	width: 28%;
+	float: left;
+}
+/******店铺*********/
+.marRight{
+	margin-right:5px;
+	width: 20.2%; 
+	height: 29px;
+}
+#newCity{
+	display: none;
+}
+.hide{
+	display: none;
+}
+.star{
+	color:#cc0000;
+	padding: 0 7px 0 0;
+	font-size: 12px;
+}

@@ -1,0 +1,112 @@
+<?php if (!defined('THINK_PATH')) exit();?><!DOCTYPE HTML>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="renderer" content="webkit|ie-comp|ie-stand">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" />
+    <meta http-equiv="Cache-Control" content="no-siteapp" />
+    <!--[if lt IE 9]>
+    <script type="text/javascript" src="lib/html5.js"></script>
+    <script type="text/javascript" src="lib/respond.min.js"></script>
+    <script type="text/javascript" src="lib/PIE_IE678.js"></script>
+    <![endif]-->
+    <link href="/cloud/Application/Home/View/Public/css/H-ui.min.css" rel="stylesheet" type="text/css" />
+    <link href="/cloud/Application/Home/View/Public/css/H-ui.admin.css" rel="stylesheet" type="text/css" />
+    <link href="/cloud/Application/Home/View/Public/lib/Hui-iconfont/1.0.1/iconfont.css" rel="stylesheet" type="text/css" />
+    <link href="/cloud/Application/Home/View/Public/css/style.css" rel="stylesheet" type="text/css" />
+    <!--[if IE 6]>
+    <script type="text/javascript" src="lib/DD_belatedPNG_0.0.8a-min.js" ></script>
+    <script>DD_belatedPNG.fix('*');</script>
+    <![endif]-->
+    <title>品牌列表</title>
+</head>
+
+<body>
+
+    <nav class="breadcrumb"><i class="Hui-iconfont">&#xe67f;</i> 首页 <span class="c-gray en">&gt;</span> 品牌管理 <span class="c-gray en">&gt;</span> 品牌信息 <a class="btn btn-success radius r mr-20" style="line-height:1.6em;margin-top:3px" href="javascript:location.replace(location.href);" title="刷新"><i class="Hui-iconfont">&#xe68f;</i></a>
+    </nav>
+
+
+        <form action="<?php echo U('menuAdd','','');?>" method="post" class="form form-horizontal responsive" id="companyList" enctype="multipart/form-data" target="hidden_frame">
+        <div class="row cl"></div>
+        <div class="row cl"></div>
+            <input type="text" id="companyId" class="input-text" disabled="true" style="display:none;">
+            <div class="row cl">
+                <label class="form-label col-2"><b class="star">*</b>品牌名称：</label>
+                <div class="formControls col-5">
+                    <input type="text" id="com_name" class="input-text" disabled="true">
+                </div>
+                <div class="col-5"> </div>
+            </div>
+            <div class="row cl">
+                <label class="form-label col-2"><b class="star">*</b>品牌英文名称：</label>
+                <div class="formControls col-5">
+                    <input type="text" id="com_eng_name" class="input-text" disabled="true">
+                </div>
+                <div class="col-5"> </div>
+            </div>
+            <div class="row cl">
+                <label class="form-label col-2"><b class="star">*</b>法人代表姓名：</label>
+                <div class="formControls col-5">
+                    <input type="text" id="Leg_rep_name" class="input-text" disabled="true">
+                </div>
+                <div class="col-5"> </div>
+            </div>
+            <div class="row cl">
+                <label class="form-label col-2"><b class="star">*</b>法人有效身份证号：</label>
+                <div class="formControls col-5">
+                    <input type="text" id="Leg_rep_id" class="input-text" disabled="true">
+                </div>
+                <div class="col-5"> </div>
+            </div>
+            <div class="row cl">
+                <label class="form-label col-2"><b class="star">*</b>法人联系方式：</label>
+                <div class="formControls col-5">
+                    <input type="text" id="Leg_rep_tel" class="input-text" disabled="true">
+                </div>
+                <div class="col-5"> </div>
+            </div>
+            <div class="row cl">
+                <label class="form-label col-2"><b class="star">*</b>电子邮箱：</label>
+                <div class="formControls col-5">
+                    <input type="email" id="Leg_rep_email" class="input-text" disabled="true">
+                </div>
+                <div class="col-5"> </div>
+            </div>
+            <div class="row cl">
+                <label class="form-label col-2"><b class="star">*</b>成立日期：</label>
+                <div class="formControls col-5">
+                    <input type="text" id="established_data" class="input-text" disabled="true">
+                </div>
+                <div class="col-5"> </div>
+            </div>
+            <div class="row cl">
+                <label class="form-label col-2"><b class="star">*</b>营业执照编码：</label>
+                <div class="formControls col-5">
+                    <input type="text" id="bus_lic_num" class="input-text" disabled="true">
+                </div>
+                <div class="col-5"> </div>
+            </div>
+            <div class="row cl">
+                <div class="col-5 col-offset-2 form-label">
+                    <input id="edit" type="button" value="编辑" class="btn btn-primary radius" onclick="editButton()">
+                    <input  id="save" type="button" value="保存" class="btn btn-primary radius hide" onclick="saveButton()">
+
+
+
+                </div>
+
+            </div>
+
+        </form> 
+</body>
+<script type="text/javascript" src="/cloud/Application/Home/View/Public/lib/jquery/1.9.1/jquery.min.js"></script>
+<script type="text/javascript" src="/cloud/Application/Home/View/Public/lib/bootstrap-modal/2.2.4/bootstrap-modalmanager.js"></script>
+<script type="text/javascript" src="/cloud/Application/Home/View/Public/lib/bootstrap-modal/2.2.4/bootstrap-modal.js"></script>
+<script type="text/javascript" src="/cloud/Application/Home/View/Public/js/H-ui.js"></script>
+<script type="text/javascript" src="/cloud/Application/Home/View/Public/js/myCommon.js"></script>
+<script type="text/javascript" src="/cloud/Application/Home/View/Public/js/company.js"></script>
+
+</html>

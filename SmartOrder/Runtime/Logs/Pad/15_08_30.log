@@ -1,0 +1,66 @@
+[ 2015-08-30T08:33:03+08:00 ] 192.168.199.113 /SmartOrder/Pad/CheckVersion?callback=itemsListGet&version=1440822025&_=1440822528671
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000056s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.139510s ]
+INFO: [ app_init ] --END-- [ RunTime:0.167889s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.035096s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.035468s ]
+SQL: SHOW COLUMNS FROM `so_config` [ RunTime:0.1232s ]
+SQL: SELECT * FROM `so_config` WHERE `conf` = 'SynVersion' LIMIT 1   [ RunTime:0.0215s ]
+
+[ 2015-08-30T08:33:04+08:00 ] 192.168.199.113 /SmartOrder/Pad/DealTable?callback=itemsListGet&uuId=19326bf52f5dee18&tableId=8&action=check&_=1440822528672
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000056s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.014694s ]
+INFO: [ app_init ] --END-- [ RunTime:0.028574s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002163s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002426s ]
+SQL: SHOW COLUMNS FROM `so_table` [ RunTime:0.0855s ]
+SQL: SELECT * FROM `so_table` WHERE `id` = 8 AND `uuid` = '19326bf52f5dee18' LIMIT 1   [ RunTime:0.0009s ]
+
+[ 2015-08-30T14:15:49+08:00 ] 192.168.199.113 /SmartOrder/Pad/CheckVersion?callback=itemsListGet&version=1440822025&_=1440822528673
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000066s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.009722s ]
+INFO: [ app_init ] --END-- [ RunTime:0.011548s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002174s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002484s ]
+SQL: SHOW COLUMNS FROM `so_config` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `so_config` WHERE `conf` = 'SynVersion' LIMIT 1   [ RunTime:0.0008s ]
+
+[ 2015-08-30T14:15:49+08:00 ] 192.168.199.113 /SmartOrder/Pad/DealTable?callback=itemsListGet&uuId=19326bf52f5dee18&tableId=8&action=check&_=1440822528674
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.006546s ]
+INFO: [ app_init ] --END-- [ RunTime:0.007903s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002404s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002728s ]
+SQL: SHOW COLUMNS FROM `so_table` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `so_table` WHERE `id` = 8 AND `uuid` = '19326bf52f5dee18' LIMIT 1   [ RunTime:0.0009s ]
+
+[ 2015-08-30T20:01:55+08:00 ] 192.168.199.113 /SmartOrder/Pad/CheckVersion?callback=itemsListGet&version=1440822025&_=1440822528675
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.009902s ]
+INFO: [ app_init ] --END-- [ RunTime:0.011453s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003150s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003765s ]
+SQL: SHOW COLUMNS FROM `so_config` [ RunTime:0.0145s ]
+SQL: SELECT * FROM `so_config` WHERE `conf` = 'SynVersion' LIMIT 1   [ RunTime:0.0015s ]
+
+[ 2015-08-30T20:01:55+08:00 ] 192.168.199.113 /SmartOrder/Pad/DealTable?callback=itemsListGet&uuId=19326bf52f5dee18&tableId=8&action=check&_=1440822528676
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.008272s ]
+INFO: [ app_init ] --END-- [ RunTime:0.010122s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002227s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002606s ]
+SQL: SHOW COLUMNS FROM `so_table` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `so_table` WHERE `id` = 8 AND `uuid` = '19326bf52f5dee18' LIMIT 1   [ RunTime:0.0011s ]
+

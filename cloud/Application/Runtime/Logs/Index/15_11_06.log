@@ -1,0 +1,98 @@
+[ 2015-11-06T11:17:18+08:00 ] ::1 /cloud/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001495s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002732s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000450s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000685s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.104570s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.104927s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002536s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002749s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002764s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002999s ]
+
+[ 2015-11-06T11:17:25+08:00 ] ::1 /cloud/index/settled/settled
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000051s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001913s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003736s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004349s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001484s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001747s ]
+NOTIC: [8] Undefined variable: D E:\xampp\htdocs\cloud\Application\Runtime\Cache\Index\2ec5e7e39fbff76619037dbc00d82b78.php 第 446 行.
+NOTIC: [8] Undefined variable: dp E:\xampp\htdocs\cloud\Application\Runtime\Cache\Index\2ec5e7e39fbff76619037dbc00d82b78.php 第 446 行.
+NOTIC: [8] Undefined variable: D E:\xampp\htdocs\cloud\Application\Runtime\Cache\Index\2ec5e7e39fbff76619037dbc00d82b78.php 第 448 行.
+NOTIC: [8] Undefined variable: dp E:\xampp\htdocs\cloud\Application\Runtime\Cache\Index\2ec5e7e39fbff76619037dbc00d82b78.php 第 448 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.204165s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.204422s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001354s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001548s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002648s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002869s ]
+
+[ 2015-11-06T11:17:53+08:00 ] ::1 /cloud/index/settled/%E6%88%91%E8%A6%81%E5%85%A5%E9%A9%BB-%E8%B5%84%E8%B4%A8%E4%B8%8A%E4%BC%A0-%E5%9F%BA%E6%9C%AC%E8%B5%84%E8%B4%A8_files/uploadify_003.swf
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000073s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002005s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004364s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004812s ]
+ERR: 非法操作:我要入驻-资质上传-基本资质_files
+
+[ 2015-11-06T11:17:53+08:00 ] ::1 /cloud/index/settled/%E6%88%91%E8%A6%81%E5%85%A5%E9%A9%BB-%E8%B5%84%E8%B4%A8%E4%B8%8A%E4%BC%A0-%E5%9F%BA%E6%9C%AC%E8%B5%84%E8%B4%A8_files/uploadify_002.swf
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000066s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001803s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004809s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005157s ]
+ERR: 非法操作:我要入驻-资质上传-基本资质_files
+
+[ 2015-11-06T11:17:53+08:00 ] ::1 /cloud/index/settled/%E6%88%91%E8%A6%81%E5%85%A5%E9%A9%BB-%E8%B5%84%E8%B4%A8%E4%B8%8A%E4%BC%A0-%E5%9F%BA%E6%9C%AC%E8%B5%84%E8%B4%A8_files/uploadify.swf
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000076s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002069s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003657s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004032s ]
+ERR: 非法操作:我要入驻-资质上传-基本资质_files
+
+[ 2015-11-06T11:17:53+08:00 ] ::1 /cloud/index/settled/%E6%88%91%E8%A6%81%E5%85%A5%E9%A9%BB-%E8%B5%84%E8%B4%A8%E4%B8%8A%E4%BC%A0-%E5%9F%BA%E6%9C%AC%E8%B5%84%E8%B4%A8_files/uploadify_005.swf
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000071s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003793s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003267s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003606s ]
+ERR: 非法操作:我要入驻-资质上传-基本资质_files
+
+[ 2015-11-06T11:17:53+08:00 ] ::1 /cloud/index/settled/%E6%88%91%E8%A6%81%E5%85%A5%E9%A9%BB-%E8%B5%84%E8%B4%A8%E4%B8%8A%E4%BC%A0-%E5%9F%BA%E6%9C%AC%E8%B5%84%E8%B4%A8_files/uploadify_004.swf
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000068s ]
+INFO: [ app_init ] --END-- [ RunTime:0.006182s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.010592s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010962s ]
+ERR: 非法操作:我要入驻-资质上传-基本资质_files
+
+[ 2015-11-06T11:17:53+08:00 ] ::1 /cloud/index/settled/%E6%88%91%E8%A6%81%E5%85%A5%E9%A9%BB-%E8%B5%84%E8%B4%A8%E4%B8%8A%E4%BC%A0-%E5%9F%BA%E6%9C%AC%E8%B5%84%E8%B4%A8_files/uploadify_007.swf
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000066s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002822s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003867s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004565s ]
+ERR: 非法操作:我要入驻-资质上传-基本资质_files
+

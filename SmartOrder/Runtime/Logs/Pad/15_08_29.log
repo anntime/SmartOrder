@@ -1,0 +1,1426 @@
+[ 2015-08-29T10:26:30+08:00 ] 192.168.199.113 /SmartOrder/Pad/CheckVersion?callback=itemsListGet&version=1437480885&_=1440815227346
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.009906s ]
+INFO: [ app_init ] --END-- [ RunTime:0.011486s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002287s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002515s ]
+SQL: SHOW COLUMNS FROM `so_config` [ RunTime:0.0081s ]
+SQL: SELECT * FROM `so_config` WHERE `conf` = 'SynVersion' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `so_config` WHERE `conf` = 'ServerIP' LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Use of undefined constant between - assumed 'between' E:\xampp\htdocs\SmartOrder\Application\Pad\Model\SysDataModel.class.php 第 33 行.
+NOTIC: [8] Use of undefined constant neq - assumed 'neq' E:\xampp\htdocs\SmartOrder\Application\Pad\Model\SysDataModel.class.php 第 34 行.
+SQL: SHOW COLUMNS FROM `so_cookmenu` [ RunTime:0.0083s ]
+SQL: SELECT so_cookmenu.*,so_cookstyle.stylename FROM `so_cookmenu` INNER JOIN so_cookstyle on so_cookstyle.id=so_cookmenu.styleid  WHERE `edit_time` BETWEEN 1437480886 AND '1440815125' AND `is_delete` <> 1  [ RunTime:0.0013s ]
+
+[ 2015-08-29T10:26:30+08:00 ] 192.168.199.113 /SmartOrder/Pad/DealTable?callback=itemsListGet&uuId=19326bf52f5dee18&tableId=18&action=check&_=1440815227347
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.009134s ]
+INFO: [ app_init ] --END-- [ RunTime:0.010886s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002479s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002698s ]
+SQL: SHOW COLUMNS FROM `so_table` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `so_table` WHERE `id` = 18 AND `uuid` = '19326bf52f5dee18' LIMIT 1   [ RunTime:0.0009s ]
+
+[ 2015-08-29T10:28:14+08:00 ] 192.168.199.113 /SmartOrder/Pad/CheckVersion?callback=itemsListGet&version=1440815125&_=1440815331700
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000052s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.019740s ]
+INFO: [ app_init ] --END-- [ RunTime:0.021683s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004237s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004512s ]
+SQL: SHOW COLUMNS FROM `so_config` [ RunTime:0.0089s ]
+SQL: SELECT * FROM `so_config` WHERE `conf` = 'SynVersion' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2015-08-29T10:28:14+08:00 ] 192.168.199.113 /SmartOrder/Pad/DealTable?callback=itemsListGet&uuId=19326bf52f5dee18&tableId=18&action=check&_=1440815331701
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.007851s ]
+INFO: [ app_init ] --END-- [ RunTime:0.009523s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002272s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002483s ]
+SQL: SHOW COLUMNS FROM `so_table` [ RunTime:0.0073s ]
+SQL: SELECT * FROM `so_table` WHERE `id` = 18 AND `uuid` = '19326bf52f5dee18' LIMIT 1   [ RunTime:0.0014s ]
+
+[ 2015-08-29T10:31:04+08:00 ] 192.168.199.113 /SmartOrder/Pad/CheckVersion?callback=itemsListGet&version=1440815125&_=1440815488370
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000070s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.010676s ]
+INFO: [ app_init ] --END-- [ RunTime:0.012666s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002205s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002414s ]
+SQL: SHOW COLUMNS FROM `so_config` [ RunTime:0.0086s ]
+SQL: SELECT * FROM `so_config` WHERE `conf` = 'SynVersion' LIMIT 1   [ RunTime:0.0008s ]
+
+[ 2015-08-29T10:31:08+08:00 ] 192.168.199.113 /SmartOrder/Pad/CheckVersion?callback=itemsListGet&version=1440815125&_=1440815505180
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000051s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.012397s ]
+INFO: [ app_init ] --END-- [ RunTime:0.014074s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004426s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004697s ]
+SQL: SHOW COLUMNS FROM `so_config` [ RunTime:0.0074s ]
+SQL: SELECT * FROM `so_config` WHERE `conf` = 'SynVersion' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2015-08-29T10:31:09+08:00 ] 192.168.199.113 /SmartOrder/Pad/DealTable?callback=itemsListGet&uuId=19326bf52f5dee18&tableId=18&action=check&_=1440815505181
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000051s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.008243s ]
+INFO: [ app_init ] --END-- [ RunTime:0.009862s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003134s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003487s ]
+SQL: SHOW COLUMNS FROM `so_table` [ RunTime:0.0071s ]
+SQL: SELECT * FROM `so_table` WHERE `id` = 18 AND `uuid` = '19326bf52f5dee18' LIMIT 1   [ RunTime:0.0009s ]
+
+[ 2015-08-29T10:32:30+08:00 ] 192.168.199.113 /SmartOrder/Pad/CheckVersion?callback=itemsListGet&version=1440815125&_=1440815586149
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001047s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.013601s ]
+INFO: [ app_init ] --END-- [ RunTime:0.017012s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003049s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003402s ]
+SQL: SHOW COLUMNS FROM `so_config` [ RunTime:0.0075s ]
+SQL: SELECT * FROM `so_config` WHERE `conf` = 'SynVersion' LIMIT 1   [ RunTime:0.0009s ]
+SQL: SELECT * FROM `so_config` WHERE `conf` = 'ServerIP' LIMIT 1   [ RunTime:0.0007s ]
+NOTIC: [8] Use of undefined constant between - assumed 'between' E:\xampp\htdocs\SmartOrder\Application\Pad\Model\SysDataModel.class.php 第 33 行.
+NOTIC: [8] Use of undefined constant neq - assumed 'neq' E:\xampp\htdocs\SmartOrder\Application\Pad\Model\SysDataModel.class.php 第 34 行.
+SQL: SHOW COLUMNS FROM `so_cookmenu` [ RunTime:0.0078s ]
+SQL: SELECT so_cookmenu.*,so_cookstyle.stylename FROM `so_cookmenu` INNER JOIN so_cookstyle on so_cookstyle.id=so_cookmenu.styleid  WHERE `edit_time` BETWEEN 1440815126 AND '1440815519' AND `is_delete` <> 1  [ RunTime:0.0013s ]
+
+[ 2015-08-29T10:32:30+08:00 ] 192.168.199.113 /SmartOrder/Pad/DealTable?callback=itemsListGet&uuId=19326bf52f5dee18&tableId=18&action=check&_=1440815586150
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.010592s ]
+INFO: [ app_init ] --END-- [ RunTime:0.012196s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002152s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002384s ]
+SQL: SHOW COLUMNS FROM `so_table` [ RunTime:0.0078s ]
+SQL: SELECT * FROM `so_table` WHERE `id` = 18 AND `uuid` = '19326bf52f5dee18' LIMIT 1   [ RunTime:0.0009s ]
+
+[ 2015-08-29T10:33:44+08:00 ] 192.168.199.113 /SmartOrder/Pad/CheckVersion?callback=itemsListGet&version=1440815519&_=1440815661332
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.014819s ]
+INFO: [ app_init ] --END-- [ RunTime:0.016531s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002594s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002855s ]
+SQL: SHOW COLUMNS FROM `so_config` [ RunTime:0.0078s ]
+SQL: SELECT * FROM `so_config` WHERE `conf` = 'SynVersion' LIMIT 1   [ RunTime:0.0009s ]
+
+[ 2015-08-29T10:33:45+08:00 ] 192.168.199.113 /SmartOrder/Pad/DealTable?callback=itemsListGet&uuId=19326bf52f5dee18&tableId=18&action=check&_=1440815661333
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.009869s ]
+INFO: [ app_init ] --END-- [ RunTime:0.011441s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002861s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003118s ]
+SQL: SHOW COLUMNS FROM `so_table` [ RunTime:0.0077s ]
+SQL: SELECT * FROM `so_table` WHERE `id` = 18 AND `uuid` = '19326bf52f5dee18' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2015-08-29T10:34:33+08:00 ] 192.168.199.113 /SmartOrder/Pad/CheckVersion?callback=itemsListGet&version=1440815519&_=1440815710102
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.007634s ]
+INFO: [ app_init ] --END-- [ RunTime:0.009252s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002190s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002426s ]
+SQL: SHOW COLUMNS FROM `so_config` [ RunTime:0.0081s ]
+SQL: SELECT * FROM `so_config` WHERE `conf` = 'SynVersion' LIMIT 1   [ RunTime:0.0009s ]
+SQL: SELECT * FROM `so_config` WHERE `conf` = 'ServerIP' LIMIT 1   [ RunTime:0.0007s ]
+NOTIC: [8] Use of undefined constant between - assumed 'between' E:\xampp\htdocs\SmartOrder\Application\Pad\Model\SysDataModel.class.php 第 33 行.
+NOTIC: [8] Use of undefined constant neq - assumed 'neq' E:\xampp\htdocs\SmartOrder\Application\Pad\Model\SysDataModel.class.php 第 34 行.
+SQL: SHOW COLUMNS FROM `so_cookmenu` [ RunTime:0.0085s ]
+SQL: SELECT so_cookmenu.*,so_cookstyle.stylename FROM `so_cookmenu` INNER JOIN so_cookstyle on so_cookstyle.id=so_cookmenu.styleid  WHERE `edit_time` BETWEEN 1440815520 AND '1440815650' AND `is_delete` <> 1  [ RunTime:0.0034s ]
+
+[ 2015-08-29T10:34:33+08:00 ] 192.168.199.113 /SmartOrder/Pad/DealTable?callback=itemsListGet&uuId=19326bf52f5dee18&tableId=18&action=check&_=1440815710103
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000069s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.012689s ]
+INFO: [ app_init ] --END-- [ RunTime:0.015139s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003764s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004149s ]
+SQL: SHOW COLUMNS FROM `so_table` [ RunTime:0.0068s ]
+SQL: SELECT * FROM `so_table` WHERE `id` = 18 AND `uuid` = '19326bf52f5dee18' LIMIT 1   [ RunTime:0.0011s ]
+
+[ 2015-08-29T10:36:40+08:00 ] 192.168.199.113 /SmartOrder/Pad/CheckVersion?callback=itemsListGet&version=0&_=1440815837265
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.007363s ]
+INFO: [ app_init ] --END-- [ RunTime:0.008798s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003147s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003434s ]
+SQL: SHOW COLUMNS FROM `so_config` [ RunTime:0.0088s ]
+SQL: SELECT * FROM `so_config` WHERE `conf` = 'SynVersion' LIMIT 1   [ RunTime:0.0009s ]
+SQL: SELECT * FROM `so_config` WHERE `conf` = 'ServerIP' LIMIT 1   [ RunTime:0.0007s ]
+NOTIC: [8] Use of undefined constant between - assumed 'between' E:\xampp\htdocs\SmartOrder\Application\Pad\Model\SysDataModel.class.php 第 33 行.
+NOTIC: [8] Use of undefined constant neq - assumed 'neq' E:\xampp\htdocs\SmartOrder\Application\Pad\Model\SysDataModel.class.php 第 34 行.
+SQL: SHOW COLUMNS FROM `so_cookmenu` [ RunTime:0.0094s ]
+SQL: SELECT so_cookmenu.*,so_cookstyle.stylename FROM `so_cookmenu` INNER JOIN so_cookstyle on so_cookstyle.id=so_cookmenu.styleid  WHERE `edit_time` BETWEEN 1 AND '1440815650' AND `is_delete` <> 1  [ RunTime:0.0038s ]
+
+[ 2015-08-29T10:36:40+08:00 ] 192.168.199.113 /SmartOrder/Pad/CheckVersion?callback=itemsListGet&version=0&_=1440815837266
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000407s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.017767s ]
+INFO: [ app_init ] --END-- [ RunTime:0.021897s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003050s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003371s ]
+SQL: SHOW COLUMNS FROM `so_config` [ RunTime:0.0067s ]
+SQL: SELECT * FROM `so_config` WHERE `conf` = 'SynVersion' LIMIT 1   [ RunTime:0.0009s ]
+SQL: SELECT * FROM `so_config` WHERE `conf` = 'ServerIP' LIMIT 1   [ RunTime:0.0006s ]
+NOTIC: [8] Use of undefined constant between - assumed 'between' E:\xampp\htdocs\SmartOrder\Application\Pad\Model\SysDataModel.class.php 第 33 行.
+NOTIC: [8] Use of undefined constant neq - assumed 'neq' E:\xampp\htdocs\SmartOrder\Application\Pad\Model\SysDataModel.class.php 第 34 行.
+SQL: SHOW COLUMNS FROM `so_cookmenu` [ RunTime:0.0079s ]
+SQL: SELECT so_cookmenu.*,so_cookstyle.stylename FROM `so_cookmenu` INNER JOIN so_cookstyle on so_cookstyle.id=so_cookmenu.styleid  WHERE `edit_time` BETWEEN 1 AND '1440815650' AND `is_delete` <> 1  [ RunTime:0.0016s ]
+
+[ 2015-08-29T10:36:57+08:00 ] 192.168.199.113 /SmartOrder/Pad/CheckAuth?callback=itemsListGet&pwd=e10adc3949ba59abbe56e057f20f883e&_=1440815837267
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000053s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.066834s ]
+INFO: [ app_init ] --END-- [ RunTime:0.069937s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003519s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003797s ]
+SQL: SHOW COLUMNS FROM `so_config` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `so_config` WHERE `conf` = 'authPwd' LIMIT 1   [ RunTime:0.0016s ]
+
+[ 2015-08-29T10:36:58+08:00 ] 192.168.199.113 /SmartOrder/Pad/TableTree?callback=itemsListGet&_=1440815837268
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.007913s ]
+INFO: [ app_init ] --END-- [ RunTime:0.009464s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003389s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003761s ]
+SQL: SHOW COLUMNS FROM `so_table` [ RunTime:0.0086s ]
+NOTIC: [2048] Declaration of Admin\Model\TableModel::Add() should be compatible with that of Think\Model::add() E:\xampp\htdocs\SmartOrder\Application\Admin\Model\TableModel.class.php 第 93 行.
+SQL: SHOW COLUMNS FROM `so_table` [ RunTime:0.0067s ]
+SQL: SHOW COLUMNS FROM `so_hall` [ RunTime:0.0153s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in E:\xampp\htdocs\SmartOrder\Application\Admin\Model\TableModel.class.php on line 38 and defined E:\xampp\htdocs\SmartOrder\ThinkPHP\Library\Think\Model.class.php 第 1765 行.
+NOTIC: [8] Undefined variable: where E:\xampp\htdocs\SmartOrder\ThinkPHP\Library\Think\Model.class.php 第 1773 行.
+NOTIC: [8] Undefined variable: where E:\xampp\htdocs\SmartOrder\ThinkPHP\Library\Think\Model.class.php 第 1776 行.
+NOTIC: [8] Undefined variable: where E:\xampp\htdocs\SmartOrder\ThinkPHP\Library\Think\Model.class.php 第 1784 行.
+SQL: SELECT * FROM `so_hall`  [ RunTime:0.0017s ]
+SQL: SELECT `id`,`table_name` FROM `so_table` WHERE `hall_id` = 1  [ RunTime:0.0008s ]
+SQL: SELECT `id`,`table_name` FROM `so_table` WHERE `hall_id` = 2  [ RunTime:0.0008s ]
+SQL: SELECT `id`,`table_name` FROM `so_table` WHERE `hall_id` = 3  [ RunTime:0.0008s ]
+SQL: SELECT `id`,`table_name` FROM `so_table` WHERE `hall_id` = 4  [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `so_book` [ RunTime:0.0100s ]
+SQL: SELECT `book_day`,`book_time`,`book_name` FROM `so_book` WHERE `book_table` = 1 AND `book_status` = 0 AND `book_day` = '2015-08-29'  [ RunTime:0.0009s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `so_table` WHERE `id` = 1 AND `is_lock` = 1 LIMIT 1   [ RunTime:0.0007s ]
+NOTIC: [8] Undefined index: type E:\xampp\htdocs\SmartOrder\Application\Cash\Model\TableModel.class.php 第 50 行.
+SQL: SELECT `book_day`,`book_time`,`book_name` FROM `so_book` WHERE `book_table` = 8 AND `book_status` = 0 AND `book_day` = '2015-08-29'  [ RunTime:0.0009s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `so_table` WHERE `id` = 8 AND `is_lock` = 1 LIMIT 1   [ RunTime:0.0008s ]
+NOTIC: [8] Undefined index: type E:\xampp\htdocs\SmartOrder\Application\Cash\Model\TableModel.class.php 第 50 行.
+SQL: SELECT `book_day`,`book_time`,`book_name` FROM `so_book` WHERE `book_table` = 15 AND `book_status` = 0 AND `book_day` = '2015-08-29'  [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `so_table` WHERE `id` = 15 AND `is_lock` = 1 LIMIT 1   [ RunTime:0.0007s ]
+NOTIC: [8] Undefined index: type E:\xampp\htdocs\SmartOrder\Application\Cash\Model\TableModel.class.php 第 50 行.
+SQL: SELECT `book_day`,`book_time`,`book_name` FROM `so_book` WHERE `book_table` = 21 AND `book_status` = 0 AND `book_day` = '2015-08-29'  [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `so_table` WHERE `id` = 21 AND `is_lock` = 1 LIMIT 1   [ RunTime:0.0012s ]
+NOTIC: [8] Undefined index: type E:\xampp\htdocs\SmartOrder\Application\Cash\Model\TableModel.class.php 第 50 行.
+SQL: SELECT `book_day`,`book_time`,`book_name` FROM `so_book` WHERE `book_table` = 2 AND `book_status` = 0 AND `book_day` = '2015-08-29'  [ RunTime:0.0009s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `so_table` WHERE `id` = 2 AND `is_lock` = 1 LIMIT 1   [ RunTime:0.0008s ]
+NOTIC: [8] Undefined index: type E:\xampp\htdocs\SmartOrder\Application\Cash\Model\TableModel.class.php 第 50 行.
+SQL: SELECT `book_day`,`book_time`,`book_name` FROM `so_book` WHERE `book_table` = 9 AND `book_status` = 0 AND `book_day` = '2015-08-29'  [ RunTime:0.0009s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `so_table` WHERE `id` = 9 AND `is_lock` = 1 LIMIT 1   [ RunTime:0.0008s ]
+NOTIC: [8] Undefined index: type E:\xampp\htdocs\SmartOrder\Application\Cash\Model\TableModel.class.php 第 50 行.
+SQL: SELECT `book_day`,`book_time`,`book_name` FROM `so_book` WHERE `book_table` = 11 AND `book_status` = 0 AND `book_day` = '2015-08-29'  [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `so_table` WHERE `id` = 11 AND `is_lock` = 1 LIMIT 1   [ RunTime:0.0007s ]
+NOTIC: [8] Undefined index: type E:\xampp\htdocs\SmartOrder\Application\Cash\Model\TableModel.class.php 第 50 行.
+SQL: SELECT `book_day`,`book_time`,`book_name` FROM `so_book` WHERE `book_table` = 20 AND `book_status` = 0 AND `book_day` = '2015-08-29'  [ RunTime:0.0027s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `so_table` WHERE `id` = 20 AND `is_lock` = 1 LIMIT 1   [ RunTime:0.0007s ]
+NOTIC: [8] Undefined index: type E:\xampp\htdocs\SmartOrder\Application\Cash\Model\TableModel.class.php 第 50 行.
+SQL: SELECT `book_day`,`book_time`,`book_name` FROM `so_book` WHERE `book_table` = 18 AND `book_status` = 0 AND `book_day` = '2015-08-29'  [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `so_table` WHERE `id` = 18 AND `is_lock` = 1 LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT `book_day`,`book_time`,`book_name` FROM `so_book` WHERE `book_table` = 22 AND `book_status` = 0 AND `book_day` = '2015-08-29'  [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `so_table` WHERE `id` = 22 AND `is_lock` = 1 LIMIT 1   [ RunTime:0.0007s ]
+NOTIC: [8] Undefined index: type E:\xampp\htdocs\SmartOrder\Application\Cash\Model\TableModel.class.php 第 50 行.
+
+[ 2015-08-29T10:37:01+08:00 ] 192.168.199.113 /SmartOrder/Pad/DealTable?callback=itemsListGet&uuId=19326bf52f5dee18&tableId=18&action=set&_=1440815837269
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.006873s ]
+INFO: [ app_init ] --END-- [ RunTime:0.008816s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001916s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002135s ]
+SQL: SHOW COLUMNS FROM `so_table` [ RunTime:0.0073s ]
+SQL: SELECT * FROM `so_table` WHERE `id` = 18 LIMIT 1   [ RunTime:0.0008s ]
+
+[ 2015-08-29T10:37:09+08:00 ] 192.168.199.113 /SmartOrder/Pad/CheckAuth?callback=itemsListGet&pwd=e10adc3949ba59abbe56e057f20f883e&_=1440815837270
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000055s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.009421s ]
+INFO: [ app_init ] --END-- [ RunTime:0.011175s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002308s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002555s ]
+SQL: SHOW COLUMNS FROM `so_config` [ RunTime:0.0081s ]
+SQL: SELECT * FROM `so_config` WHERE `conf` = 'authPwd' LIMIT 1   [ RunTime:0.0009s ]
+
+[ 2015-08-29T10:37:10+08:00 ] 192.168.199.113 /SmartOrder/Pad/TableTree?callback=itemsListGet&_=1440815837271
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.020691s ]
+INFO: [ app_init ] --END-- [ RunTime:0.022192s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002635s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002936s ]
+SQL: SHOW COLUMNS FROM `so_table` [ RunTime:0.0087s ]
+NOTIC: [2048] Declaration of Admin\Model\TableModel::Add() should be compatible with that of Think\Model::add() E:\xampp\htdocs\SmartOrder\Application\Admin\Model\TableModel.class.php 第 93 行.
+SQL: SHOW COLUMNS FROM `so_table` [ RunTime:0.0082s ]
+SQL: SHOW COLUMNS FROM `so_hall` [ RunTime:0.0078s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in E:\xampp\htdocs\SmartOrder\Application\Admin\Model\TableModel.class.php on line 38 and defined E:\xampp\htdocs\SmartOrder\ThinkPHP\Library\Think\Model.class.php 第 1765 行.
+NOTIC: [8] Undefined variable: where E:\xampp\htdocs\SmartOrder\ThinkPHP\Library\Think\Model.class.php 第 1773 行.
+NOTIC: [8] Undefined variable: where E:\xampp\htdocs\SmartOrder\ThinkPHP\Library\Think\Model.class.php 第 1776 行.
+NOTIC: [8] Undefined variable: where E:\xampp\htdocs\SmartOrder\ThinkPHP\Library\Think\Model.class.php 第 1784 行.
+SQL: SELECT * FROM `so_hall`  [ RunTime:0.0010s ]
+SQL: SELECT `id`,`table_name` FROM `so_table` WHERE `hall_id` = 1  [ RunTime:0.0009s ]
+SQL: SELECT `id`,`table_name` FROM `so_table` WHERE `hall_id` = 2  [ RunTime:0.0009s ]
+SQL: SELECT `id`,`table_name` FROM `so_table` WHERE `hall_id` = 3  [ RunTime:0.0009s ]
+SQL: SELECT `id`,`table_name` FROM `so_table` WHERE `hall_id` = 4  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `so_book` [ RunTime:0.0087s ]
+SQL: SELECT `book_day`,`book_time`,`book_name` FROM `so_book` WHERE `book_table` = 1 AND `book_status` = 0 AND `book_day` = '2015-08-29'  [ RunTime:0.0013s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `so_table` WHERE `id` = 1 AND `is_lock` = 1 LIMIT 1   [ RunTime:0.0009s ]
+NOTIC: [8] Undefined index: type E:\xampp\htdocs\SmartOrder\Application\Cash\Model\TableModel.class.php 第 50 行.
+SQL: SELECT `book_day`,`book_time`,`book_name` FROM `so_book` WHERE `book_table` = 8 AND `book_status` = 0 AND `book_day` = '2015-08-29'  [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `so_table` WHERE `id` = 8 AND `is_lock` = 1 LIMIT 1   [ RunTime:0.0008s ]
+NOTIC: [8] Undefined index: type E:\xampp\htdocs\SmartOrder\Application\Cash\Model\TableModel.class.php 第 50 行.
+SQL: SELECT `book_day`,`book_time`,`book_name` FROM `so_book` WHERE `book_table` = 15 AND `book_status` = 0 AND `book_day` = '2015-08-29'  [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `so_table` WHERE `id` = 15 AND `is_lock` = 1 LIMIT 1   [ RunTime:0.0007s ]
+NOTIC: [8] Undefined index: type E:\xampp\htdocs\SmartOrder\Application\Cash\Model\TableModel.class.php 第 50 行.
+SQL: SELECT `book_day`,`book_time`,`book_name` FROM `so_book` WHERE `book_table` = 21 AND `book_status` = 0 AND `book_day` = '2015-08-29'  [ RunTime:0.0011s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `so_table` WHERE `id` = 21 AND `is_lock` = 1 LIMIT 1   [ RunTime:0.0007s ]
+NOTIC: [8] Undefined index: type E:\xampp\htdocs\SmartOrder\Application\Cash\Model\TableModel.class.php 第 50 行.
+SQL: SELECT `book_day`,`book_time`,`book_name` FROM `so_book` WHERE `book_table` = 2 AND `book_status` = 0 AND `book_day` = '2015-08-29'  [ RunTime:0.0009s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `so_table` WHERE `id` = 2 AND `is_lock` = 1 LIMIT 1   [ RunTime:0.0008s ]
+NOTIC: [8] Undefined index: type E:\xampp\htdocs\SmartOrder\Application\Cash\Model\TableModel.class.php 第 50 行.
+SQL: SELECT `book_day`,`book_time`,`book_name` FROM `so_book` WHERE `book_table` = 9 AND `book_status` = 0 AND `book_day` = '2015-08-29'  [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `so_table` WHERE `id` = 9 AND `is_lock` = 1 LIMIT 1   [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: type E:\xampp\htdocs\SmartOrder\Application\Cash\Model\TableModel.class.php 第 50 行.
+SQL: SELECT `book_day`,`book_time`,`book_name` FROM `so_book` WHERE `book_table` = 11 AND `book_status` = 0 AND `book_day` = '2015-08-29'  [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `so_table` WHERE `id` = 11 AND `is_lock` = 1 LIMIT 1   [ RunTime:0.0007s ]
+NOTIC: [8] Undefined index: type E:\xampp\htdocs\SmartOrder\Application\Cash\Model\TableModel.class.php 第 50 行.
+SQL: SELECT `book_day`,`book_time`,`book_name` FROM `so_book` WHERE `book_table` = 20 AND `book_status` = 0 AND `book_day` = '2015-08-29'  [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `so_table` WHERE `id` = 20 AND `is_lock` = 1 LIMIT 1   [ RunTime:0.0008s ]
+NOTIC: [8] Undefined index: type E:\xampp\htdocs\SmartOrder\Application\Cash\Model\TableModel.class.php 第 50 行.
+SQL: SELECT `book_day`,`book_time`,`book_name` FROM `so_book` WHERE `book_table` = 18 AND `book_status` = 0 AND `book_day` = '2015-08-29'  [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `so_table` WHERE `id` = 18 AND `is_lock` = 1 LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT `book_day`,`book_time`,`book_name` FROM `so_book` WHERE `book_table` = 22 AND `book_status` = 0 AND `book_day` = '2015-08-29'  [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `so_table` WHERE `id` = 22 AND `is_lock` = 1 LIMIT 1   [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: type E:\xampp\htdocs\SmartOrder\Application\Cash\Model\TableModel.class.php 第 50 行.
+
+[ 2015-08-29T10:37:11+08:00 ] 192.168.199.113 /SmartOrder/Pad/DealTable?callback=itemsListGet&uuId=19326bf52f5dee18&tableId=1&action=set&_=1440815837272
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.007401s ]
+INFO: [ app_init ] --END-- [ RunTime:0.009150s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002287s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002527s ]
+SQL: SHOW COLUMNS FROM `so_table` [ RunTime:0.0183s ]
+SQL: SELECT * FROM `so_table` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0011s ]
+SQL: UPDATE `so_table` SET `uuid`='19326bf52f5dee18',`is_lock`='1' WHERE `id` = 1 [ RunTime:0.1198s ]
+
+[ 2015-08-29T10:37:21+08:00 ] 192.168.199.113 /SmartOrder/Pad/CheckVersion?callback=itemsListGet&version=1440815650&_=1440815877710
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000052s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.009380s ]
+INFO: [ app_init ] --END-- [ RunTime:0.011192s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004160s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008966s ]
+SQL: SHOW COLUMNS FROM `so_config` [ RunTime:0.0096s ]
+SQL: SELECT * FROM `so_config` WHERE `conf` = 'SynVersion' LIMIT 1   [ RunTime:0.0008s ]
+
+[ 2015-08-29T10:37:21+08:00 ] 192.168.199.113 /SmartOrder/Pad/DealTable?callback=itemsListGet&uuId=19326bf52f5dee18&tableId=1&action=check&_=1440815877711
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000056s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.010432s ]
+INFO: [ app_init ] --END-- [ RunTime:0.012104s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003070s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003404s ]
+SQL: SHOW COLUMNS FROM `so_table` [ RunTime:0.0089s ]
+SQL: SELECT * FROM `so_table` WHERE `id` = 1 AND `uuid` = '19326bf52f5dee18' LIMIT 1   [ RunTime:0.0044s ]
+
+[ 2015-08-29T10:39:49+08:00 ] 192.168.199.113 /SmartOrder/Pad/CheckVersion?callback=itemsListGet&version=1440815650&_=1440816026200
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.010499s ]
+INFO: [ app_init ] --END-- [ RunTime:0.012304s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003129s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003417s ]
+SQL: SHOW COLUMNS FROM `so_config` [ RunTime:0.0084s ]
+SQL: SELECT * FROM `so_config` WHERE `conf` = 'SynVersion' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `so_config` WHERE `conf` = 'ServerIP' LIMIT 1   [ RunTime:0.0007s ]
+NOTIC: [8] Use of undefined constant between - assumed 'between' E:\xampp\htdocs\SmartOrder\Application\Pad\Model\SysDataModel.class.php 第 33 行.
+NOTIC: [8] Use of undefined constant neq - assumed 'neq' E:\xampp\htdocs\SmartOrder\Application\Pad\Model\SysDataModel.class.php 第 34 行.
+SQL: SHOW COLUMNS FROM `so_cookmenu` [ RunTime:0.0087s ]
+SQL: SELECT so_cookmenu.*,so_cookstyle.stylename FROM `so_cookmenu` INNER JOIN so_cookstyle on so_cookstyle.id=so_cookmenu.styleid  WHERE `edit_time` BETWEEN 1440815651 AND '1440815976' AND `is_delete` <> 1  [ RunTime:0.0015s ]
+
+[ 2015-08-29T10:39:50+08:00 ] 192.168.199.113 /SmartOrder/Pad/DealTable?callback=itemsListGet&uuId=19326bf52f5dee18&tableId=1&action=check&_=1440816026201
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000052s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.013726s ]
+INFO: [ app_init ] --END-- [ RunTime:0.015329s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005037s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005333s ]
+SQL: SHOW COLUMNS FROM `so_table` [ RunTime:0.0081s ]
+SQL: SELECT * FROM `so_table` WHERE `id` = 1 AND `uuid` = '19326bf52f5dee18' LIMIT 1   [ RunTime:0.0009s ]
+
+[ 2015-08-29T10:40:08+08:00 ] 192.168.199.113 /SmartOrder/Pad/CheckVersion?callback=itemsListGet&version=1440815976&_=1440816045318
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000054s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.007783s ]
+INFO: [ app_init ] --END-- [ RunTime:0.010312s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005197s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005454s ]
+SQL: SHOW COLUMNS FROM `so_config` [ RunTime:0.0079s ]
+SQL: SELECT * FROM `so_config` WHERE `conf` = 'SynVersion' LIMIT 1   [ RunTime:0.0008s ]
+
+[ 2015-08-29T10:40:09+08:00 ] 192.168.199.113 /SmartOrder/Pad/DealTable?callback=itemsListGet&uuId=19326bf52f5dee18&tableId=1&action=check&_=1440816045319
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000228s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.011621s ]
+INFO: [ app_init ] --END-- [ RunTime:0.013823s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003495s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003850s ]
+SQL: SHOW COLUMNS FROM `so_table` [ RunTime:0.0095s ]
+SQL: SELECT * FROM `so_table` WHERE `id` = 1 AND `uuid` = '19326bf52f5dee18' LIMIT 1   [ RunTime:0.0015s ]
+
+[ 2015-08-29T10:42:26+08:00 ] 192.168.199.113 /SmartOrder/Pad/CheckVersion?callback=itemsListGet&version=1440815976&_=1440816182594
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000053s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.012314s ]
+INFO: [ app_init ] --END-- [ RunTime:0.014459s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005799s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006180s ]
+SQL: SHOW COLUMNS FROM `so_config` [ RunTime:0.0082s ]
+SQL: SELECT * FROM `so_config` WHERE `conf` = 'SynVersion' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2015-08-29T10:42:26+08:00 ] 192.168.199.113 /SmartOrder/Pad/DealTable?callback=itemsListGet&uuId=19326bf52f5dee18&tableId=1&action=check&_=1440816182595
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000063s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.012552s ]
+INFO: [ app_init ] --END-- [ RunTime:0.014606s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002007s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002240s ]
+SQL: SHOW COLUMNS FROM `so_table` [ RunTime:0.0077s ]
+SQL: SELECT * FROM `so_table` WHERE `id` = 1 AND `uuid` = '19326bf52f5dee18' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2015-08-29T10:43:15+08:00 ] 192.168.199.113 /SmartOrder/Pad/CheckAuth?callback=itemsListGet&pwd=e10adc3949ba59abbe56e057f20f883e&_=1440816182596
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000055s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.008232s ]
+INFO: [ app_init ] --END-- [ RunTime:0.011776s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003147s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003386s ]
+SQL: SHOW COLUMNS FROM `so_config` [ RunTime:0.0069s ]
+SQL: SELECT * FROM `so_config` WHERE `conf` = 'authPwd' LIMIT 1   [ RunTime:0.0009s ]
+
+[ 2015-08-29T10:43:15+08:00 ] 192.168.199.113 /SmartOrder/Pad/TableTree?callback=itemsListGet&_=1440816182597
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000053s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.009137s ]
+INFO: [ app_init ] --END-- [ RunTime:0.010780s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002593s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002844s ]
+SQL: SHOW COLUMNS FROM `so_table` [ RunTime:0.0076s ]
+NOTIC: [2048] Declaration of Admin\Model\TableModel::Add() should be compatible with that of Think\Model::add() E:\xampp\htdocs\SmartOrder\Application\Admin\Model\TableModel.class.php 第 93 行.
+SQL: SHOW COLUMNS FROM `so_table` [ RunTime:0.0077s ]
+SQL: SHOW COLUMNS FROM `so_hall` [ RunTime:0.0067s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in E:\xampp\htdocs\SmartOrder\Application\Admin\Model\TableModel.class.php on line 38 and defined E:\xampp\htdocs\SmartOrder\ThinkPHP\Library\Think\Model.class.php 第 1765 行.
+NOTIC: [8] Undefined variable: where E:\xampp\htdocs\SmartOrder\ThinkPHP\Library\Think\Model.class.php 第 1773 行.
+NOTIC: [8] Undefined variable: where E:\xampp\htdocs\SmartOrder\ThinkPHP\Library\Think\Model.class.php 第 1776 行.
+NOTIC: [8] Undefined variable: where E:\xampp\htdocs\SmartOrder\ThinkPHP\Library\Think\Model.class.php 第 1784 行.
+SQL: SELECT * FROM `so_hall`  [ RunTime:0.0010s ]
+SQL: SELECT `id`,`table_name` FROM `so_table` WHERE `hall_id` = 1  [ RunTime:0.0007s ]
+SQL: SELECT `id`,`table_name` FROM `so_table` WHERE `hall_id` = 2  [ RunTime:0.0010s ]
+SQL: SELECT `id`,`table_name` FROM `so_table` WHERE `hall_id` = 3  [ RunTime:0.0008s ]
+SQL: SELECT `id`,`table_name` FROM `so_table` WHERE `hall_id` = 4  [ RunTime:0.0014s ]
+SQL: SHOW COLUMNS FROM `so_book` [ RunTime:0.0090s ]
+SQL: SELECT `book_day`,`book_time`,`book_name` FROM `so_book` WHERE `book_table` = 1 AND `book_status` = 0 AND `book_day` = '2015-08-29'  [ RunTime:0.0012s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `so_table` WHERE `id` = 1 AND `is_lock` = 1 LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT `book_day`,`book_time`,`book_name` FROM `so_book` WHERE `book_table` = 8 AND `book_status` = 0 AND `book_day` = '2015-08-29'  [ RunTime:0.0016s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `so_table` WHERE `id` = 8 AND `is_lock` = 1 LIMIT 1   [ RunTime:0.0012s ]
+NOTIC: [8] Undefined index: type E:\xampp\htdocs\SmartOrder\Application\Cash\Model\TableModel.class.php 第 50 行.
+SQL: SELECT `book_day`,`book_time`,`book_name` FROM `so_book` WHERE `book_table` = 15 AND `book_status` = 0 AND `book_day` = '2015-08-29'  [ RunTime:0.0024s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `so_table` WHERE `id` = 15 AND `is_lock` = 1 LIMIT 1   [ RunTime:0.0025s ]
+NOTIC: [8] Undefined index: type E:\xampp\htdocs\SmartOrder\Application\Cash\Model\TableModel.class.php 第 50 行.
+SQL: SELECT `book_day`,`book_time`,`book_name` FROM `so_book` WHERE `book_table` = 21 AND `book_status` = 0 AND `book_day` = '2015-08-29'  [ RunTime:0.0013s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `so_table` WHERE `id` = 21 AND `is_lock` = 1 LIMIT 1   [ RunTime:0.0007s ]
+NOTIC: [8] Undefined index: type E:\xampp\htdocs\SmartOrder\Application\Cash\Model\TableModel.class.php 第 50 行.
+SQL: SELECT `book_day`,`book_time`,`book_name` FROM `so_book` WHERE `book_table` = 2 AND `book_status` = 0 AND `book_day` = '2015-08-29'  [ RunTime:0.0009s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `so_table` WHERE `id` = 2 AND `is_lock` = 1 LIMIT 1   [ RunTime:0.0007s ]
+NOTIC: [8] Undefined index: type E:\xampp\htdocs\SmartOrder\Application\Cash\Model\TableModel.class.php 第 50 行.
+SQL: SELECT `book_day`,`book_time`,`book_name` FROM `so_book` WHERE `book_table` = 9 AND `book_status` = 0 AND `book_day` = '2015-08-29'  [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `so_table` WHERE `id` = 9 AND `is_lock` = 1 LIMIT 1   [ RunTime:0.0008s ]
+NOTIC: [8] Undefined index: type E:\xampp\htdocs\SmartOrder\Application\Cash\Model\TableModel.class.php 第 50 行.
+SQL: SELECT `book_day`,`book_time`,`book_name` FROM `so_book` WHERE `book_table` = 11 AND `book_status` = 0 AND `book_day` = '2015-08-29'  [ RunTime:0.0021s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `so_table` WHERE `id` = 11 AND `is_lock` = 1 LIMIT 1   [ RunTime:0.0031s ]
+NOTIC: [8] Undefined index: type E:\xampp\htdocs\SmartOrder\Application\Cash\Model\TableModel.class.php 第 50 行.
+SQL: SELECT `book_day`,`book_time`,`book_name` FROM `so_book` WHERE `book_table` = 20 AND `book_status` = 0 AND `book_day` = '2015-08-29'  [ RunTime:0.0009s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `so_table` WHERE `id` = 20 AND `is_lock` = 1 LIMIT 1   [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: type E:\xampp\htdocs\SmartOrder\Application\Cash\Model\TableModel.class.php 第 50 行.
+SQL: SELECT `book_day`,`book_time`,`book_name` FROM `so_book` WHERE `book_table` = 18 AND `book_status` = 0 AND `book_day` = '2015-08-29'  [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `so_table` WHERE `id` = 18 AND `is_lock` = 1 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT `book_day`,`book_time`,`book_name` FROM `so_book` WHERE `book_table` = 22 AND `book_status` = 0 AND `book_day` = '2015-08-29'  [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `so_table` WHERE `id` = 22 AND `is_lock` = 1 LIMIT 1   [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: type E:\xampp\htdocs\SmartOrder\Application\Cash\Model\TableModel.class.php 第 50 行.
+
+[ 2015-08-29T10:43:18+08:00 ] 192.168.199.113 /SmartOrder/Pad/DealTable?callback=itemsListGet&uuId=19326bf52f5dee18&tableId=20&action=set&_=1440816182598
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000052s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.009853s ]
+INFO: [ app_init ] --END-- [ RunTime:0.011498s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002412s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002714s ]
+SQL: SHOW COLUMNS FROM `so_table` [ RunTime:0.0113s ]
+SQL: SELECT * FROM `so_table` WHERE `id` = 20 LIMIT 1   [ RunTime:0.0009s ]
+SQL: UPDATE `so_table` SET `uuid`='19326bf52f5dee18',`is_lock`='1' WHERE `id` = 20 [ RunTime:0.1126s ]
+
+[ 2015-08-29T10:43:54+08:00 ] 192.168.199.113 /SmartOrder/Pad/CheckVersion?callback=itemsListGet&version=1440815976&_=1440816270650
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.010608s ]
+INFO: [ app_init ] --END-- [ RunTime:0.012061s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002055s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002274s ]
+SQL: SHOW COLUMNS FROM `so_config` [ RunTime:0.0079s ]
+SQL: SELECT * FROM `so_config` WHERE `conf` = 'SynVersion' LIMIT 1   [ RunTime:0.0011s ]
+
+[ 2015-08-29T10:43:54+08:00 ] 192.168.199.113 /SmartOrder/Pad/DealTable?callback=itemsListGet&uuId=19326bf52f5dee18&tableId=20&action=check&_=1440816270651
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000054s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.028737s ]
+INFO: [ app_init ] --END-- [ RunTime:0.031305s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005637s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005957s ]
+SQL: SHOW COLUMNS FROM `so_table` [ RunTime:0.0128s ]
+SQL: SELECT * FROM `so_table` WHERE `id` = 20 AND `uuid` = '19326bf52f5dee18' LIMIT 1   [ RunTime:0.0012s ]
+
+[ 2015-08-29T10:45:41+08:00 ] 192.168.199.113 /SmartOrder/Pad/CheckVersion?callback=itemsListGet&version=1440815976&_=1440816378013
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.004614s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005463s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001296s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001468s ]
+SQL: SHOW COLUMNS FROM `so_config` [ RunTime:0.0049s ]
+SQL: SELECT * FROM `so_config` WHERE `conf` = 'SynVersion' LIMIT 1   [ RunTime:0.0011s ]
+
+[ 2015-08-29T10:46:47+08:00 ] 192.168.199.113 /SmartOrder/Pad/CheckVersion?callback=itemsListGet&version=1440815976&_=1440816443924
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.003123s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003897s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000840s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000949s ]
+SQL: SHOW COLUMNS FROM `so_config` [ RunTime:0.0029s ]
+SQL: SELECT * FROM `so_config` WHERE `conf` = 'SynVersion' LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2015-08-29T10:48:15+08:00 ] 192.168.199.113 /SmartOrder/Pad/CheckVersion?callback=itemsListGet&version=1440815976&_=1440816531344
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000070s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.014602s ]
+INFO: [ app_init ] --END-- [ RunTime:0.018025s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003287s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003885s ]
+SQL: SHOW COLUMNS FROM `so_config` [ RunTime:0.0119s ]
+SQL: SELECT * FROM `so_config` WHERE `conf` = 'SynVersion' LIMIT 1   [ RunTime:0.0021s ]
+
+[ 2015-08-29T10:48:15+08:00 ] 192.168.199.113 /SmartOrder/Pad/DealTable?callback=itemsListGet&uuId=19326bf52f5dee18&tableId=20&action=check&_=1440816531345
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000069s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.020144s ]
+INFO: [ app_init ] --END-- [ RunTime:0.023184s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003902s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004416s ]
+SQL: SHOW COLUMNS FROM `so_table` [ RunTime:0.0157s ]
+SQL: SELECT * FROM `so_table` WHERE `id` = 20 AND `uuid` = '19326bf52f5dee18' LIMIT 1   [ RunTime:0.0012s ]
+
+[ 2015-08-29T10:51:26+08:00 ] 192.168.199.113 /SmartOrder/Pad/CheckVersion?callback=itemsListGet&version=1440815976&_=1440816722515
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000070s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.010732s ]
+INFO: [ app_init ] --END-- [ RunTime:0.012910s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003724s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003998s ]
+SQL: SHOW COLUMNS FROM `so_config` [ RunTime:0.0113s ]
+SQL: SELECT * FROM `so_config` WHERE `conf` = 'SynVersion' LIMIT 1   [ RunTime:0.0030s ]
+
+[ 2015-08-29T10:51:26+08:00 ] 192.168.199.113 /SmartOrder/Pad/DealTable?callback=itemsListGet&uuId=19326bf52f5dee18&tableId=20&action=check&_=1440816722516
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000071s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.011614s ]
+INFO: [ app_init ] --END-- [ RunTime:0.013860s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003257s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003588s ]
+SQL: SHOW COLUMNS FROM `so_table` [ RunTime:0.0078s ]
+SQL: SELECT * FROM `so_table` WHERE `id` = 20 AND `uuid` = '19326bf52f5dee18' LIMIT 1   [ RunTime:0.0012s ]
+
+[ 2015-08-29T10:53:14+08:00 ] 192.168.199.113 /SmartOrder/Pad/CheckVersion?callback=itemsListGet&version=1440815976&_=1440816830875
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.003402s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004410s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000895s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000995s ]
+SQL: SHOW COLUMNS FROM `so_config` [ RunTime:0.0027s ]
+SQL: SELECT * FROM `so_config` WHERE `conf` = 'SynVersion' LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2015-08-29T10:53:14+08:00 ] 192.168.199.113 /SmartOrder/Pad/DealTable?callback=itemsListGet&uuId=19326bf52f5dee18&tableId=20&action=check&_=1440816830876
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.004215s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005060s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001087s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001209s ]
+SQL: SHOW COLUMNS FROM `so_table` [ RunTime:0.0044s ]
+SQL: SELECT * FROM `so_table` WHERE `id` = 20 AND `uuid` = '19326bf52f5dee18' LIMIT 1   [ RunTime:0.0008s ]
+
+[ 2015-08-29T10:53:58+08:00 ] 192.168.199.113 /SmartOrder/Pad/CheckVersion?callback=itemsListGet&version=1440815976&_=1440816875367
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.007339s ]
+INFO: [ app_init ] --END-- [ RunTime:0.008961s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002083s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002343s ]
+SQL: SHOW COLUMNS FROM `so_config` [ RunTime:0.0167s ]
+SQL: SELECT * FROM `so_config` WHERE `conf` = 'SynVersion' LIMIT 1   [ RunTime:0.0011s ]
+
+[ 2015-08-29T10:53:59+08:00 ] 192.168.199.113 /SmartOrder/Pad/DealTable?callback=itemsListGet&uuId=19326bf52f5dee18&tableId=20&action=check&_=1440816875368
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000067s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.030230s ]
+INFO: [ app_init ] --END-- [ RunTime:0.032446s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005119s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005470s ]
+SQL: SHOW COLUMNS FROM `so_table` [ RunTime:0.0107s ]
+SQL: SELECT * FROM `so_table` WHERE `id` = 20 AND `uuid` = '19326bf52f5dee18' LIMIT 1   [ RunTime:0.0009s ]
+
+[ 2015-08-29T10:54:50+08:00 ] 192.168.199.113 /SmartOrder/Pad/CheckVersion?callback=itemsListGet&version=1440815976&_=1440816927267
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.005961s ]
+INFO: [ app_init ] --END-- [ RunTime:0.006807s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001464s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001631s ]
+SQL: SHOW COLUMNS FROM `so_config` [ RunTime:0.0043s ]
+SQL: SELECT * FROM `so_config` WHERE `conf` = 'SynVersion' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2015-08-29T10:54:50+08:00 ] 192.168.199.113 /SmartOrder/Pad/CheckVersion?callback=itemsListGet&version=1440815976&_=1440816927268
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.005103s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005894s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001050s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001156s ]
+SQL: SHOW COLUMNS FROM `so_config` [ RunTime:0.0041s ]
+SQL: SELECT * FROM `so_config` WHERE `conf` = 'SynVersion' LIMIT 1   [ RunTime:0.0006s ]
+
+[ 2015-08-29T10:54:50+08:00 ] 192.168.199.113 /SmartOrder/Pad/DealTable?callback=itemsListGet&uuId=19326bf52f5dee18&tableId=20&action=check&_=1440816927269
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.003671s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004750s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001112s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001260s ]
+SQL: SHOW COLUMNS FROM `so_table` [ RunTime:0.0039s ]
+SQL: SELECT * FROM `so_table` WHERE `id` = 20 AND `uuid` = '19326bf52f5dee18' LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2015-08-29T10:55:33+08:00 ] 192.168.199.113 /SmartOrder/Pad/CheckVersion?callback=itemsListGet&version=1440815976&_=1440816970325
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.012173s ]
+INFO: [ app_init ] --END-- [ RunTime:0.014140s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002551s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002850s ]
+SQL: SHOW COLUMNS FROM `so_config` [ RunTime:0.0088s ]
+SQL: SELECT * FROM `so_config` WHERE `conf` = 'SynVersion' LIMIT 1   [ RunTime:0.0011s ]
+SQL: SELECT * FROM `so_config` WHERE `conf` = 'ServerIP' LIMIT 1   [ RunTime:0.0008s ]
+NOTIC: [8] Use of undefined constant between - assumed 'between' E:\xampp\htdocs\SmartOrder\Application\Pad\Model\SysDataModel.class.php 第 33 行.
+NOTIC: [8] Use of undefined constant neq - assumed 'neq' E:\xampp\htdocs\SmartOrder\Application\Pad\Model\SysDataModel.class.php 第 34 行.
+SQL: SHOW COLUMNS FROM `so_cookmenu` [ RunTime:0.0092s ]
+SQL: SELECT so_cookmenu.*,so_cookstyle.stylename FROM `so_cookmenu` INNER JOIN so_cookstyle on so_cookstyle.id=so_cookmenu.styleid  WHERE `edit_time` BETWEEN 1440815977 AND '1440816916' AND `is_delete` <> 1  [ RunTime:0.0015s ]
+
+[ 2015-08-29T10:55:34+08:00 ] 192.168.199.113 /SmartOrder/Pad/DealTable?callback=itemsListGet&uuId=19326bf52f5dee18&tableId=20&action=check&_=1440816970326
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000072s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.016954s ]
+INFO: [ app_init ] --END-- [ RunTime:0.019023s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003238s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003604s ]
+SQL: SHOW COLUMNS FROM `so_table` [ RunTime:0.0083s ]
+SQL: SELECT * FROM `so_table` WHERE `id` = 20 AND `uuid` = '19326bf52f5dee18' LIMIT 1   [ RunTime:0.0011s ]
+
+[ 2015-08-29T11:02:27+08:00 ] 192.168.199.113 /SmartOrder/Pad/CheckVersion?callback=itemsListGet&version=1440816916&_=1440817383660
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.012141s ]
+INFO: [ app_init ] --END-- [ RunTime:0.013823s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003080s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003349s ]
+SQL: SHOW COLUMNS FROM `so_config` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `so_config` WHERE `conf` = 'SynVersion' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2015-08-29T11:02:27+08:00 ] 192.168.199.113 /SmartOrder/Pad/DealTable?callback=itemsListGet&uuId=19326bf52f5dee18&tableId=20&action=check&_=1440817383661
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000148s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.011150s ]
+INFO: [ app_init ] --END-- [ RunTime:0.014124s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003025s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003441s ]
+SQL: SHOW COLUMNS FROM `so_table` [ RunTime:0.0101s ]
+SQL: SELECT * FROM `so_table` WHERE `id` = 20 AND `uuid` = '19326bf52f5dee18' LIMIT 1   [ RunTime:0.0011s ]
+
+[ 2015-08-29T11:13:13+08:00 ] 192.168.199.113 /SmartOrder/Pad/CheckVersion?callback=itemsListGet&version=1440816916&_=1440818030350
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000076s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.011113s ]
+INFO: [ app_init ] --END-- [ RunTime:0.013484s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002949s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003252s ]
+SQL: SHOW COLUMNS FROM `so_config` [ RunTime:0.0183s ]
+SQL: SELECT * FROM `so_config` WHERE `conf` = 'SynVersion' LIMIT 1   [ RunTime:0.0021s ]
+
+[ 2015-08-29T11:13:14+08:00 ] 192.168.199.113 /SmartOrder/Pad/DealTable?callback=itemsListGet&uuId=19326bf52f5dee18&tableId=20&action=check&_=1440818030351
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000067s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.016563s ]
+INFO: [ app_init ] --END-- [ RunTime:0.018713s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003705s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004087s ]
+SQL: SHOW COLUMNS FROM `so_table` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `so_table` WHERE `id` = 20 AND `uuid` = '19326bf52f5dee18' LIMIT 1   [ RunTime:0.0011s ]
+
+[ 2015-08-29T11:14:27+08:00 ] 192.168.199.113 /SmartOrder/Pad/CheckVersion?callback=itemsListGet&version=1440816916&_=1440818103852
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000053s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.010500s ]
+INFO: [ app_init ] --END-- [ RunTime:0.012409s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002899s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003306s ]
+SQL: SHOW COLUMNS FROM `so_config` [ RunTime:0.0085s ]
+SQL: SELECT * FROM `so_config` WHERE `conf` = 'SynVersion' LIMIT 1   [ RunTime:0.0012s ]
+SQL: SELECT * FROM `so_config` WHERE `conf` = 'ServerIP' LIMIT 1   [ RunTime:0.0008s ]
+NOTIC: [8] Use of undefined constant between - assumed 'between' E:\xampp\htdocs\SmartOrder\Application\Pad\Model\SysDataModel.class.php 第 33 行.
+NOTIC: [8] Use of undefined constant neq - assumed 'neq' E:\xampp\htdocs\SmartOrder\Application\Pad\Model\SysDataModel.class.php 第 34 行.
+SQL: SHOW COLUMNS FROM `so_cookmenu` [ RunTime:0.0079s ]
+SQL: SELECT so_cookmenu.*,so_cookstyle.stylename FROM `so_cookmenu` INNER JOIN so_cookstyle on so_cookstyle.id=so_cookmenu.styleid  WHERE `edit_time` BETWEEN 1440816917 AND '1440818036' AND `is_delete` <> 1  [ RunTime:0.0014s ]
+
+[ 2015-08-29T11:14:27+08:00 ] 192.168.199.113 /SmartOrder/Pad/DealTable?callback=itemsListGet&uuId=19326bf52f5dee18&tableId=20&action=check&_=1440818103853
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000297s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.011252s ]
+INFO: [ app_init ] --END-- [ RunTime:0.014081s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002374s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002618s ]
+SQL: SHOW COLUMNS FROM `so_table` [ RunTime:0.0228s ]
+SQL: SELECT * FROM `so_table` WHERE `id` = 20 AND `uuid` = '19326bf52f5dee18' LIMIT 1   [ RunTime:0.0012s ]
+
+[ 2015-08-29T11:18:09+08:00 ] 192.168.199.113 /SmartOrder/Pad/CheckVersion?callback=itemsListGet&version=0&_=1440818322462
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000051s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.009426s ]
+INFO: [ app_init ] --END-- [ RunTime:0.011804s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003057s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003466s ]
+SQL: SHOW COLUMNS FROM `so_config` [ RunTime:0.0083s ]
+SQL: SELECT * FROM `so_config` WHERE `conf` = 'SynVersion' LIMIT 1   [ RunTime:0.0009s ]
+SQL: SELECT * FROM `so_config` WHERE `conf` = 'ServerIP' LIMIT 1   [ RunTime:0.0008s ]
+NOTIC: [8] Use of undefined constant between - assumed 'between' E:\xampp\htdocs\SmartOrder\Application\Pad\Model\SysDataModel.class.php 第 33 行.
+NOTIC: [8] Use of undefined constant neq - assumed 'neq' E:\xampp\htdocs\SmartOrder\Application\Pad\Model\SysDataModel.class.php 第 34 行.
+SQL: SHOW COLUMNS FROM `so_cookmenu` [ RunTime:0.0080s ]
+SQL: SELECT so_cookmenu.*,so_cookstyle.stylename FROM `so_cookmenu` INNER JOIN so_cookstyle on so_cookstyle.id=so_cookmenu.styleid  WHERE `edit_time` BETWEEN 1 AND '1440818036' AND `is_delete` <> 1  [ RunTime:0.0015s ]
+
+[ 2015-08-29T11:18:17+08:00 ] 192.168.199.113 /SmartOrder/Pad/CheckAuth?callback=itemsListGet&pwd=e10adc3949ba59abbe56e057f20f883e&_=1440818322463
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000051s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.015974s ]
+INFO: [ app_init ] --END-- [ RunTime:0.018413s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004991s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005303s ]
+SQL: SHOW COLUMNS FROM `so_config` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `so_config` WHERE `conf` = 'authPwd' LIMIT 1   [ RunTime:0.0009s ]
+
+[ 2015-08-29T11:18:18+08:00 ] 192.168.199.113 /SmartOrder/Pad/TableTree?callback=itemsListGet&_=1440818322464
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000068s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.009133s ]
+INFO: [ app_init ] --END-- [ RunTime:0.011501s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002524s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002765s ]
+SQL: SHOW COLUMNS FROM `so_table` [ RunTime:0.0098s ]
+NOTIC: [2048] Declaration of Admin\Model\TableModel::Add() should be compatible with that of Think\Model::add() E:\xampp\htdocs\SmartOrder\Application\Admin\Model\TableModel.class.php 第 93 行.
+SQL: SHOW COLUMNS FROM `so_table` [ RunTime:0.0078s ]
+SQL: SHOW COLUMNS FROM `so_hall` [ RunTime:0.0074s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in E:\xampp\htdocs\SmartOrder\Application\Admin\Model\TableModel.class.php on line 38 and defined E:\xampp\htdocs\SmartOrder\ThinkPHP\Library\Think\Model.class.php 第 1765 行.
+NOTIC: [8] Undefined variable: where E:\xampp\htdocs\SmartOrder\ThinkPHP\Library\Think\Model.class.php 第 1773 行.
+NOTIC: [8] Undefined variable: where E:\xampp\htdocs\SmartOrder\ThinkPHP\Library\Think\Model.class.php 第 1776 行.
+NOTIC: [8] Undefined variable: where E:\xampp\htdocs\SmartOrder\ThinkPHP\Library\Think\Model.class.php 第 1784 行.
+SQL: SELECT * FROM `so_hall`  [ RunTime:0.0008s ]
+SQL: SELECT `id`,`table_name` FROM `so_table` WHERE `hall_id` = 1  [ RunTime:0.0009s ]
+SQL: SELECT `id`,`table_name` FROM `so_table` WHERE `hall_id` = 2  [ RunTime:0.0011s ]
+SQL: SELECT `id`,`table_name` FROM `so_table` WHERE `hall_id` = 3  [ RunTime:0.0009s ]
+SQL: SELECT `id`,`table_name` FROM `so_table` WHERE `hall_id` = 4  [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `so_book` [ RunTime:0.0101s ]
+SQL: SELECT `book_day`,`book_time`,`book_name` FROM `so_book` WHERE `book_table` = 1 AND `book_status` = 0 AND `book_day` = '2015-08-29'  [ RunTime:0.0014s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `so_table` WHERE `id` = 1 AND `is_lock` = 1 LIMIT 1   [ RunTime:0.0022s ]
+SQL: SELECT `book_day`,`book_time`,`book_name` FROM `so_book` WHERE `book_table` = 8 AND `book_status` = 0 AND `book_day` = '2015-08-29'  [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `so_table` WHERE `id` = 8 AND `is_lock` = 1 LIMIT 1   [ RunTime:0.0017s ]
+NOTIC: [8] Undefined index: type E:\xampp\htdocs\SmartOrder\Application\Cash\Model\TableModel.class.php 第 50 行.
+SQL: SELECT `book_day`,`book_time`,`book_name` FROM `so_book` WHERE `book_table` = 15 AND `book_status` = 0 AND `book_day` = '2015-08-29'  [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `so_table` WHERE `id` = 15 AND `is_lock` = 1 LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: type E:\xampp\htdocs\SmartOrder\Application\Cash\Model\TableModel.class.php 第 50 行.
+SQL: SELECT `book_day`,`book_time`,`book_name` FROM `so_book` WHERE `book_table` = 21 AND `book_status` = 0 AND `book_day` = '2015-08-29'  [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `so_table` WHERE `id` = 21 AND `is_lock` = 1 LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: type E:\xampp\htdocs\SmartOrder\Application\Cash\Model\TableModel.class.php 第 50 行.
+SQL: SELECT `book_day`,`book_time`,`book_name` FROM `so_book` WHERE `book_table` = 2 AND `book_status` = 0 AND `book_day` = '2015-08-29'  [ RunTime:0.0012s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `so_table` WHERE `id` = 2 AND `is_lock` = 1 LIMIT 1   [ RunTime:0.0007s ]
+NOTIC: [8] Undefined index: type E:\xampp\htdocs\SmartOrder\Application\Cash\Model\TableModel.class.php 第 50 行.
+SQL: SELECT `book_day`,`book_time`,`book_name` FROM `so_book` WHERE `book_table` = 9 AND `book_status` = 0 AND `book_day` = '2015-08-29'  [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `so_table` WHERE `id` = 9 AND `is_lock` = 1 LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: type E:\xampp\htdocs\SmartOrder\Application\Cash\Model\TableModel.class.php 第 50 行.
+SQL: SELECT `book_day`,`book_time`,`book_name` FROM `so_book` WHERE `book_table` = 11 AND `book_status` = 0 AND `book_day` = '2015-08-29'  [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `so_table` WHERE `id` = 11 AND `is_lock` = 1 LIMIT 1   [ RunTime:0.0030s ]
+NOTIC: [8] Undefined index: type E:\xampp\htdocs\SmartOrder\Application\Cash\Model\TableModel.class.php 第 50 行.
+SQL: SELECT `book_day`,`book_time`,`book_name` FROM `so_book` WHERE `book_table` = 20 AND `book_status` = 0 AND `book_day` = '2015-08-29'  [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `so_table` WHERE `id` = 20 AND `is_lock` = 1 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT `book_day`,`book_time`,`book_name` FROM `so_book` WHERE `book_table` = 18 AND `book_status` = 0 AND `book_day` = '2015-08-29'  [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `so_table` WHERE `id` = 18 AND `is_lock` = 1 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT `book_day`,`book_time`,`book_name` FROM `so_book` WHERE `book_table` = 22 AND `book_status` = 0 AND `book_day` = '2015-08-29'  [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `so_table` WHERE `id` = 22 AND `is_lock` = 1 LIMIT 1   [ RunTime:0.0008s ]
+NOTIC: [8] Undefined index: type E:\xampp\htdocs\SmartOrder\Application\Cash\Model\TableModel.class.php 第 50 行.
+
+[ 2015-08-29T11:18:21+08:00 ] 192.168.199.113 /SmartOrder/Pad/DealTable?callback=itemsListGet&uuId=19326bf52f5dee18&tableId=9&action=set&_=1440818322465
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000053s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.009418s ]
+INFO: [ app_init ] --END-- [ RunTime:0.011359s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002955s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003222s ]
+SQL: SHOW COLUMNS FROM `so_table` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `so_table` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `so_table` SET `uuid`='19326bf52f5dee18',`is_lock`='1' WHERE `id` = 9 [ RunTime:0.1002s ]
+
+[ 2015-08-29T11:18:31+08:00 ] 192.168.199.113 /SmartOrder/Pad/CheckVersion?callback=itemsListGet&version=1440818036&_=1440818348199
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000084s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.016167s ]
+INFO: [ app_init ] --END-- [ RunTime:0.020099s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002637s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002908s ]
+SQL: SHOW COLUMNS FROM `so_config` [ RunTime:0.0082s ]
+SQL: SELECT * FROM `so_config` WHERE `conf` = 'SynVersion' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2015-08-29T11:18:31+08:00 ] 192.168.199.113 /SmartOrder/Pad/DealTable?callback=itemsListGet&uuId=19326bf52f5dee18&tableId=9&action=check&_=1440818348200
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000051s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.009234s ]
+INFO: [ app_init ] --END-- [ RunTime:0.013458s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002629s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002898s ]
+SQL: SHOW COLUMNS FROM `so_table` [ RunTime:0.0088s ]
+SQL: SELECT * FROM `so_table` WHERE `id` = 9 AND `uuid` = '19326bf52f5dee18' LIMIT 1   [ RunTime:0.0013s ]
+
+[ 2015-08-29T11:21:49+08:00 ] 192.168.199.113 /SmartOrder/Pad/CheckVersion?callback=itemsListGet&version=1440818036&_=1440818545796
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.007399s ]
+INFO: [ app_init ] --END-- [ RunTime:0.008826s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004267s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004564s ]
+SQL: SHOW COLUMNS FROM `so_config` [ RunTime:0.0085s ]
+SQL: SELECT * FROM `so_config` WHERE `conf` = 'SynVersion' LIMIT 1   [ RunTime:0.0009s ]
+
+[ 2015-08-29T11:21:49+08:00 ] 192.168.199.113 /SmartOrder/Pad/DealTable?callback=itemsListGet&uuId=19326bf52f5dee18&tableId=9&action=check&_=1440818545797
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000077s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.011305s ]
+INFO: [ app_init ] --END-- [ RunTime:0.013731s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002555s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002847s ]
+SQL: SHOW COLUMNS FROM `so_table` [ RunTime:0.0094s ]
+SQL: SELECT * FROM `so_table` WHERE `id` = 9 AND `uuid` = '19326bf52f5dee18' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2015-08-29T11:22:42+08:00 ] 192.168.199.113 /SmartOrder/Pad/CheckVersion?callback=itemsListGet&version=1440818036&_=1440818598735
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000052s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.010395s ]
+INFO: [ app_init ] --END-- [ RunTime:0.012163s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002912s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003184s ]
+SQL: SHOW COLUMNS FROM `so_config` [ RunTime:0.0085s ]
+SQL: SELECT * FROM `so_config` WHERE `conf` = 'SynVersion' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2015-08-29T11:22:42+08:00 ] 192.168.199.113 /SmartOrder/Pad/DealTable?callback=itemsListGet&uuId=19326bf52f5dee18&tableId=9&action=check&_=1440818598736
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.007023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.008457s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003420s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004029s ]
+SQL: SHOW COLUMNS FROM `so_table` [ RunTime:0.0102s ]
+SQL: SELECT * FROM `so_table` WHERE `id` = 9 AND `uuid` = '19326bf52f5dee18' LIMIT 1   [ RunTime:0.0026s ]
+
+[ 2015-08-29T11:24:57+08:00 ] 192.168.199.113 /SmartOrder/Pad/CheckVersion?callback=itemsListGet&version=1440818036&_=1440818734011
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.008311s ]
+INFO: [ app_init ] --END-- [ RunTime:0.009960s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002432s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002809s ]
+SQL: SHOW COLUMNS FROM `so_config` [ RunTime:0.0077s ]
+SQL: SELECT * FROM `so_config` WHERE `conf` = 'SynVersion' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2015-08-29T11:24:57+08:00 ] 192.168.199.113 /SmartOrder/Pad/DealTable?callback=itemsListGet&uuId=19326bf52f5dee18&tableId=9&action=check&_=1440818734012
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000116s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.010362s ]
+INFO: [ app_init ] --END-- [ RunTime:0.012153s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004117s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004410s ]
+SQL: SHOW COLUMNS FROM `so_table` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `so_table` WHERE `id` = 9 AND `uuid` = '19326bf52f5dee18' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2015-08-29T11:25:44+08:00 ] 192.168.199.113 /SmartOrder/Pad/CheckVersion?callback=itemsListGet&version=1440818036&_=1440818780505
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000051s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.009623s ]
+INFO: [ app_init ] --END-- [ RunTime:0.011327s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002263s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002491s ]
+SQL: SHOW COLUMNS FROM `so_config` [ RunTime:0.0071s ]
+SQL: SELECT * FROM `so_config` WHERE `conf` = 'SynVersion' LIMIT 1   [ RunTime:0.0015s ]
+
+[ 2015-08-29T11:25:44+08:00 ] 192.168.199.113 /SmartOrder/Pad/DealTable?callback=itemsListGet&uuId=19326bf52f5dee18&tableId=9&action=check&_=1440818780506
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000052s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.009684s ]
+INFO: [ app_init ] --END-- [ RunTime:0.011684s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002810s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003094s ]
+SQL: SHOW COLUMNS FROM `so_table` [ RunTime:0.0082s ]
+SQL: SELECT * FROM `so_table` WHERE `id` = 9 AND `uuid` = '19326bf52f5dee18' LIMIT 1   [ RunTime:0.0030s ]
+
+[ 2015-08-29T11:26:28+08:00 ] 192.168.199.113 /SmartOrder/Pad/CheckVersion?callback=itemsListGet&version=1440818036&_=1440818824636
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.012827s ]
+INFO: [ app_init ] --END-- [ RunTime:0.014407s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.010861s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.011682s ]
+SQL: SHOW COLUMNS FROM `so_config` [ RunTime:0.0071s ]
+SQL: SELECT * FROM `so_config` WHERE `conf` = 'SynVersion' LIMIT 1   [ RunTime:0.0009s ]
+
+[ 2015-08-29T11:26:28+08:00 ] 192.168.199.113 /SmartOrder/Pad/DealTable?callback=itemsListGet&uuId=19326bf52f5dee18&tableId=9&action=check&_=1440818824637
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.007713s ]
+INFO: [ app_init ] --END-- [ RunTime:0.011187s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002263s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002482s ]
+SQL: SHOW COLUMNS FROM `so_table` [ RunTime:0.0079s ]
+SQL: SELECT * FROM `so_table` WHERE `id` = 9 AND `uuid` = '19326bf52f5dee18' LIMIT 1   [ RunTime:0.0011s ]
+
+[ 2015-08-29T11:29:24+08:00 ] 192.168.199.113 /SmartOrder/Pad/CheckVersion?callback=itemsListGet&version=0&_=1440819000969
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000075s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.008417s ]
+INFO: [ app_init ] --END-- [ RunTime:0.010717s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002153s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002373s ]
+SQL: SHOW COLUMNS FROM `so_config` [ RunTime:0.0068s ]
+SQL: SELECT * FROM `so_config` WHERE `conf` = 'SynVersion' LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT * FROM `so_config` WHERE `conf` = 'ServerIP' LIMIT 1   [ RunTime:0.0006s ]
+NOTIC: [8] Use of undefined constant between - assumed 'between' E:\xampp\htdocs\SmartOrder\Application\Pad\Model\SysDataModel.class.php 第 33 行.
+NOTIC: [8] Use of undefined constant neq - assumed 'neq' E:\xampp\htdocs\SmartOrder\Application\Pad\Model\SysDataModel.class.php 第 34 行.
+SQL: SHOW COLUMNS FROM `so_cookmenu` [ RunTime:0.0112s ]
+SQL: SELECT so_cookmenu.*,so_cookstyle.stylename FROM `so_cookmenu` INNER JOIN so_cookstyle on so_cookstyle.id=so_cookmenu.styleid  WHERE `edit_time` BETWEEN 1 AND '1440818036' AND `is_delete` <> 1  [ RunTime:0.0019s ]
+
+[ 2015-08-29T11:29:37+08:00 ] 192.168.199.113 /SmartOrder/Pad/CheckAuth?callback=itemsListGet&pwd=e10adc3949ba59abbe56e057f20f883e&_=1440819000970
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.009370s ]
+INFO: [ app_init ] --END-- [ RunTime:0.011356s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002906s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003201s ]
+SQL: SHOW COLUMNS FROM `so_config` [ RunTime:0.0076s ]
+SQL: SELECT * FROM `so_config` WHERE `conf` = 'authPwd' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2015-08-29T11:29:37+08:00 ] 192.168.199.113 /SmartOrder/Pad/TableTree?callback=itemsListGet&_=1440819000971
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000051s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.012567s ]
+INFO: [ app_init ] --END-- [ RunTime:0.014320s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003702s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004002s ]
+SQL: SHOW COLUMNS FROM `so_table` [ RunTime:0.0078s ]
+NOTIC: [2048] Declaration of Admin\Model\TableModel::Add() should be compatible with that of Think\Model::add() E:\xampp\htdocs\SmartOrder\Application\Admin\Model\TableModel.class.php 第 93 行.
+SQL: SHOW COLUMNS FROM `so_table` [ RunTime:0.0075s ]
+SQL: SHOW COLUMNS FROM `so_hall` [ RunTime:0.0091s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in E:\xampp\htdocs\SmartOrder\Application\Admin\Model\TableModel.class.php on line 38 and defined E:\xampp\htdocs\SmartOrder\ThinkPHP\Library\Think\Model.class.php 第 1765 行.
+NOTIC: [8] Undefined variable: where E:\xampp\htdocs\SmartOrder\ThinkPHP\Library\Think\Model.class.php 第 1773 行.
+NOTIC: [8] Undefined variable: where E:\xampp\htdocs\SmartOrder\ThinkPHP\Library\Think\Model.class.php 第 1776 行.
+NOTIC: [8] Undefined variable: where E:\xampp\htdocs\SmartOrder\ThinkPHP\Library\Think\Model.class.php 第 1784 行.
+SQL: SELECT * FROM `so_hall`  [ RunTime:0.0009s ]
+SQL: SELECT `id`,`table_name` FROM `so_table` WHERE `hall_id` = 1  [ RunTime:0.0008s ]
+SQL: SELECT `id`,`table_name` FROM `so_table` WHERE `hall_id` = 2  [ RunTime:0.0009s ]
+SQL: SELECT `id`,`table_name` FROM `so_table` WHERE `hall_id` = 3  [ RunTime:0.0008s ]
+SQL: SELECT `id`,`table_name` FROM `so_table` WHERE `hall_id` = 4  [ RunTime:0.0017s ]
+SQL: SHOW COLUMNS FROM `so_book` [ RunTime:0.0126s ]
+SQL: SELECT `book_day`,`book_time`,`book_name` FROM `so_book` WHERE `book_table` = 1 AND `book_status` = 0 AND `book_day` = '2015-08-29'  [ RunTime:0.0011s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `so_table` WHERE `id` = 1 AND `is_lock` = 1 LIMIT 1   [ RunTime:0.0009s ]
+SQL: SELECT `book_day`,`book_time`,`book_name` FROM `so_book` WHERE `book_table` = 8 AND `book_status` = 0 AND `book_day` = '2015-08-29'  [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `so_table` WHERE `id` = 8 AND `is_lock` = 1 LIMIT 1   [ RunTime:0.0008s ]
+NOTIC: [8] Undefined index: type E:\xampp\htdocs\SmartOrder\Application\Cash\Model\TableModel.class.php 第 50 行.
+SQL: SELECT `book_day`,`book_time`,`book_name` FROM `so_book` WHERE `book_table` = 15 AND `book_status` = 0 AND `book_day` = '2015-08-29'  [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `so_table` WHERE `id` = 15 AND `is_lock` = 1 LIMIT 1   [ RunTime:0.0011s ]
+NOTIC: [8] Undefined index: type E:\xampp\htdocs\SmartOrder\Application\Cash\Model\TableModel.class.php 第 50 行.
+SQL: SELECT `book_day`,`book_time`,`book_name` FROM `so_book` WHERE `book_table` = 21 AND `book_status` = 0 AND `book_day` = '2015-08-29'  [ RunTime:0.0011s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `so_table` WHERE `id` = 21 AND `is_lock` = 1 LIMIT 1   [ RunTime:0.0008s ]
+NOTIC: [8] Undefined index: type E:\xampp\htdocs\SmartOrder\Application\Cash\Model\TableModel.class.php 第 50 行.
+SQL: SELECT `book_day`,`book_time`,`book_name` FROM `so_book` WHERE `book_table` = 2 AND `book_status` = 0 AND `book_day` = '2015-08-29'  [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `so_table` WHERE `id` = 2 AND `is_lock` = 1 LIMIT 1   [ RunTime:0.0009s ]
+NOTIC: [8] Undefined index: type E:\xampp\htdocs\SmartOrder\Application\Cash\Model\TableModel.class.php 第 50 行.
+SQL: SELECT `book_day`,`book_time`,`book_name` FROM `so_book` WHERE `book_table` = 9 AND `book_status` = 0 AND `book_day` = '2015-08-29'  [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `so_table` WHERE `id` = 9 AND `is_lock` = 1 LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT `book_day`,`book_time`,`book_name` FROM `so_book` WHERE `book_table` = 11 AND `book_status` = 0 AND `book_day` = '2015-08-29'  [ RunTime:0.0015s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `so_table` WHERE `id` = 11 AND `is_lock` = 1 LIMIT 1   [ RunTime:0.0009s ]
+NOTIC: [8] Undefined index: type E:\xampp\htdocs\SmartOrder\Application\Cash\Model\TableModel.class.php 第 50 行.
+SQL: SELECT `book_day`,`book_time`,`book_name` FROM `so_book` WHERE `book_table` = 20 AND `book_status` = 0 AND `book_day` = '2015-08-29'  [ RunTime:0.0009s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `so_table` WHERE `id` = 20 AND `is_lock` = 1 LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT `book_day`,`book_time`,`book_name` FROM `so_book` WHERE `book_table` = 18 AND `book_status` = 0 AND `book_day` = '2015-08-29'  [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `so_table` WHERE `id` = 18 AND `is_lock` = 1 LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT `book_day`,`book_time`,`book_name` FROM `so_book` WHERE `book_table` = 22 AND `book_status` = 0 AND `book_day` = '2015-08-29'  [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `so_table` WHERE `id` = 22 AND `is_lock` = 1 LIMIT 1   [ RunTime:0.0007s ]
+NOTIC: [8] Undefined index: type E:\xampp\htdocs\SmartOrder\Application\Cash\Model\TableModel.class.php 第 50 行.
+
+[ 2015-08-29T11:29:44+08:00 ] 192.168.199.113 /SmartOrder/Pad/DealTable?callback=itemsListGet&uuId=19326bf52f5dee18&tableId=2&action=set&_=1440819000972
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000052s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.007511s ]
+INFO: [ app_init ] --END-- [ RunTime:0.009981s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003948s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004223s ]
+SQL: SHOW COLUMNS FROM `so_table` [ RunTime:0.0101s ]
+SQL: SELECT * FROM `so_table` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `so_table` SET `uuid`='19326bf52f5dee18',`is_lock`='1' WHERE `id` = 2 [ RunTime:0.0883s ]
+
+[ 2015-08-29T11:29:57+08:00 ] 192.168.199.113 /SmartOrder/Pad/CheckVersion?callback=itemsListGet&version=1440818036&_=1440819033974
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000055s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.043202s ]
+INFO: [ app_init ] --END-- [ RunTime:0.048278s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004452s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004723s ]
+SQL: SHOW COLUMNS FROM `so_config` [ RunTime:0.0084s ]
+SQL: SELECT * FROM `so_config` WHERE `conf` = 'SynVersion' LIMIT 1   [ RunTime:0.0009s ]
+
+[ 2015-08-29T11:29:57+08:00 ] 192.168.199.113 /SmartOrder/Pad/CheckVersion?callback=itemsListGet&version=1440818036&_=1440819033975
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000064s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.017432s ]
+INFO: [ app_init ] --END-- [ RunTime:0.019435s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004545s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004992s ]
+SQL: SHOW COLUMNS FROM `so_config` [ RunTime:0.0064s ]
+SQL: SELECT * FROM `so_config` WHERE `conf` = 'SynVersion' LIMIT 1   [ RunTime:0.0018s ]
+
+[ 2015-08-29T11:29:57+08:00 ] 192.168.199.113 /SmartOrder/Pad/DealTable?callback=itemsListGet&uuId=19326bf52f5dee18&tableId=2&action=check&_=1440819033976
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000072s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.015022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.017635s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.009236s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009813s ]
+SQL: SHOW COLUMNS FROM `so_table` [ RunTime:0.0063s ]
+SQL: SELECT * FROM `so_table` WHERE `id` = 2 AND `uuid` = '19326bf52f5dee18' LIMIT 1   [ RunTime:0.0007s ]
+
+[ 2015-08-29T12:01:13+08:00 ] 192.168.199.113 /SmartOrder/Pad/CheckVersion?callback=itemsListGet&version=1440818036&_=1440820909594
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000061s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.015050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.017073s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003397s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003770s ]
+SQL: SHOW COLUMNS FROM `so_config` [ RunTime:0.0088s ]
+SQL: SELECT * FROM `so_config` WHERE `conf` = 'SynVersion' LIMIT 1   [ RunTime:0.0009s ]
+
+[ 2015-08-29T12:01:13+08:00 ] 192.168.199.113 /SmartOrder/Pad/DealTable?callback=itemsListGet&uuId=19326bf52f5dee18&tableId=2&action=check&_=1440820909595
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000074s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.019601s ]
+INFO: [ app_init ] --END-- [ RunTime:0.022026s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.020514s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.020903s ]
+SQL: SHOW COLUMNS FROM `so_table` [ RunTime:0.0095s ]
+SQL: SELECT * FROM `so_table` WHERE `id` = 2 AND `uuid` = '19326bf52f5dee18' LIMIT 1   [ RunTime:0.0012s ]
+
+[ 2015-08-29T12:08:17+08:00 ] 192.168.199.113 /SmartOrder/Pad/CheckVersion?callback=itemsListGet&version=1440818036&_=1440821334043
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.002546s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.013202s ]
+INFO: [ app_init ] --END-- [ RunTime:0.019971s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005444s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005796s ]
+SQL: SHOW COLUMNS FROM `so_config` [ RunTime:0.0121s ]
+SQL: SELECT * FROM `so_config` WHERE `conf` = 'SynVersion' LIMIT 1   [ RunTime:0.0094s ]
+
+[ 2015-08-29T12:08:18+08:00 ] 192.168.199.113 /SmartOrder/Pad/DealTable?callback=itemsListGet&uuId=19326bf52f5dee18&tableId=2&action=check&_=1440821334044
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000069s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.017687s ]
+INFO: [ app_init ] --END-- [ RunTime:0.020202s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.007463s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007826s ]
+SQL: SHOW COLUMNS FROM `so_table` [ RunTime:0.0032s ]
+SQL: SELECT * FROM `so_table` WHERE `id` = 2 AND `uuid` = '19326bf52f5dee18' LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2015-08-29T12:20:48+08:00 ] 192.168.199.113 /SmartOrder/Pad/CheckVersion?callback=itemsListGet&version=1440818036&_=1440822085117
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000075s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.039109s ]
+INFO: [ app_init ] --END-- [ RunTime:0.041845s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006811s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.013567s ]
+SQL: SHOW COLUMNS FROM `so_config` [ RunTime:0.0105s ]
+SQL: SELECT * FROM `so_config` WHERE `conf` = 'SynVersion' LIMIT 1   [ RunTime:0.0012s ]
+SQL: SELECT * FROM `so_config` WHERE `conf` = 'ServerIP' LIMIT 1   [ RunTime:0.0013s ]
+NOTIC: [8] Use of undefined constant between - assumed 'between' E:\xampp\htdocs\SmartOrder\Application\Pad\Model\SysDataModel.class.php 第 33 行.
+NOTIC: [8] Use of undefined constant neq - assumed 'neq' E:\xampp\htdocs\SmartOrder\Application\Pad\Model\SysDataModel.class.php 第 34 行.
+SQL: SHOW COLUMNS FROM `so_cookmenu` [ RunTime:0.0121s ]
+SQL: SELECT so_cookmenu.*,so_cookstyle.stylename FROM `so_cookmenu` INNER JOIN so_cookstyle on so_cookstyle.id=so_cookmenu.styleid  WHERE `edit_time` BETWEEN 1440818037 AND '1440822025' AND `is_delete` <> 1  [ RunTime:0.0012s ]
+
+[ 2015-08-29T12:20:49+08:00 ] 192.168.199.113 /SmartOrder/Pad/DealTable?callback=itemsListGet&uuId=19326bf52f5dee18&tableId=2&action=check&_=1440822085118
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000075s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.014519s ]
+INFO: [ app_init ] --END-- [ RunTime:0.017321s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.007972s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008977s ]
+SQL: SHOW COLUMNS FROM `so_table` [ RunTime:0.0107s ]
+SQL: SELECT * FROM `so_table` WHERE `id` = 2 AND `uuid` = '19326bf52f5dee18' LIMIT 1   [ RunTime:0.0030s ]
+
+[ 2015-08-29T12:27:51+08:00 ] 192.168.199.113 /SmartOrder/Pad/CheckVersion?callback=itemsListGet&version=0&_=1440822507596
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000137s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.024281s ]
+INFO: [ app_init ] --END-- [ RunTime:0.029145s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.021864s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.022243s ]
+SQL: SHOW COLUMNS FROM `so_config` [ RunTime:0.0116s ]
+SQL: SELECT * FROM `so_config` WHERE `conf` = 'SynVersion' LIMIT 1   [ RunTime:0.0013s ]
+SQL: SELECT * FROM `so_config` WHERE `conf` = 'ServerIP' LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Use of undefined constant between - assumed 'between' E:\xampp\htdocs\SmartOrder\Application\Pad\Model\SysDataModel.class.php 第 33 行.
+NOTIC: [8] Use of undefined constant neq - assumed 'neq' E:\xampp\htdocs\SmartOrder\Application\Pad\Model\SysDataModel.class.php 第 34 行.
+SQL: SHOW COLUMNS FROM `so_cookmenu` [ RunTime:0.0148s ]
+SQL: SELECT so_cookmenu.*,so_cookstyle.stylename FROM `so_cookmenu` INNER JOIN so_cookstyle on so_cookstyle.id=so_cookmenu.styleid  WHERE `edit_time` BETWEEN 1 AND '1440822025' AND `is_delete` <> 1  [ RunTime:0.0021s ]
+
+[ 2015-08-29T12:27:58+08:00 ] 192.168.199.113 /SmartOrder/Pad/CheckAuth?callback=itemsListGet&pwd=e10adc3949ba59abbe56e057f20f883e&_=1440822507597
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.003168s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004059s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004065s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004246s ]
+SQL: SHOW COLUMNS FROM `so_config` [ RunTime:0.0029s ]
+SQL: SELECT * FROM `so_config` WHERE `conf` = 'authPwd' LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2015-08-29T12:27:58+08:00 ] 192.168.199.113 /SmartOrder/Pad/TableTree?callback=itemsListGet&_=1440822507598
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.003557s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004359s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000954s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001045s ]
+SQL: SHOW COLUMNS FROM `so_table` [ RunTime:0.0028s ]
+NOTIC: [2048] Declaration of Admin\Model\TableModel::Add() should be compatible with that of Think\Model::add() E:\xampp\htdocs\SmartOrder\Application\Admin\Model\TableModel.class.php 第 93 行.
+SQL: SHOW COLUMNS FROM `so_table` [ RunTime:0.0038s ]
+SQL: SHOW COLUMNS FROM `so_hall` [ RunTime:0.0038s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in E:\xampp\htdocs\SmartOrder\Application\Admin\Model\TableModel.class.php on line 38 and defined E:\xampp\htdocs\SmartOrder\ThinkPHP\Library\Think\Model.class.php 第 1765 行.
+NOTIC: [8] Undefined variable: where E:\xampp\htdocs\SmartOrder\ThinkPHP\Library\Think\Model.class.php 第 1773 行.
+NOTIC: [8] Undefined variable: where E:\xampp\htdocs\SmartOrder\ThinkPHP\Library\Think\Model.class.php 第 1776 行.
+NOTIC: [8] Undefined variable: where E:\xampp\htdocs\SmartOrder\ThinkPHP\Library\Think\Model.class.php 第 1784 行.
+SQL: SELECT * FROM `so_hall`  [ RunTime:0.0004s ]
+SQL: SELECT `id`,`table_name` FROM `so_table` WHERE `hall_id` = 1  [ RunTime:0.0004s ]
+SQL: SELECT `id`,`table_name` FROM `so_table` WHERE `hall_id` = 2  [ RunTime:0.0004s ]
+SQL: SELECT `id`,`table_name` FROM `so_table` WHERE `hall_id` = 3  [ RunTime:0.0004s ]
+SQL: SELECT `id`,`table_name` FROM `so_table` WHERE `hall_id` = 4  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `so_book` [ RunTime:0.0040s ]
+SQL: SELECT `book_day`,`book_time`,`book_name` FROM `so_book` WHERE `book_table` = 1 AND `book_status` = 0 AND `book_day` = '2015-08-29'  [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `so_table` WHERE `id` = 1 AND `is_lock` = 1 LIMIT 1   [ RunTime:0.0012s ]
+SQL: SELECT `book_day`,`book_time`,`book_name` FROM `so_book` WHERE `book_table` = 8 AND `book_status` = 0 AND `book_day` = '2015-08-29'  [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `so_table` WHERE `id` = 8 AND `is_lock` = 1 LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: type E:\xampp\htdocs\SmartOrder\Application\Cash\Model\TableModel.class.php 第 50 行.
+SQL: SELECT `book_day`,`book_time`,`book_name` FROM `so_book` WHERE `book_table` = 15 AND `book_status` = 0 AND `book_day` = '2015-08-29'  [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `so_table` WHERE `id` = 15 AND `is_lock` = 1 LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: type E:\xampp\htdocs\SmartOrder\Application\Cash\Model\TableModel.class.php 第 50 行.
+SQL: SELECT `book_day`,`book_time`,`book_name` FROM `so_book` WHERE `book_table` = 21 AND `book_status` = 0 AND `book_day` = '2015-08-29'  [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `so_table` WHERE `id` = 21 AND `is_lock` = 1 LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: type E:\xampp\htdocs\SmartOrder\Application\Cash\Model\TableModel.class.php 第 50 行.
+SQL: SELECT `book_day`,`book_time`,`book_name` FROM `so_book` WHERE `book_table` = 2 AND `book_status` = 0 AND `book_day` = '2015-08-29'  [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `so_table` WHERE `id` = 2 AND `is_lock` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `book_day`,`book_time`,`book_name` FROM `so_book` WHERE `book_table` = 9 AND `book_status` = 0 AND `book_day` = '2015-08-29'  [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `so_table` WHERE `id` = 9 AND `is_lock` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `book_day`,`book_time`,`book_name` FROM `so_book` WHERE `book_table` = 11 AND `book_status` = 0 AND `book_day` = '2015-08-29'  [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `so_table` WHERE `id` = 11 AND `is_lock` = 1 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: type E:\xampp\htdocs\SmartOrder\Application\Cash\Model\TableModel.class.php 第 50 行.
+SQL: SELECT `book_day`,`book_time`,`book_name` FROM `so_book` WHERE `book_table` = 20 AND `book_status` = 0 AND `book_day` = '2015-08-29'  [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `so_table` WHERE `id` = 20 AND `is_lock` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `book_day`,`book_time`,`book_name` FROM `so_book` WHERE `book_table` = 18 AND `book_status` = 0 AND `book_day` = '2015-08-29'  [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `so_table` WHERE `id` = 18 AND `is_lock` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `book_day`,`book_time`,`book_name` FROM `so_book` WHERE `book_table` = 22 AND `book_status` = 0 AND `book_day` = '2015-08-29'  [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `so_table` WHERE `id` = 22 AND `is_lock` = 1 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: type E:\xampp\htdocs\SmartOrder\Application\Cash\Model\TableModel.class.php 第 50 行.
+
+[ 2015-08-29T12:28:02+08:00 ] 192.168.199.113 /SmartOrder/Pad/DealTable?callback=itemsListGet&uuId=19326bf52f5dee18&tableId=8&action=set&_=1440822507599
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.003428s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004117s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000870s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000954s ]
+SQL: SHOW COLUMNS FROM `so_table` [ RunTime:0.0036s ]
+SQL: SELECT * FROM `so_table` WHERE `id` = 8 LIMIT 1   [ RunTime:0.0004s ]
+SQL: UPDATE `so_table` SET `uuid`='19326bf52f5dee18',`is_lock`='1' WHERE `id` = 8 [ RunTime:0.1131s ]
+
+[ 2015-08-29T12:28:12+08:00 ] 192.168.199.113 /SmartOrder/Pad/CheckVersion?callback=itemsListGet&version=1440822025&_=1440822528662
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000089s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.021853s ]
+INFO: [ app_init ] --END-- [ RunTime:0.024956s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004422s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005011s ]
+SQL: SHOW COLUMNS FROM `so_config` [ RunTime:0.0124s ]
+SQL: SELECT * FROM `so_config` WHERE `conf` = 'SynVersion' LIMIT 1   [ RunTime:0.0012s ]
+
+[ 2015-08-29T12:28:12+08:00 ] 192.168.199.113 /SmartOrder/Pad/DealTable?callback=itemsListGet&uuId=19326bf52f5dee18&tableId=8&action=check&_=1440822528663
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.003345s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004029s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001445s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001579s ]
+SQL: SHOW COLUMNS FROM `so_table` [ RunTime:0.0041s ]
+SQL: SELECT * FROM `so_table` WHERE `id` = 8 AND `uuid` = '19326bf52f5dee18' LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2015-08-29T12:30:53+08:00 ] 192.168.199.113 /SmartOrder/Pad/CheckAuth?callback=itemsListGet&pwd=e10adc3949ba59abbe56e057f20f883e&_=1440822528664
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000074s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.020010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.023009s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006789s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007296s ]
+SQL: SHOW COLUMNS FROM `so_config` [ RunTime:0.0116s ]
+SQL: SELECT * FROM `so_config` WHERE `conf` = 'authPwd' LIMIT 1   [ RunTime:0.0021s ]
+
+[ 2015-08-29T12:30:54+08:00 ] 192.168.199.113 /SmartOrder/Pad/TableTree?callback=itemsListGet&_=1440822528665
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000268s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.016641s ]
+INFO: [ app_init ] --END-- [ RunTime:0.020940s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005614s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006296s ]
+SQL: SHOW COLUMNS FROM `so_table` [ RunTime:0.0109s ]
+NOTIC: [2048] Declaration of Admin\Model\TableModel::Add() should be compatible with that of Think\Model::add() E:\xampp\htdocs\SmartOrder\Application\Admin\Model\TableModel.class.php 第 93 行.
+SQL: SHOW COLUMNS FROM `so_table` [ RunTime:0.0109s ]
+SQL: SHOW COLUMNS FROM `so_hall` [ RunTime:0.0101s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in E:\xampp\htdocs\SmartOrder\Application\Admin\Model\TableModel.class.php on line 38 and defined E:\xampp\htdocs\SmartOrder\ThinkPHP\Library\Think\Model.class.php 第 1765 行.
+NOTIC: [8] Undefined variable: where E:\xampp\htdocs\SmartOrder\ThinkPHP\Library\Think\Model.class.php 第 1773 行.
+NOTIC: [8] Undefined variable: where E:\xampp\htdocs\SmartOrder\ThinkPHP\Library\Think\Model.class.php 第 1776 行.
+NOTIC: [8] Undefined variable: where E:\xampp\htdocs\SmartOrder\ThinkPHP\Library\Think\Model.class.php 第 1784 行.
+SQL: SELECT * FROM `so_hall`  [ RunTime:0.0010s ]
+SQL: SELECT `id`,`table_name` FROM `so_table` WHERE `hall_id` = 1  [ RunTime:0.0011s ]
+SQL: SELECT `id`,`table_name` FROM `so_table` WHERE `hall_id` = 2  [ RunTime:0.0011s ]
+SQL: SELECT `id`,`table_name` FROM `so_table` WHERE `hall_id` = 3  [ RunTime:0.0010s ]
+SQL: SELECT `id`,`table_name` FROM `so_table` WHERE `hall_id` = 4  [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `so_book` [ RunTime:0.0100s ]
+SQL: SELECT `book_day`,`book_time`,`book_name` FROM `so_book` WHERE `book_table` = 1 AND `book_status` = 0 AND `book_day` = '2015-08-29'  [ RunTime:0.0011s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `so_table` WHERE `id` = 1 AND `is_lock` = 1 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: type E:\xampp\htdocs\SmartOrder\Application\Cash\Model\TableModel.class.php 第 50 行.
+SQL: SELECT `book_day`,`book_time`,`book_name` FROM `so_book` WHERE `book_table` = 8 AND `book_status` = 0 AND `book_day` = '2015-08-29'  [ RunTime:0.0011s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `so_table` WHERE `id` = 8 AND `is_lock` = 1 LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT `book_day`,`book_time`,`book_name` FROM `so_book` WHERE `book_table` = 15 AND `book_status` = 0 AND `book_day` = '2015-08-29'  [ RunTime:0.0011s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `so_table` WHERE `id` = 15 AND `is_lock` = 1 LIMIT 1   [ RunTime:0.0009s ]
+NOTIC: [8] Undefined index: type E:\xampp\htdocs\SmartOrder\Application\Cash\Model\TableModel.class.php 第 50 行.
+SQL: SELECT `book_day`,`book_time`,`book_name` FROM `so_book` WHERE `book_table` = 21 AND `book_status` = 0 AND `book_day` = '2015-08-29'  [ RunTime:0.0012s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `so_table` WHERE `id` = 21 AND `is_lock` = 1 LIMIT 1   [ RunTime:0.0009s ]
+NOTIC: [8] Undefined index: type E:\xampp\htdocs\SmartOrder\Application\Cash\Model\TableModel.class.php 第 50 行.
+SQL: SELECT `book_day`,`book_time`,`book_name` FROM `so_book` WHERE `book_table` = 2 AND `book_status` = 0 AND `book_day` = '2015-08-29'  [ RunTime:0.0011s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `so_table` WHERE `id` = 2 AND `is_lock` = 1 LIMIT 1   [ RunTime:0.0009s ]
+NOTIC: [8] Undefined index: type E:\xampp\htdocs\SmartOrder\Application\Cash\Model\TableModel.class.php 第 50 行.
+SQL: SELECT `book_day`,`book_time`,`book_name` FROM `so_book` WHERE `book_table` = 9 AND `book_status` = 0 AND `book_day` = '2015-08-29'  [ RunTime:0.0011s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `so_table` WHERE `id` = 9 AND `is_lock` = 1 LIMIT 1   [ RunTime:0.0011s ]
+NOTIC: [8] Undefined index: type E:\xampp\htdocs\SmartOrder\Application\Cash\Model\TableModel.class.php 第 50 行.
+SQL: SELECT `book_day`,`book_time`,`book_name` FROM `so_book` WHERE `book_table` = 11 AND `book_status` = 0 AND `book_day` = '2015-08-29'  [ RunTime:0.0012s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `so_table` WHERE `id` = 11 AND `is_lock` = 1 LIMIT 1   [ RunTime:0.0008s ]
+NOTIC: [8] Undefined index: type E:\xampp\htdocs\SmartOrder\Application\Cash\Model\TableModel.class.php 第 50 行.
+SQL: SELECT `book_day`,`book_time`,`book_name` FROM `so_book` WHERE `book_table` = 20 AND `book_status` = 0 AND `book_day` = '2015-08-29'  [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `so_table` WHERE `id` = 20 AND `is_lock` = 1 LIMIT 1   [ RunTime:0.0009s ]
+NOTIC: [8] Undefined index: type E:\xampp\htdocs\SmartOrder\Application\Cash\Model\TableModel.class.php 第 50 行.
+SQL: SELECT `book_day`,`book_time`,`book_name` FROM `so_book` WHERE `book_table` = 18 AND `book_status` = 0 AND `book_day` = '2015-08-29'  [ RunTime:0.0011s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `so_table` WHERE `id` = 18 AND `is_lock` = 1 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: type E:\xampp\htdocs\SmartOrder\Application\Cash\Model\TableModel.class.php 第 50 行.
+SQL: SELECT `book_day`,`book_time`,`book_name` FROM `so_book` WHERE `book_table` = 22 AND `book_status` = 0 AND `book_day` = '2015-08-29'  [ RunTime:0.0011s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `so_table` WHERE `id` = 22 AND `is_lock` = 1 LIMIT 1   [ RunTime:0.0009s ]
+NOTIC: [8] Undefined index: type E:\xampp\htdocs\SmartOrder\Application\Cash\Model\TableModel.class.php 第 50 行.
+
+[ 2015-08-29T16:44:55+08:00 ] 192.168.199.113 /SmartOrder/Pad/DealOrder?callback=itemsListGet&tableId=8&uuId=19326bf52f5dee18&action=getOrder&_=1440822528666
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000051s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.008657s ]
+INFO: [ app_init ] --END-- [ RunTime:0.010265s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.013255s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.013538s ]
+NOTIC: [2] Missing argument 3 for Pad\Model\OrderModel::__construct(), called in E:\xampp\htdocs\SmartOrder\Application\Pad\Controller\OrderController.class.php on line 19 and defined E:\xampp\htdocs\SmartOrder\Application\Pad\Model\OrderModel.class.php 第 13 行.
+SQL: SHOW COLUMNS FROM `so_temp` [ RunTime:0.0233s ]
+SQL: SELECT * FROM `so_temp` WHERE `uuid` = '19326bf52f5dee18' AND `table_id` = 8 LIMIT 1   [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `so_table` [ RunTime:0.0164s ]
+SQL: UPDATE `so_table` SET `is_lock`='1' WHERE `uuid` = '19326bf52f5dee18' [ RunTime:0.0659s ]
+SQL: INSERT INTO `so_temp` (`uuid`,`table_id`,`start_time`) VALUES ('19326bf52f5dee18','8','1440837895') [ RunTime:0.0542s ]
+SQL: SELECT `order_id` FROM `so_temp` WHERE `uuid` = '19326bf52f5dee18' AND `table_id` = 8 LIMIT 1   [ RunTime:0.0018s ]
+
+[ 2015-08-29T16:45:05+08:00 ] 192.168.199.113 /SmartOrder/Pad/DealOrder?callback=itemsListGet&uuId=19326bf52f5dee18&tableId=8&taste=&action=Add&menuId=3&num=1&_=1440822528667
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000100s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.016866s ]
+INFO: [ app_init ] --END-- [ RunTime:0.019750s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006668s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006940s ]
+NOTIC: [2] Missing argument 3 for Pad\Model\OrderModel::__construct(), called in E:\xampp\htdocs\SmartOrder\Application\Pad\Controller\OrderController.class.php on line 19 and defined E:\xampp\htdocs\SmartOrder\Application\Pad\Model\OrderModel.class.php 第 13 行.
+SQL: SHOW COLUMNS FROM `so_temp` [ RunTime:0.0097s ]
+SQL: SELECT * FROM `so_temp` WHERE `uuid` = '19326bf52f5dee18' AND `table_id` = 8 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `so_cookmenu` [ RunTime:0.0098s ]
+SQL: SELECT * FROM `so_cookmenu` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0011s ]
+SQL: UPDATE `so_temp` SET `order`='[{\"menuId\":\"3\",\"name\":\"\\u56de\\u9505\\u8089\",\"price\":\"78\",\"num\":\"1\",\"taste\":\"\",\"isUp\":0}]' WHERE `uuid` = '19326bf52f5dee18' AND `table_id` = 8 [ RunTime:0.0925s ]
+NOTIC: [8] Undefined variable: totalMoney E:\xampp\htdocs\SmartOrder\Application\Pad\Model\OrderModel.class.php 第 263 行.
+SQL: UPDATE `so_temp` SET `total_money`='78' WHERE `uuid` = '19326bf52f5dee18' AND `table_id` = 8 [ RunTime:0.1030s ]
+
+[ 2015-08-29T16:45:09+08:00 ] 192.168.199.113 /SmartOrder/Pad/DealOrder?callback=itemsListGet&uuId=19326bf52f5dee18&tableId=8&taste=&action=Add&menuId=7&num=1&_=1440822528668
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000052s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.010553s ]
+INFO: [ app_init ] --END-- [ RunTime:0.012248s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002984s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003244s ]
+NOTIC: [2] Missing argument 3 for Pad\Model\OrderModel::__construct(), called in E:\xampp\htdocs\SmartOrder\Application\Pad\Controller\OrderController.class.php on line 19 and defined E:\xampp\htdocs\SmartOrder\Application\Pad\Model\OrderModel.class.php 第 13 行.
+SQL: SHOW COLUMNS FROM `so_temp` [ RunTime:0.0102s ]
+SQL: SELECT * FROM `so_temp` WHERE `uuid` = '19326bf52f5dee18' AND `table_id` = 8 LIMIT 1   [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `so_cookmenu` [ RunTime:0.0114s ]
+SQL: SELECT * FROM `so_cookmenu` WHERE `id` = 7 LIMIT 1   [ RunTime:0.0011s ]
+SQL: UPDATE `so_temp` SET `order`='[{\"menuId\":\"3\",\"name\":\"\\u56de\\u9505\\u8089\",\"price\":\"78\",\"num\":\"1\",\"taste\":\"\",\"isUp\":0},{\"menuId\":\"7\",\"name\":\"\\u91cd\\u5e86\\u8fa3\\u5b50\\u9e21\",\"price\":\"78\",\"num\":\"1\",\"taste\":\"\",\"isUp\":0}]' WHERE `uuid` = '19326bf52f5dee18' AND `table_id` = 8 [ RunTime:0.0981s ]
+NOTIC: [8] Undefined variable: totalMoney E:\xampp\htdocs\SmartOrder\Application\Pad\Model\OrderModel.class.php 第 263 行.
+SQL: UPDATE `so_temp` SET `total_money`='156' WHERE `uuid` = '19326bf52f5dee18' AND `table_id` = 8 [ RunTime:0.0523s ]
+
+[ 2015-08-29T17:09:33+08:00 ] 192.168.199.113 /SmartOrder/Pad/CheckVersion?callback=itemsListGet&version=1440822025&_=1440822528669
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.008079s ]
+INFO: [ app_init ] --END-- [ RunTime:0.009640s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002984s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003426s ]
+SQL: SHOW COLUMNS FROM `so_config` [ RunTime:0.0083s ]
+SQL: SELECT * FROM `so_config` WHERE `conf` = 'SynVersion' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2015-08-29T17:09:33+08:00 ] 192.168.199.113 /SmartOrder/Pad/DealTable?callback=itemsListGet&uuId=19326bf52f5dee18&tableId=8&action=check&_=1440822528670
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.008526s ]
+INFO: [ app_init ] --END-- [ RunTime:0.010123s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002429s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002639s ]
+SQL: SHOW COLUMNS FROM `so_table` [ RunTime:0.0131s ]
+SQL: SELECT * FROM `so_table` WHERE `id` = 8 AND `uuid` = '19326bf52f5dee18' LIMIT 1   [ RunTime:0.0042s ]
+
